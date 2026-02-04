@@ -36,6 +36,9 @@ def handle_continuous(args):
 
     This analyzes how RS changes as you select T-I pairs by score
     using efficient incremental count updates.
+
+    Supports multiple sources and score columns - columns that don't exist
+    for a source are automatically skipped.
     """
     logging.info("=" * 60)
     logging.info("PHASERS: CONTINUOUS RS CALCULATION")
@@ -70,6 +73,10 @@ def handle_continuous(args):
         score_columns.append(col_name)
     logging.info(f"Requested score columns: {score_columns}")
 
+    # Parse sources (comma-separated)
+    sources = [s.strip().lower() for s in args.source_name.split(',')]
+    logging.info(f"Requested sources: {sources}")
+
     # Load data if not pre-merged
     if merged_df is None:
         logging.info("Loading data from individual files...")
@@ -83,69 +90,92 @@ def handle_continuous(args):
             association_thresholds=None,
         )
 
-    # Filter to source to check available columns
+    # Normalize source names to lowercase
     merged_df['source'] = merged_df['source'].str.lower()
-    source_data = merged_df[merged_df['source'] == args.source_name.lower()]
-    available_columns = set(source_data.columns)
 
-    # Apply filters if specified
+    # Apply filters if specified (before processing sources)
     if args.filter:
         from .core import apply_association_filters_to_merged_data
         logging.info(f"Applying filters: {args.filter}")
         merged_df = apply_association_filters_to_merged_data(merged_df, args.filter)
         logging.info(f"Filtered data to {len(merged_df)} rows")
 
-    # Match requested columns to available columns
-    matched_columns = [col for col in score_columns if col in available_columns]
-    missing_columns = [col for col in score_columns if col not in available_columns]
+    # Check which sources are available in the data
+    available_sources = set(merged_df['source'].dropna().unique())
+    logging.info(f"Available sources in data: {available_sources}")
 
-    if missing_columns:
-        logging.warning(f"Skipping missing columns: {missing_columns}")
-
-    if not matched_columns:
-        logging.error(f"No valid score columns found! Requested: {score_columns}, Available: {list(available_columns)}")
-        sys.exit(1)
-
-    logging.info(f"Running continuous RS for {len(matched_columns)} score columns: {matched_columns}")
-
-    # Calculate continuous RS for each score column
+    # Calculate continuous RS for each source and its available score columns
     all_results = []
-    for score_col in matched_columns:
-        logging.info(f"\n{'='*60}")
-        logging.info(f"Processing score column: {score_col}")
-        logging.info(f"{'='*60}")
 
-        try:
-            is_ascending = score_ascending_map.get(score_col, False)
-
-            results_df = calculate_continuous_rs_incremental(
-                score_column=score_col,
-                source_name=args.source_name,
-                phase_type=args.phase_type,
-                similarity_threshold=args.similarity_matrix_threshold,
-                score_strategy=args.score_strategy,
-                score_ascending=is_ascending,
-                merged_df=merged_df,
-                pharmaprojects_file=None,
-                indications_file=None,
-                associations_file=None,
-                similarity_matrix_file=None,
-                similarity_matrix_format=args.similarity_matrix_format,
-                no_genetic_insight=args.no_genetic_insight,
-                deduplicated_data_file=None,
-            )
-
-            results_df['score_column'] = score_col
-            all_results.append(results_df)
-            logging.info(f"Successfully calculated RS for {score_col}: {len(results_df)} points")
-
-        except Exception as e:
-            logging.error(f"Failed to calculate RS for column '{score_col}': {e}")
-            logging.error(traceback.format_exc())
+    for source in sources:
+        if source not in available_sources:
+            logging.warning(f"Source '{source}' not found in data, skipping")
             continue
 
+        logging.info(f"\n{'='*60}")
+        logging.info(f"Processing source: {source}")
+        logging.info(f"{'='*60}")
+
+        # Get data for this source to check available columns
+        source_data = merged_df[merged_df['source'] == source]
+        available_columns = set(source_data.columns)
+
+        # Find which score columns are available for this source
+        # A column is "available" if it exists AND has non-null values for this source
+        matched_columns = []
+        for col in score_columns:
+            if col in available_columns:
+                non_null_count = source_data[col].notna().sum()
+                if non_null_count > 0:
+                    matched_columns.append(col)
+                    logging.info(f"  Score column '{col}': {non_null_count} non-null values")
+                else:
+                    logging.info(f"  Score column '{col}': all null values, skipping")
+            else:
+                logging.debug(f"  Score column '{col}': not in data")
+
+        if not matched_columns:
+            logging.warning(f"No valid score columns for source '{source}', skipping")
+            continue
+
+        logging.info(f"Running continuous RS for {len(matched_columns)} score columns: {matched_columns}")
+
+        # Calculate RS for each score column
+        for score_col in matched_columns:
+            logging.info(f"\n  Processing: {source} / {score_col}")
+
+            try:
+                is_ascending = score_ascending_map.get(score_col, False)
+
+                results_df = calculate_continuous_rs_incremental(
+                    score_column=score_col,
+                    source_name=source,
+                    phase_type=args.phase_type,
+                    similarity_threshold=args.similarity_matrix_threshold,
+                    score_strategy=args.score_strategy,
+                    score_ascending=is_ascending,
+                    merged_df=merged_df,
+                    pharmaprojects_file=None,
+                    indications_file=None,
+                    associations_file=None,
+                    similarity_matrix_file=None,
+                    similarity_matrix_format=args.similarity_matrix_format,
+                    no_genetic_insight=args.no_genetic_insight,
+                    deduplicated_data_file=None,
+                )
+
+                results_df['score_column'] = score_col
+                results_df['source'] = source
+                all_results.append(results_df)
+                logging.info(f"  Successfully calculated RS for {source}/{score_col}: {len(results_df)} points")
+
+            except Exception as e:
+                logging.error(f"  Failed to calculate RS for {source}/{score_col}: {e}")
+                logging.error(traceback.format_exc())
+                continue
+
     if not all_results:
-        logging.error("No score columns processed successfully!")
+        logging.error("No source/score combinations processed successfully!")
         sys.exit(1)
 
     # Combine and write results
@@ -180,53 +210,75 @@ def handle_plot(args):
         df = df[df['score_column'].isin(requested_cols)].copy()
         logging.info(f"Filtered to score columns {requested_cols}: {len(df)} points")
 
+    # Filter by sources if specified
+    if args.source_filter and 'source' in df.columns:
+        requested_sources = [s.strip().lower() for s in args.source_filter.split(',')]
+        df = df[df['source'].str.lower().isin(requested_sources)].copy()
+        logging.info(f"Filtered to sources {requested_sources}: {len(df)} points")
+
     # Create figure
     fig = go.Figure()
 
-    # Color palette for score columns
-    colors = ['#1f77b4', '#ff7f0e', '#2ca02c', '#d62728', '#9467bd', '#8c564b', '#e377c2', '#7f7f7f']
-    score_columns = df['score_column'].unique() if 'score_column' in df.columns else ['default']
+    # Color palette
+    colors = ['#1f77b4', '#ff7f0e', '#2ca02c', '#d62728', '#9467bd', '#8c564b', '#e377c2', '#7f7f7f',
+              '#bcbd22', '#17becf', '#aec7e8', '#ffbb78', '#98df8a', '#ff9896']
 
-    for idx, score_col in enumerate(score_columns):
-        if 'score_column' in df.columns:
-            df_score = df[df['score_column'] == score_col].sort_values('alpha')
-        else:
-            df_score = df.sort_values('alpha')
+    # Get unique combinations of source and score_column
+    has_source = 'source' in df.columns
+    has_score_col = 'score_column' in df.columns
 
+    if has_source and has_score_col:
+        # Multiple sources and score columns - create combined key
+        df['_plot_key'] = df['source'] + ': ' + df['score_column']
+        plot_keys = df['_plot_key'].unique()
+    elif has_score_col:
+        plot_keys = df['score_column'].unique()
+        df['_plot_key'] = df['score_column']
+    elif has_source:
+        plot_keys = df['source'].unique()
+        df['_plot_key'] = df['source']
+    else:
+        plot_keys = ['default']
+        df['_plot_key'] = 'default'
+
+    logging.info(f"Plotting {len(plot_keys)} curves")
+
+    for idx, plot_key in enumerate(plot_keys):
+        df_subset = df[df['_plot_key'] == plot_key].sort_values('alpha')
         color = colors[idx % len(colors)]
 
         # Add CI band if available
-        if 'RS_cum_lower_ci' in df_score.columns and 'RS_cum_upper_ci' in df_score.columns:
+        if 'RS_cum_lower_ci' in df_subset.columns and 'RS_cum_upper_ci' in df_subset.columns:
             fig.add_trace(go.Scatter(
-                x=df_score['alpha'],
-                y=df_score['RS_cum_upper_ci'],
+                x=df_subset['alpha'],
+                y=df_subset['RS_cum_upper_ci'],
                 mode='lines',
                 line=dict(width=0),
                 showlegend=False,
                 hoverinfo='skip',
-                legendgroup=score_col
+                legendgroup=plot_key
             ))
             fig.add_trace(go.Scatter(
-                x=df_score['alpha'],
-                y=df_score['RS_cum_lower_ci'],
+                x=df_subset['alpha'],
+                y=df_subset['RS_cum_lower_ci'],
                 mode='lines',
                 line=dict(width=0),
                 fill='tonexty',
                 fillcolor=f'rgba{tuple(list(int(color[i:i+2], 16) for i in (1, 3, 5)) + [0.2])}',
                 showlegend=False,
                 hoverinfo='skip',
-                legendgroup=score_col
+                legendgroup=plot_key
             ))
 
         # Main RS curve
         fig.add_trace(go.Scatter(
-            x=df_score['alpha'],
-            y=df_score['RS_cum'],
+            x=df_subset['alpha'],
+            y=df_subset['RS_cum'],
             mode='lines',
-            name=score_col,
+            name=plot_key,
             line=dict(color=color, width=2),
-            hovertemplate=f'<b>{score_col}</b><br>Alpha: %{{x:.4f}}<br>RS_cum: %{{y:.4f}}<extra></extra>',
-            legendgroup=score_col
+            hovertemplate=f'<b>{plot_key}</b><br>Alpha: %{{x:.4f}}<br>RS_cum: %{{y:.4f}}<extra></extra>',
+            legendgroup=plot_key
         ))
 
     # Add baseline
@@ -383,7 +435,7 @@ def main():
     )
     parser_continuous.add_argument(
         '--source-name', required=True,
-        help='Association source name to filter (e.g., "pigean", "falcon")'
+        help='Association source(s) to analyze, comma-separated (e.g., "pigean,falcon,magma,otp")'
     )
 
     # Optional
@@ -436,6 +488,10 @@ def main():
     parser_plot.add_argument(
         '--score-column-filter', type=str, default=None,
         help='Filter to specific score columns (comma-separated)'
+    )
+    parser_plot.add_argument(
+        '--source-filter', type=str, default=None,
+        help='Filter to specific sources (comma-separated)'
     )
 
     # === SUMMARY COMMAND ===

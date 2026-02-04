@@ -66,25 +66,42 @@ This creates a reusable merged file that speeds up subsequent analyses.
 
 ### Step 2: Calculate Continuous RS
 
-Calculate RS curves for one or more score columns:
+Calculate RS curves for one or more sources and score columns:
 
 ```bash
 phasers continuous \
     --merged-data-file merged_data.tsv.gz \
-    --score-column combined,indirect,direct \
+    --score-column combined,indirect,direct,overall,drug,pos_p,l2g_share,p_value:ascending \
     --source-name pigean \
     --output-file rs_curve.csv
 ```
 
-For p-values or other "lower is better" metrics:
+**Key points:**
+- **`--score-column`**: List ALL score columns from any source. Columns that don't exist for a source are automatically skipped.
+- **`--source-name`**: Can specify multiple sources (comma-separated) to analyze them together.
+- Use `column:ascending` suffix for metrics where lower is better (e.g., p-values).
+
+**Real-world example with multiple sources and filters:**
 
 ```bash
 phasers continuous \
     --merged-data-file merged_data.tsv.gz \
-    --score-column p_value:ascending \
-    --source-name falcon \
+    --score-column combined,indirect,direct,overall,drug,pos_p,l2g_share,p_value:ascending \
+    --source-name pigean,falcon,magma,otp \
+    --filter "falcon:p_value:<=:1e-8:" \
+    --filter "magma:p_value:<=:2.5e-6:" \
+    --phase-type ccat \
+    --similarity-matrix-threshold 0.8 \
+    --score-strategy max \
+    --no-genetic-insight \
     --output-file rs_curve.csv
 ```
+
+This example:
+- Analyzes 4 sources: PIGEAN, FALCON, MAGMA, and Open Targets Platform
+- Uses all available score columns (each source uses only the columns it has)
+- Applies p-value thresholds to FALCON (≤1e-8) and MAGMA (≤2.5e-6)
+- Uses the combined clinical category (`ccat`) for phase assessment
 
 ### Step 3: Plot Results
 
@@ -180,6 +197,23 @@ D006937,1.0,0.45
 D001943,0.45,1.0
 ```
 
+### Common Score Columns by Source
+
+Different association sources provide different score columns. When using `--score-column`, list all columns you want to analyze - columns that don't exist for a source are automatically skipped.
+
+| Source | Score Columns | Sort Order |
+|--------|---------------|------------|
+| **PIGEAN** | `combined`, `indirect`, `direct` | Descending (higher = better) |
+| **Open Targets (otp)** | `overall`, `drug`, `indirect`, `combined` | Descending |
+| **FALCON** | `p_value`, `pos_p` | `p_value:ascending`, `pos_p` descending |
+| **MAGMA** | `p_value` | Ascending (lower = better) |
+| **Open Targets Genetics** | `l2g_share` | Descending |
+
+**Example covering all sources:**
+```bash
+--score-column combined,indirect,direct,overall,drug,pos_p,l2g_share,p_value:ascending
+```
+
 ## Python API
 
 ```python
@@ -249,8 +283,10 @@ phasers continuous [OPTIONS]
 
 Required:
   --output-file, -o FILE        Output CSV with RS curve points
-  --score-column, -s COLS       Comma-separated score columns (use col:ascending for lower-is-better)
-  --source-name NAME            Association source to filter
+  --score-column, -s COLS       Comma-separated score columns from ALL sources
+                                (missing columns are skipped per source)
+                                Use col:ascending for lower-is-better metrics
+  --source-name NAME            Association source(s) to analyze (comma-separated)
 
 Input (choose one):
   --merged-data-file FILE       Pre-merged data file (faster)
@@ -260,8 +296,18 @@ Options:
   --phase-type TYPE             Phase type: ccat, hcat, acat (default: ccat)
   --similarity-matrix-threshold Genetic support threshold (default: 0.8)
   --score-strategy STRATEGY     Dedup strategy: max, min, avg (default: avg)
-  --filter FILTER               Apply data filter (can repeat)
+  --filter FILTER               Source-specific filter (can repeat)
+                                Format: "source:column:operator:value:"
+                                Operators: <, >, <=, >=, ==, <> (outside), >< (inside)
+                                Example: --filter "falcon:p_value:<=:1e-8:"
   --no-genetic-insight          Disable genetic insight filter
+```
+
+**Filter Examples:**
+```bash
+--filter "falcon:p_value:<=:1e-8:"      # FALCON p-value ≤ 1e-8
+--filter "magma:p_value:<=:2.5e-6:"     # MAGMA p-value ≤ 2.5e-6
+--filter "pigean:combined:>=:0.5:"      # PIGEAN combined score ≥ 0.5
 ```
 
 ### `phasers plot`
@@ -278,7 +324,8 @@ Required:
 Options:
   --start-alpha FLOAT           Min alpha to plot (default: 0.0)
   --max-alpha FLOAT             Max alpha to plot (default: 1.0)
-  --score-column-filter COLS    Filter to specific score columns
+  --score-column-filter COLS    Filter to specific score columns (comma-separated)
+  --source-filter SOURCES       Filter to specific sources (comma-separated)
 ```
 
 ### `phasers summary`
@@ -294,6 +341,10 @@ Required:
 ```
 
 ## Methodology
+
+The Relative Success methodology implemented in phasers is inspired by the work of Minikel et al., but extended to compute continuous RS curves across all selection thresholds rather than using discrete cutoffs.
+
+> Minikel, E.V., Painter, J.L., Dong, C.C. et al. **Refining the impact of genetic evidence on clinical success.** *Nature* 629, 624–629 (2024). https://doi.org/10.1038/s41586-024-07316-0
 
 ### Relative Success (RS)
 
@@ -339,8 +390,15 @@ MIT License - see LICENSE file for details.
 
 If you use phasers in your research, please cite:
 
+**Phasers package:**
 ```
-[Citation information to be added]
+[Citation for phasers to be added]
+```
+
+**Original Relative Success methodology:**
+```
+Minikel, E.V., Painter, J.L., Dong, C.C. et al. Refining the impact of genetic evidence
+on clinical success. Nature 629, 624–629 (2024). https://doi.org/10.1038/s41586-024-07316-0
 ```
 
 ## Contributing
