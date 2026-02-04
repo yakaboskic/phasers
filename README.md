@@ -17,6 +17,12 @@ Phasers implements the Relative Success methodology for evaluating genetic suppo
 
 ## Installation
 
+We recommend using [uv](https://docs.astral.sh/uv/) for fast, reliable Python package management. Install it with:
+
+```bash
+curl -LsSf https://astral.sh/uv/install.sh | sh
+```
+
 Install from GitHub using `uv`:
 
 ```bash
@@ -34,7 +40,7 @@ For development:
 ```bash
 git clone https://github.com/cyakaboski/phasers.git
 cd phasers
-uv pip install -e .
+uv sync
 ```
 
 ## Quick Start
@@ -54,7 +60,7 @@ The typical phasers workflow has three steps:
 First, merge your input data files and calculate similarities:
 
 ```bash
-phasers merge \
+uv run phasers merge \
     --pharmaprojects-file pharmaprojects.tsv \
     --indications-file indications.tsv \
     --associations-file associations.tsv \
@@ -69,7 +75,7 @@ This creates a reusable merged file that speeds up subsequent analyses.
 Calculate RS curves for one or more sources and score columns:
 
 ```bash
-phasers continuous \
+uv run phasers continuous \
     --merged-data-file merged_data.tsv.gz \
     --score-column combined,indirect,direct,overall,drug,pos_p,l2g_share,p_value:ascending \
     --source-name pigean \
@@ -84,7 +90,7 @@ phasers continuous \
 **Real-world example with multiple sources and filters:**
 
 ```bash
-phasers continuous \
+uv run phasers continuous \
     --merged-data-file merged_data.tsv.gz \
     --score-column combined,indirect,direct,overall,drug,pos_p,l2g_share,p_value:ascending \
     --source-name pigean,falcon,magma,otp \
@@ -108,7 +114,7 @@ This example:
 Generate interactive HTML plots:
 
 ```bash
-phasers plot \
+uv run phasers plot \
     --input-file rs_curve.csv \
     --output-file rs_plot.html \
     --start-alpha 0.001 \
