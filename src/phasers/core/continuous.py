@@ -357,7 +357,7 @@ def calculate_summary_metrics(points: List[Tuple[float, float, float, float, Dic
 
     Metrics:
     - EA_RS: Excess Area over RS=1 (average multiplicative lift)
-    - MLRS: Mean Log RS (symmetric, robust measure)
+    - MLRS: Mean Log RS. Use exp(MLRS) for geometric mean RS. Symmetric: doubling and halving have equal weight.
     - RS_max: Maximum RS value achieved
     - RS_at_10pct: RS when selecting top 10% of pairs
 

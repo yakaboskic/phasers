@@ -385,8 +385,8 @@ This reveals the optimal threshold and how robust the genetic signal is.
 
 ### Summary Metrics
 
-- **EA-RS**: Expected Area under RS curve (integral of RS over alpha)
-- **MLRS**: Maximum Likelihood RS (RS at optimal threshold)
+- **EA-RS**: Excess Area above RS=1 baseline. Positive when RS > 1, negative when RS < 1. This is the net signed area, so a curve that spends equal time at RS=2 and RS=0.5 would have EA-RS near zero.
+- **MLRS**: Mean Log RS (integral of log(RS) over alpha). Use exp(MLRS) to get the geometric mean RS across the curve. Symmetric measure where doubling (RS=2) and halving (RS=0.5) have equal weight but opposite sign.
 - **RS_max**: Maximum RS achieved at any threshold
 
 ### Confidence Intervals
