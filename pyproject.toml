@@ -1,0 +1,81 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "phasers"
+version = "0.1.0"
+description = "Clinical Phase Relative Success Calculator - Evaluate drug target genetic support across clinical trial phases"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.9"
+authors = [
+    { name = "Chris Yakaboski" }
+]
+keywords = [
+    "drug-discovery",
+    "clinical-trials",
+    "relative-success",
+    "genetic-support",
+    "pharma",
+    "target-identification",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+    "Topic :: Scientific/Engineering :: Medical Science Apps.",
+]
+dependencies = [
+    "pandas>=1.5.0",
+    "numpy>=1.21.0",
+    "scipy>=1.9.0",
+    "tqdm>=4.64.0",
+    "plotly>=5.10.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "pytest-cov>=4.0.0",
+    "mypy>=1.0.0",
+    "ruff>=0.1.0",
+]
+
+[project.scripts]
+phasers = "phasers.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/cyakaboski/phasers"
+Documentation = "https://github.com/cyakaboski/phasers#readme"
+Repository = "https://github.com/cyakaboski/phasers"
+Issues = "https://github.com/cyakaboski/phasers/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/phasers"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py39"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "N", "D", "UP", "B", "C4"]
+ignore = ["D100", "D104", "D107", "D203", "D213"]
+
+[tool.mypy]
+python_version = "3.9"
+warn_return_any = true
+warn_unused_configs = true
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+addopts = "-v --cov=phasers --cov-report=term-missing"
