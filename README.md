@@ -115,6 +115,11 @@ phasers plot \
     --max-alpha 0.5
 ```
 
+To view the plot, open the HTML file in your browser using a file URL:
+```
+file:///path/to/rs_plot.html
+```
+
 ## Input Data Formats
 
 ### 1. Pharmaprojects File (TSV)
