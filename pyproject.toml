@@ -10,7 +10,7 @@ readme = "README.md"
 license = "MIT"
 requires-python = ">=3.9"
 authors = [
-    { name = "Chris Yakaboski" }
+    { name = "Chase Yakaboski" }
 ]
 keywords = [
     "drug-discovery",
@@ -54,10 +54,10 @@ dev = [
 phasers = "phasers.cli:main"
 
 [project.urls]
-Homepage = "https://github.com/cyakaboski/phasers"
-Documentation = "https://github.com/cyakaboski/phasers#readme"
-Repository = "https://github.com/cyakaboski/phasers"
-Issues = "https://github.com/cyakaboski/phasers/issues"
+Homepage = "https://github.com/yakaboskic/phasers"
+Documentation = "https://github.com/yakaboskic/phasers#readme"
+Repository = "https://github.com/yakaboskic/phasers"
+Issues = "https://github.com/yakaboskic/phasers/issues"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/phasers"]
