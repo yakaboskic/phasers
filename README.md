@@ -259,7 +259,7 @@ results = calculate_continuous_rs(
 # - alpha: Fraction of T-I pairs selected (0 to 1)
 # - RS_cum: Cumulative relative success
 # - RS_cum_lower_ci, RS_cum_upper_ci: 95% confidence intervals
-# - EA_RS, MLRS, RS_max: Summary metrics
+# - EA_RS, EA_RS_self, RS_full, MLRS, RS_max: Summary metrics
 ```
 
 ## CLI Reference
@@ -386,6 +386,8 @@ This reveals the optimal threshold and how robust the genetic signal is.
 ### Summary Metrics
 
 - **EA-RS**: Excess Area above RS=1 baseline. Positive when RS > 1, negative when RS < 1. This is the net signed area, so a curve that spends equal time at RS=2 and RS=0.5 would have EA-RS near zero.
+- **EA-RS-self**: Excess Area above the resource's own full-coverage RS baseline (RS at alpha=1, denoted RS_full). This measures **prioritization quality** independent of overall target quality. A resource whose targets are mediocre overall (RS_full < 1) can still score well on EA-RS-self if its scoring function puts the best targets first. Conversely, a resource with great targets overall but no ability to rank them would have EA-RS-self near zero despite a high EA-RS. Formally: `EA_RS_self = ∫(RS_cum(α) − RS_full) dα`.
+- **RS_full**: The RS value at alpha=1, i.e., the resource's intrinsic RS when all its targets are included without any score-based prioritization. This is the baseline used by EA-RS-self.
 - **MLRS**: Mean Log RS (integral of log(RS) over alpha). Use exp(MLRS) to get the geometric mean RS across the curve. Symmetric measure where doubling (RS=2) and halving (RS=0.5) have equal weight but opposite sign.
 - **RS_max**: Maximum RS achieved at any threshold
 

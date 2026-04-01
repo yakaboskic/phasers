@@ -13,6 +13,8 @@ This addresses the requirement from INITIAL.md task #1:
 and what its lowest and highest obtained clinical trail level it got to."
 """
 
+import logging
+
 import pandas as pd
 from .phase_mapping import PHASE_MAPPING_REVERSE
 
@@ -123,7 +125,7 @@ def generate_ti_tracking_file(
         >>> os.path.exists(file_path)
         True
     """
-    print("Generating ti_uid tracking file")
+    logging.info("Generating ti_uid tracking file")
 
     # Extract tracking for each phase type
     ccat_tracking = extract_ti_uid_levels(merged_df, 'ccat')
@@ -183,7 +185,7 @@ def generate_ti_tracking_file(
     # Write output file
     ti_tracking_combined.to_csv(output_file, index=False, sep='\t')
 
-    print(f"Ti_uid tracking file written to {output_file}")
-    print(f"  Total unique ti_uid pairs: {len(ti_tracking_combined)}")
+    logging.info(f"Ti_uid tracking file written to {output_file}")
+    logging.info(f"  Total unique ti_uid pairs: {len(ti_tracking_combined)}")
 
     return output_file

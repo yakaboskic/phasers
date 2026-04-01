@@ -10,10 +10,13 @@ Handles:
 Reference: relative_success.py lines 386, 643-648
 """
 
-import pandas as pd
-import os
+import csv
 import json
-from typing import Dict, Tuple
+import logging
+import os
+from typing import Dict, List, Tuple
+
+import pandas as pd
 
 
 def write_forest_files(
@@ -59,7 +62,7 @@ def write_forest_files(
 
         # Write CSV
         forest_df.to_csv(filepath, index=False)
-        print(f"  Wrote forest file: {filepath}")
+        logging.info(f"  Wrote forest file: {filepath}")
 
 
 def write_rs_summary(
@@ -140,7 +143,7 @@ def write_rs_summary(
     # Write CSV
     filepath = os.path.join(output_dir, f'{run_name}.relative_success.csv')
     rs_df_wide.to_csv(filepath, index=True)
-    print(f'Saved relative success to {filepath}')
+    logging.info(f'Saved relative success to {filepath}')
 
 
 def write_rs_summary_multi_source(
@@ -184,7 +187,7 @@ def write_rs_summary_multi_source(
 
     # Write CSV
     rs_df.to_csv(output_file, index=True)
-    print(f'Saved relative success to {output_file}')
+    logging.info(f'Saved relative success to {output_file}')
 
 
 def write_contributions_file(
@@ -236,9 +239,9 @@ def write_contributions_file(
         # Write CSV
         filepath = os.path.join(output_dir, f'{run_name}.contributions.csv')
         contributions_df.to_csv(filepath, index=False)
-        print(f'Saved contributions to {filepath}')
+        logging.info(f'Saved contributions to {filepath}')
     else:
-        print('No contributions to write')
+        logging.info('No contributions to write')
 
 
 def write_merged_data(
@@ -266,14 +269,14 @@ def write_merged_data(
         >>> write_merged_data(merged, '/tmp/merged.tsv.gz', compress=True)
         # Creates /tmp/merged.tsv.gz
     """
-    print(f"Writing merged data to {output_file}")
+    logging.info(f"Writing merged data to {output_file}")
 
     compression = 'gzip' if compress else None
     merged_df.to_csv(output_file, sep='\t', index=False, compression=compression)
 
-    print(f"Merged data saved to {output_file}")
-    print(f"  Rows: {len(merged_df)}")
-    print(f"  Columns: {len(merged_df.columns)}")
+    logging.info(f"Merged data saved to {output_file}")
+    logging.info(f"  Rows: {len(merged_df)}")
+    logging.info(f"  Columns: {len(merged_df.columns)}")
 
 
 def write_consolidated_forest_json(
@@ -312,7 +315,7 @@ def write_consolidated_forest_json(
         ...                                '/tmp/test.forest.hcat.json',
         ...                                '/tmp/test.forest.acat.json')
     """
-    print("Writing consolidated forest JSON files")
+    logging.info("Writing consolidated forest JSON files")
 
     # Map phase types to output files
     phase_files = {
@@ -334,6 +337,132 @@ def write_consolidated_forest_json(
         with open(output_file, 'w') as f:
             json.dump(phase_data, f, indent=2)
 
-        print(f"  Wrote {output_file} ({len(phase_data)} sources)")
+        logging.info(f"  Wrote {output_file} ({len(phase_data)} sources)")
 
-    print("Consolidated forest JSON files complete")
+    logging.info("Consolidated forest JSON files complete")
+
+
+def _parse_source_key(key: str) -> Tuple[str, str, str]:
+    """
+    Split a source__subsource__area key into its components.
+
+    Args:
+        key: String in format "source__subsource__area".
+
+    Returns:
+        Tuple of (source, subsource, clinical_area).
+
+    Example:
+        >>> _parse_source_key("otg__finngen__metabolic")
+        ('otg', 'finngen', 'metabolic')
+        >>> _parse_source_key("all__all__all")
+        ('all', 'all', 'all')
+    """
+    parts = key.split('__')
+    if len(parts) != 3:
+        raise ValueError(
+            f"Expected key format 'source__subsource__area', got '{key}'"
+        )
+    return parts[0], parts[1], parts[2]
+
+
+def write_unified_forest_json(
+    forest_results: Dict[str, Dict[str, pd.DataFrame]],
+    output_file: str,
+    is_baseline: bool = False,
+    existing_records: List[Dict] = None,
+) -> List[Dict]:
+    """
+    Write a single structured JSON file with all forest data.
+
+    Output format is a JSON array of objects, each containing:
+    - source, subsource, clinical_area, category_type, is_baseline
+    - phases: list of per-phase records
+
+    Args:
+        forest_results: Dict[source_key, Dict[phase_type, DataFrame]].
+        output_file: Path to output JSON file.
+        is_baseline: Whether these results are baseline.
+        existing_records: Optional list to append to (for combining
+            main + baseline into one file).
+
+    Returns:
+        The list of records written (for chaining with baseline).
+    """
+    records: List[Dict] = list(existing_records) if existing_records else []
+
+    for source_key, phase_dict in forest_results.items():
+        source, subsource, area = _parse_source_key(source_key)
+        for category_type, forest_df in phase_dict.items():
+            entry = {
+                'source': source,
+                'subsource': subsource,
+                'clinical_area': area,
+                'category_type': category_type,
+                'is_baseline': is_baseline,
+                'phases': forest_df.to_dict('records'),
+            }
+            records.append(entry)
+
+    with open(output_file, 'w') as f:
+        json.dump(records, f, indent=2)
+
+    logging.info(f"Wrote unified forest JSON: {output_file} ({len(records)} entries)")
+    return records
+
+
+def write_rs_summary_long(
+    rs_results: Dict[str, Dict[Tuple[str, str], float]],
+    output_file: str,
+    is_baseline: bool = False,
+    existing_rows: List[Dict] = None,
+) -> List[Dict]:
+    """
+    Write RS summary in long CSV format.
+
+    Columns: source, subsource, clinical_area, category_type, metric, value, is_baseline
+
+    Args:
+        rs_results: Dict[source_key, Dict[(phase_type, metric), value]].
+        output_file: Path to output CSV file.
+        is_baseline: Whether these results are baseline.
+        existing_rows: Optional list to append to (for combining
+            main + baseline into one file).
+
+    Returns:
+        The list of row dicts written (for chaining with baseline).
+    """
+    rows: List[Dict] = list(existing_rows) if existing_rows else []
+
+    for source_key, rs_dict in rs_results.items():
+        source, subsource, area = _parse_source_key(source_key)
+        for (category_type, metric), value in rs_dict.items():
+            rows.append(
+                {
+                    'source': source,
+                    'subsource': subsource,
+                    'clinical_area': area,
+                    'category_type': category_type,
+                    'metric': metric,
+                    'value': value,
+                    'is_baseline': is_baseline,
+                }
+            )
+
+    fieldnames = [
+        'source',
+        'subsource',
+        'clinical_area',
+        'category_type',
+        'metric',
+        'value',
+        'is_baseline',
+    ]
+
+    with open(output_file, 'w', newline='') as f:
+        writer = csv.DictWriter(f, fieldnames=fieldnames)
+        writer.writeheader()
+        writer.writerows(rows)
+
+    logging.info(f"Wrote RS summary long CSV: {output_file} ({len(rows)} rows)")
+    return rows

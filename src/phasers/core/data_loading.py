@@ -66,7 +66,7 @@ def load_pharmaprojects(file_path: str) -> pd.DataFrame:
         >>> 'gene' in pp.columns
         True
     """
-    print(f"Loading pharma projects data from {file_path}")
+    logging.info(f"Loading pharma projects data from {file_path}")
     pharmaprojects = pd.read_csv(file_path, sep='\t')
     return pharmaprojects
 
@@ -93,7 +93,7 @@ def load_indications(file_path: str) -> pd.DataFrame:
         >>> 'genetic_insight' in ind.columns
         True
     """
-    print(f"Loading indications data from {file_path}")
+    logging.info(f"Loading indications data from {file_path}")
     indications = pd.read_csv(file_path, sep='\t')
     return indications
 
@@ -129,7 +129,7 @@ def load_associations(
         >>> 'gene' in assoc.columns and 'mesh_id' in assoc.columns
         True
     """
-    print(f"Loading associations data from {file_path}")
+    logging.info(f"Loading associations data from {file_path}")
 
     # Load main associations file
     if file_path:
@@ -139,7 +139,7 @@ def load_associations(
 
     # Load and append pigean associations if provided
     if pigean_file_path:
-        print(f"Loading pigean associations data from {pigean_file_path}")
+        logging.info(f"Loading pigean associations data from {pigean_file_path}")
         pigean_associations = pd.read_csv(
             pigean_file_path,
             sep='\t',
@@ -187,7 +187,7 @@ def load_similarity_matrix(
         >>> sim_matrix.loc['D003920', 'D003920']  # Self-similarity
         1.0
     """
-    print(f"Loading similarity matrix from {file_path}")
+    logging.info(f"Loading similarity matrix from {file_path}")
 
     if format == 'long':
         # Load long format and pivot to wide
@@ -287,17 +287,17 @@ def apply_association_filters(
         >>> len(filtered['FALCON'])
         2
     """
-    print("Processing association thresholds")
+    logging.info("Processing association thresholds")
 
     for threshold_str in threshold_specs:
-        print(f"Processing association threshold: {threshold_str}")
+        logging.info(f"Processing association threshold: {threshold_str}")
 
         association_name, score_column, operation, value1, value2 = \
             parse_association_threshold(threshold_str)
 
         # Skip if this source isn't in our data
         if association_name not in associations_data:
-            print(f"Warning: Association source '{association_name}' not found in data, skipping filter")
+            logging.warning(f"Association source '{association_name}' not found in data, skipping filter")
             continue
 
         df = associations_data[association_name]
@@ -326,7 +326,7 @@ def apply_association_filters(
         else:
             raise ValueError(f"Invalid threshold operation: {operation}")
 
-        print(f"  Filtered {association_name}: {len(df)} -> {len(associations_data[association_name])} rows")
+        logging.info(f"  Filtered {association_name}: {len(df)} -> {len(associations_data[association_name])} rows")
 
     return associations_data
 
@@ -354,9 +354,9 @@ def apply_association_filters_to_merged_data(
     Example:
         >>> merged = apply_association_filters_to_merged_data(merged, ["FALCON:pos_p:>=:0.5:"])
     """
-    print("Processing association thresholds")
+    logging.info("Processing association thresholds")
     for threshold_str in threshold_specs:
-        print(f"Processing association threshold: {threshold_str}")
+        logging.info(f"Processing association threshold: {threshold_str}")
 
         source_name, score_column, operation, value1, value2 = \
             parse_association_threshold(threshold_str)
@@ -366,7 +366,7 @@ def apply_association_filters_to_merged_data(
 
         # Skip if this source isn't in our data
         if source_name not in merged_data['source'].unique():
-            print(f"Warning: Association source '{source_name}' not found in data, skipping filter")
+            logging.warning(f"Association source '{source_name}' not found in data, skipping filter")
             continue
 
         # Split merged data into source vs all other sources
@@ -398,7 +398,7 @@ def apply_association_filters_to_merged_data(
         else:
             raise ValueError(f"Invalid threshold operation: {operation}")
 
-        print(f"  Filtered {source_name}: {og_len} -> {len(source_data)} rows")
+        logging.info(f"  Filtered {source_name}: {og_len} -> {len(source_data)} rows")
         merged_data = pd.concat([source_data, other_data], ignore_index=True)
     return merged_data
 
@@ -444,7 +444,7 @@ def merge_data(
         >>> 'mesh_id' in merged.columns
         True
     """
-    print("Merging pharma projects and associations data on gene (target)")
+    logging.info("Merging pharmaprojects and associations on gene")
 
     # Step 1: Merge pharmaprojects + associations on gene
     merged = pd.merge(
@@ -456,7 +456,7 @@ def merge_data(
     )
 
     # Step 2: Merge in genetic_insight and areas from indications
-    print("Merging in genetic insight column from indications data")
+    logging.info("Merging genetic insight from indications")
     merged = pd.merge(
         merged,
         indications[['indication_mesh_id', 'genetic_insight', 'areas']],
@@ -465,7 +465,7 @@ def merge_data(
     )
 
     # Step 3: Filter out rows with missing genes or indication_mesh_ids
-    print("Filtering out rows with empty genes or indication_mesh_ids")
+    logging.debug("Filtering out rows with empty genes or indication_mesh_ids")
     merged = merged[
         (merged['gene'] != '') &
         (merged['indication_mesh_id'] != '') &
@@ -475,21 +475,21 @@ def merge_data(
 
     # Step 4: Apply genetic insight filter if required
     if not no_genetic_insight:
-        print('Applying genetic insight filter (keeping indications with genetic insight != "none")')
+        logging.info("Applying genetic insight filter")
         merged = merged[
             merged['indication_mesh_id'].isin(
                 indications[indications['genetic_insight'] != 'none']['indication_mesh_id']
             )
         ]
     else:
-        print('Running without genetic insight filter (keeping all indications)')
+        logging.info("Running without genetic insight filter")
         merged = merged[
             merged['indication_mesh_id'].isin(indications['indication_mesh_id'])
         ]
 
     # Step 5: Add duplicate pharmaprojects rows with NaN for associations columns
     # This is a minikel artifact - ensures all pharmaprojects targets are represented
-    print("Adding duplicate of pharmaprojects rows with NaN for associations columns")
+    logging.debug("Adding pharmaprojects NaN-association rows")
     pharma_nan = pharmaprojects.copy()
 
     # Set all association columns to NaN (except gene, which is the merge key)
@@ -498,7 +498,7 @@ def merge_data(
             pharma_nan[col] = np.nan
 
     # Merge in the indications data
-    print("Merging indications into pharma_nan dataframe")
+    logging.debug("Merging indications into pharma_nan dataframe")
     pharma_nan = pd.merge(
         pharma_nan,
         indications[['indication_mesh_id', 'areas']],
@@ -507,7 +507,7 @@ def merge_data(
     )
 
     # Combine the two DataFrames
-    print("Combining merged and pharma_nan DataFrames")
+    logging.debug("Combining merged and pharma_nan DataFrames")
     merged = pd.concat([merged, pharma_nan], ignore_index=True)
 
     # Apply genetic insight filter again if required

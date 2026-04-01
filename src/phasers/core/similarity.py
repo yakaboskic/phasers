@@ -9,6 +9,8 @@ Handles:
 Reference: relative_success.py lines 45-80, other_clinical_success_metrics.py lines 37-78
 """
 
+import logging
+
 import pandas as pd
 import numpy as np
 import re
@@ -194,7 +196,7 @@ def calculate_all_similarities(
     similarity_matrix = similarity_matrix_df
 
     # Calculate similarities with progress bar
-    print("Computing similarity between indication and association MeSH IDs")
+    logging.info("Computing similarity between indication and association MeSH IDs")
     merged_df['similarity'] = merged_df.progress_apply(
         lambda x: get_similarity_wrapper(x['indication_mesh_id'], x['mesh_id']),
         axis=1
@@ -202,9 +204,9 @@ def calculate_all_similarities(
 
     # Report any bad similarities found
     if len(BAD_SIMILARITIES) > 0:
-        print(
-            f"Found {len(BAD_SIMILARITIES)} MeSH IDs that were not in the "
-            f"similarity matrix: {BAD_SIMILARITIES}"
+        logging.warning(
+            f"Found {len(BAD_SIMILARITIES)} MeSH IDs not in similarity matrix: "
+            f"{BAD_SIMILARITIES}"
         )
 
     return merged_df

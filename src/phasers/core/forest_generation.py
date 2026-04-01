@@ -9,6 +9,8 @@ Handles:
 Reference: relative_success.py lines 87-95, 213-270
 """
 
+import logging
+
 import pandas as pd
 from typing import Set, Optional
 from .phase_mapping import PHASE_MAPPING_REVERSE
@@ -300,7 +302,7 @@ def generate_forest_data_for_phase_type(
         )
     except ValueError:
         # Completely empty forest data
-        print(f"Warning: Completely empty forest data for {phase_type}")
+        logging.warning(f"Completely empty forest data for {phase_type}")
         # Create empty dataframe with correct structure
         # Use first non-empty dataframe's columns if available, otherwise create minimal structure
         if forest_data_list and not forest_data_list[0].empty:
@@ -319,7 +321,7 @@ def generate_forest_data_for_phase_type(
 
     for phase_num in range(0, 5):
         if phase_num not in existing_phase_nums:
-            print(f"Adding missing phase {phase_num} ({PHASE_MAPPING_REVERSE.get(phase_num, 'Unknown')}) to {phase_type} forest data")
+            logging.debug(f"Adding missing phase {phase_num} ({PHASE_MAPPING_REVERSE.get(phase_num, 'Unknown')}) to {phase_type} forest data")
             missing_row = pd.DataFrame({
                 f'{phase_type}num': [phase_num],
                 phase_type: [PHASE_MAPPING_REVERSE[phase_num]],

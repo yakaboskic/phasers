@@ -54,9 +54,10 @@ def add_phase_numeric_columns(merged_df: pd.DataFrame) -> pd.DataFrame:
         >>> df['ccatnum'].tolist()
         [0, 1, 4]
     """
-    merged_df['ccatnum'] = merged_df['ccat'].map(PHASE_MAPPING)
-    merged_df['hcatnum'] = merged_df['hcat'].map(PHASE_MAPPING)
-    merged_df['acatnum'] = merged_df['acat'].map(PHASE_MAPPING)
+    merged_df = merged_df.copy()
+    merged_df.loc[:, 'ccatnum'] = merged_df['ccat'].map(PHASE_MAPPING)
+    merged_df.loc[:, 'hcatnum'] = merged_df['hcat'].map(PHASE_MAPPING)
+    merged_df.loc[:, 'acatnum'] = merged_df['acat'].map(PHASE_MAPPING)
     return merged_df
 
 

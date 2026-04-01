@@ -59,15 +59,25 @@ from .rs_calculation import (
 from .continuous import (
     extract_deduplicated_records,
     build_rs_curve_incremental,
+    calculate_curve_metrics,
     calculate_summary_metrics,
     calculate_continuous_rs_incremental,
+    calculate_continuous_rs_within_areas,
     write_continuous_rs_points,
+    write_continuous_rs_summary,
 )
 
 # Ti_uid tracking
 from .ti_tracking import (
     extract_ti_uid_levels,
     generate_ti_tracking_file,
+)
+
+# Discrete RS
+from .discrete import (
+    annotate_target_status,
+    generate_baseline_associations,
+    calculate_discrete_rs,
 )
 
 # Output formatting
@@ -78,6 +88,8 @@ from .output_formatting import (
     write_contributions_file,
     write_merged_data,
     write_consolidated_forest_json,
+    write_unified_forest_json,
+    write_rs_summary_long,
 )
 
 __all__ = [
@@ -112,12 +124,19 @@ __all__ = [
     # Continuous RS
     'extract_deduplicated_records',
     'build_rs_curve_incremental',
+    'calculate_curve_metrics',
     'calculate_summary_metrics',
     'calculate_continuous_rs_incremental',
+    'calculate_continuous_rs_within_areas',
     'write_continuous_rs_points',
+    'write_continuous_rs_summary',
     # Ti tracking
     'extract_ti_uid_levels',
     'generate_ti_tracking_file',
+    # Discrete RS
+    'annotate_target_status',
+    'generate_baseline_associations',
+    'calculate_discrete_rs',
     # Output formatting
     'write_forest_files',
     'write_rs_summary',
@@ -125,4 +144,6 @@ __all__ = [
     'write_contributions_file',
     'write_merged_data',
     'write_consolidated_forest_json',
+    'write_unified_forest_json',
+    'write_rs_summary_long',
 ]

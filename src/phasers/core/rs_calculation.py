@@ -11,6 +11,8 @@ Implements:
 Reference: relative_success.py lines 97-137, 273-408
 """
 
+import logging
+
 import pandas as pd
 import numpy as np
 from scipy.stats import norm
@@ -86,7 +88,7 @@ def calculate_rs_for_forest(forest_df: pd.DataFrame, phase_type: str) -> pd.Data
             method='wilson'
         )
     except ZeroDivisionError:
-        print(f"Warning: Zero division error for {phase_type} forest data in P(G) calculation")
+        logging.warning(f"Zero division error for {phase_type} forest data in P(G) calculation")
         forest_df['P(G)'] = np.nan
         forest_df['lower_ci'] = np.nan
         forest_df['upper_ci'] = np.nan

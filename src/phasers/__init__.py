@@ -55,6 +55,7 @@ from .core import (
     # Continuous RS
     calculate_continuous_rs_incremental as calculate_continuous_rs,
     build_rs_curve_incremental,
+    calculate_curve_metrics,
     calculate_summary_metrics,
     write_continuous_rs_points,
     # Ti tracking
@@ -95,6 +96,7 @@ __all__ = [
     # Continuous RS
     'calculate_continuous_rs',
     'build_rs_curve_incremental',
+    'calculate_curve_metrics',
     'calculate_summary_metrics',
     'write_continuous_rs_points',
     # Ti tracking
