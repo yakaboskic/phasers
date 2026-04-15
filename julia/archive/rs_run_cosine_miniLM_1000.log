@@ -1,0 +1,52 @@
+[INFO] 2026-04-14 20:37:53 - ============================================================
+[INFO] 2026-04-14 20:37:53 - PHASERS: CONTINUOUS RS CALCULATION
+[INFO] 2026-04-14 20:37:53 - ============================================================
+[INFO] 2026-04-14 20:37:53 - Loading pre-merged data from: /Users/cyakaboski/src/research/phasers/julia/merged_data.tsv.gz
+[INFO] 2026-04-14 20:38:16 - Loaded 13853783 rows from pre-merged file
+[INFO] 2026-04-14 20:38:16 - Requested score columns: ['combined']
+[INFO] 2026-04-14 20:38:16 - Requested sources: ['pigean']
+[INFO] 2026-04-14 20:38:17 - Available sources in data: {'pigean'}
+[INFO] 2026-04-14 20:38:17 - 
+============================================================
+[INFO] 2026-04-14 20:38:17 - Processing source: pigean
+[INFO] 2026-04-14 20:38:17 - ============================================================
+[INFO] 2026-04-14 20:38:18 -   Score column 'combined': 13828048 non-null values
+[INFO] 2026-04-14 20:38:18 - Running continuous RS for 1 score columns: ['combined']
+[INFO] 2026-04-14 20:38:18 - 
+  Processing: pigean / combined
+[INFO] 2026-04-14 20:38:18 - ============================================================
+[INFO] 2026-04-14 20:38:18 - CONTINUOUS RS CALCULATION (INCREMENTAL)
+[INFO] 2026-04-14 20:38:18 - ============================================================
+[INFO] 2026-04-14 20:38:18 - Score column: combined
+[INFO] 2026-04-14 20:38:18 - Source: pigean
+[INFO] 2026-04-14 20:38:18 - Phase type: ccat
+[INFO] 2026-04-14 20:38:18 - Score ascending: False (higher is better)
+[INFO] 2026-04-14 20:38:18 - Using pre-merged data (skipping load and similarity calculation)
+[INFO] 2026-04-14 20:38:18 - Merged data has 13853783 rows
+[INFO] 2026-04-14 20:38:22 - Genetically supported targets at similarity_threshold=1000.0: 0 rows, 0 unique genes
+[INFO] 2026-04-14 20:38:22 - Extracting deduplicated records for ccat
+[INFO] 2026-04-14 20:38:26 - Extracted 22638 deduplicated records
+[INFO] 2026-04-14 20:38:27 - Building RS curve with incremental updates...
+[INFO] 2026-04-14 20:38:27 - Building RS curve for 22638 records, K=4
+[INFO] 2026-04-14 20:38:27 - Initial not-G counts: N_nG=[7764, 4421, 7383, 1551, 1519], X_nG=[14874, 10453, 3070, 1519]
+[INFO] 2026-04-14 20:38:28 - Generated 9223 points on RS curve
+[INFO] 2026-04-14 20:38:28 - ============================================================
+[INFO] 2026-04-14 20:38:28 - CONTINUOUS RS CALCULATION COMPLETE
+[INFO] 2026-04-14 20:38:28 - Generated 9223 points on RS curve
+[INFO] 2026-04-14 20:38:28 - EA-RS: -0.0686
+[INFO] 2026-04-14 20:38:28 - EA-RS-self: 0.0000
+[INFO] 2026-04-14 20:38:28 - RS_full: 0.9314
+[INFO] 2026-04-14 20:38:28 - MLRS: -0.0710
+[INFO] 2026-04-14 20:38:28 - RS_max: 1.0000
+[INFO] 2026-04-14 20:38:28 - RS_at_10pct: 0.9314
+[INFO] 2026-04-14 20:38:28 - RS_max_after_1pct: 0.9314
+[INFO] 2026-04-14 20:38:28 - RS_max_after_5pct: 0.9314
+[INFO] 2026-04-14 20:38:28 - RS_max_after_10pct: 0.9314
+[INFO] 2026-04-14 20:38:28 - ============================================================
+[INFO] 2026-04-14 20:38:28 -   Successfully calculated RS for pigean/combined: 9223 points
+[INFO] 2026-04-14 20:38:28 - Writing continuous RS points to rs_curve_cosine_miniLM_1000.csv
+[INFO] 2026-04-14 20:38:28 - Wrote 9223 points to rs_curve_cosine_miniLM_1000.csv
+[INFO] 2026-04-14 20:38:28 - ============================================================
+[INFO] 2026-04-14 20:38:28 - CONTINUOUS RS CALCULATION COMPLETE
+[INFO] 2026-04-14 20:38:28 - Output: rs_curve_cosine_miniLM_1000.csv
+[INFO] 2026-04-14 20:38:28 - ============================================================

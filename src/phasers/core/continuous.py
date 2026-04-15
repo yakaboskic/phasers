@@ -650,6 +650,14 @@ def calculate_continuous_rs_incremental(
         'target_status'
     ] = 'no indication annotated'
 
+    gst_mask = merged_df['target_status'] == 'genetically supported target'
+    n_gst_rows = int(gst_mask.sum())
+    n_gst_genes = merged_df.loc[gst_mask, 'gene'].nunique()
+    logging.info(
+        f"Genetically supported targets at similarity_threshold={similarity_threshold}: "
+        f"{n_gst_rows} rows, {n_gst_genes} unique genes"
+    )
+
     # Step 4: Extract deduplicated records
     dedupped_records = extract_deduplicated_records(
         merged_df,

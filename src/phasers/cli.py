@@ -147,7 +147,7 @@ def handle_continuous(args):
             try:
                 is_ascending = score_ascending_map.get(score_col, False)
 
-                results_df = calculate_continuous_rs_incremental(
+                results_df, _summary_metrics = calculate_continuous_rs_incremental(
                     score_column=score_col,
                     source_name=source,
                     phase_type=args.phase_type,

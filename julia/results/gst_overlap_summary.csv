@@ -1,0 +1,3 @@
+comparison,jaccard_genes,jaccard_pairs,n_ont_genes,n_sem_genes,n_intersect_genes,n_union_genes,n_ont_pairs,n_sem_pairs,n_intersect_pairs,n_union_pairs
+ontology@0.8 vs semantic@0.55 (matched count),0.8960352422907489,0.6781284662700413,2176,2128,2034,2270,16510,16774,13450,19834
+ontology@0.8 vs semantic@0.8 (same threshold),0.7197247706422019,0.3850722985540289,2176,1573,1569,2180,16510,6575,6418,16667

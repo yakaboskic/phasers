@@ -1,0 +1,52 @@
+[INFO] 2026-04-14 20:56:55 - ============================================================
+[INFO] 2026-04-14 20:56:55 - PHASERS: CONTINUOUS RS CALCULATION
+[INFO] 2026-04-14 20:56:55 - ============================================================
+[INFO] 2026-04-14 20:56:55 - Loading pre-merged data from: merged_cosine_miniLM.tsv.gz
+[INFO] 2026-04-14 20:57:19 - Loaded 13853783 rows from pre-merged file
+[INFO] 2026-04-14 20:57:19 - Requested score columns: ['combined']
+[INFO] 2026-04-14 20:57:19 - Requested sources: ['pigean']
+[INFO] 2026-04-14 20:57:20 - Available sources in data: {'pigean'}
+[INFO] 2026-04-14 20:57:20 - 
+============================================================
+[INFO] 2026-04-14 20:57:20 - Processing source: pigean
+[INFO] 2026-04-14 20:57:20 - ============================================================
+[INFO] 2026-04-14 20:57:23 -   Score column 'combined': 13828048 non-null values
+[INFO] 2026-04-14 20:57:23 - Running continuous RS for 1 score columns: ['combined']
+[INFO] 2026-04-14 20:57:23 - 
+  Processing: pigean / combined
+[INFO] 2026-04-14 20:57:23 - ============================================================
+[INFO] 2026-04-14 20:57:23 - CONTINUOUS RS CALCULATION (INCREMENTAL)
+[INFO] 2026-04-14 20:57:23 - ============================================================
+[INFO] 2026-04-14 20:57:23 - Score column: combined
+[INFO] 2026-04-14 20:57:23 - Source: pigean
+[INFO] 2026-04-14 20:57:23 - Phase type: ccat
+[INFO] 2026-04-14 20:57:23 - Score ascending: False (higher is better)
+[INFO] 2026-04-14 20:57:23 - Using pre-merged data (skipping load and similarity calculation)
+[INFO] 2026-04-14 20:57:23 - Merged data has 13853783 rows
+[INFO] 2026-04-14 20:57:27 - Genetically supported targets at similarity_threshold=0.85: 7482 rows, 1444 unique genes
+[INFO] 2026-04-14 20:57:27 - Extracting deduplicated records for ccat
+[INFO] 2026-04-14 20:57:31 - Extracted 22638 deduplicated records
+[INFO] 2026-04-14 20:57:31 - Building RS curve with incremental updates...
+[INFO] 2026-04-14 20:57:31 - Building RS curve for 22638 records, K=4
+[INFO] 2026-04-14 20:57:31 - Initial not-G counts: N_nG=[7764, 4421, 7383, 1551, 1519], X_nG=[14874, 10453, 3070, 1519]
+[INFO] 2026-04-14 20:57:32 - Generated 3302 points on RS curve
+[INFO] 2026-04-14 20:57:32 - ============================================================
+[INFO] 2026-04-14 20:57:32 - CONTINUOUS RS CALCULATION COMPLETE
+[INFO] 2026-04-14 20:57:32 - Generated 3302 points on RS curve
+[INFO] 2026-04-14 20:57:32 - EA-RS: 0.5427
+[INFO] 2026-04-14 20:57:32 - EA-RS-self: 0.2855
+[INFO] 2026-04-14 20:57:32 - RS_full: 1.2573
+[INFO] 2026-04-14 20:57:32 - MLRS: 0.4160
+[INFO] 2026-04-14 20:57:32 - RS_max: 3.0422
+[INFO] 2026-04-14 20:57:32 - RS_at_10pct: 1.8516
+[INFO] 2026-04-14 20:57:32 - RS_max_after_1pct: 3.0422
+[INFO] 2026-04-14 20:57:32 - RS_max_after_5pct: 2.3359
+[INFO] 2026-04-14 20:57:32 - RS_max_after_10pct: 1.9476
+[INFO] 2026-04-14 20:57:32 - ============================================================
+[INFO] 2026-04-14 20:57:32 -   Successfully calculated RS for pigean/combined: 3302 points
+[INFO] 2026-04-14 20:57:32 - Writing continuous RS points to sweep_logs/rs_curve_semantic_0p85.csv
+[INFO] 2026-04-14 20:57:32 - Wrote 3302 points to sweep_logs/rs_curve_semantic_0p85.csv
+[INFO] 2026-04-14 20:57:32 - ============================================================
+[INFO] 2026-04-14 20:57:32 - CONTINUOUS RS CALCULATION COMPLETE
+[INFO] 2026-04-14 20:57:32 - Output: sweep_logs/rs_curve_semantic_0p85.csv
+[INFO] 2026-04-14 20:57:32 - ============================================================

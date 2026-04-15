@@ -1,0 +1,2583 @@
+mesh_id,trait_portal,similarity,source,subsource,n_rows
+"['D003924', 'D003928', 'D007676', 'D051436']",CKDpDKDinT2D,1.0,pigean,portal,63
+"['D000419', 'D003924']",MA_T2D,1.0,pigean,portal,61
+['D003924'],T2D_dom,1.0,pigean,portal,67
+['D003924'],T2D_het,1.0,pigean,portal,60
+"['D002292', 'D003922', 'D003924', 'D006623', 'D010673', 'D011030', 'D011086', 'D058249']",Hereditary_clear_cell_renal_cell_carcinoma_Orphanet_422526,1.0,pigean,orphanet,6
+"['D002318', 'D003924']",AnyCVDinT2D,1.0,pigean,portal,52
+"['D000419', 'D003924']",MicroInT2D,1.0,pigean,portal,46
+"['D000419', 'D003924']",MacroInT2D,1.0,pigean,portal,64
+['D003924'],T2D_insulin-deficient,1.0,pigean,portal,62
+['D003924'],T2D_insulin-resistant,1.0,pigean,portal,66
+['D003924'],T2D_obesity-related,1.0,pigean,portal,61
+"['D000419', 'D003924']",AlbInT2D,1.0,pigean,portal,61
+['D003924'],T2D_age-related,1.0,pigean,portal,61
+['D003924'],T2D_rec,1.0,pigean,portal,107
+['D003924'],T2DadjBMI,1.0,pigean,portal,121
+['D003924'],TGinT2D,1.0,pigean,portal,86
+['D003924'],YouthT2D,1.0,pigean,portal,91
+['D003924'],gcat_trait_insulin_response_measurement,1.0,pigean,gcat,12
+"['D003324', 'D003327', 'D003924', 'D017202']",CADinT2D,1.0,pigean,portal,52
+"['D003920', 'D003922', 'D003924', 'D006946', 'D007003', 'D044903']",Isolated_permanent_neonatal_diabetes_mellitus_Orphanet_99885,1.0,pigean,orphanet,91
+"['D003920', 'D003922', 'D003924', 'D006946', 'D010179', 'D015835', 'D020820', 'D044903']",MODY_Orphanet_552,1.0,pigean,orphanet,86
+"['D003920', 'D003922', 'D003924']",gcat_trait_type_2_diabetes_mellitus,1.0,pigean,gcat,106
+['D003924'],T2D_autoimmune,1.0,pigean,portal,63
+"['D002318', 'D003924']",CVDinT2D,1.0,pigean,portal,63
+['D003924'],T2D_add,1.0,pigean,portal,127
+"['D003924', 'D058729']",PADinT2D,1.0,pigean,portal,75
+"['D003924', 'D003928', 'D007676', 'D051436']",CKD_DNinT2D,1.0,pigean,portal,65
+"['D003924', 'D003928']",allDKD_T2D,1.0,pigean,portal,59
+"['D003924', 'D003928']",lateDKD_T2D,1.0,pigean,portal,65
+"['D003924', 'D005919']",eGFRcrea_T2D,1.0,pigean,portal,59
+['D003924'],T2D,1.0,pigean,portal,126
+"['D003924', 'D007676', 'D051436']",CKD_EXT_vGFRinT2D,1.0,pigean,portal,49
+"['D003924', 'D007676', 'D051436']",CKD_T2D,1.0,pigean,portal,70
+"['D003924', 'D007676', 'D051436']",CKDinT2D,1.0,pigean,portal,70
+"['D003924', 'D009203']",MIinT2D,1.0,pigean,portal,64
+"['D003924', 'D020521']",StrokeinT2D,1.0,pigean,portal,72
+"['D003924', 'D007383']",ClaudicationinT2D,1.0,pigean,portal,59
+"['D003924', 'D065626']",NAFLDinT2D,1.0,pigean,portal,69
+['D003924'],ESRDvControlinT2D,1.0,pigean,portal,60
+['D003924'],ESRDvMacroinT2D,1.0,pigean,portal,47
+['D003924'],ESRDvNonESRDinT2D,1.0,pigean,portal,59
+['D003924'],SmokingT2Dmain,1.0,pigean,portal,52
+['D003924'],SmokingT2Djoint,1.0,pigean,portal,71
+['D003924'],SmokingT2Dint,1.0,pigean,portal,98
+['D003924'],ESRDinT2D,1.0,pigean,portal,67
+['D003924'],HypertensioninT2D,1.0,pigean,portal,51
+['D003920'],ESRDvNonESRD_DM,0.733,pigean,portal,61
+"['D003920', 'D007676', 'D051436']",CKDextremes_DM,0.733,pigean,portal,65
+['D003920'],ESRD_DM,0.733,pigean,portal,62
+['D003920'],ESRDvControl_DM,0.733,pigean,portal,64
+['D003920'],ESRDvMacro_DM,0.733,pigean,portal,65
+['D003920'],eGFRcrea_med_DeclineAdjDM,0.733,pigean,portal,74
+['D003920'],UACR_DM,0.733,pigean,portal,62
+['D003920'],eGFRcrea_med_DeclineInDM,0.733,pigean,portal,66
+['D003920'],eGFRcrea_perc_DeclineInDM,0.733,pigean,portal,75
+['D003920'],gcat_trait_diabetes_mellitus,0.733,pigean,gcat,82
+['D003920'],gcat_trait_gestational_diabetes,0.733,pigean,gcat,40
+['D003920'],gcat_trait_hemoglobin_A1_measurement,0.733,pigean,gcat,97
+['D003920'],gcat_trait_leptin_receptor_measurement,0.733,pigean,gcat,22
+"['D003920', 'D005919']",eGFRcrea_DM,0.733,pigean,portal,76
+"['D003920', 'D007676', 'D051436']",CKD_DM,0.733,pigean,portal,72
+['D003920'],gcat_trait_HbA1c_measurement,0.733,pigean,gcat,104
+"['D001176', 'D002779', 'D002780', 'D003920', 'D005705', 'D008286', 'D043202']",Progressive_familial_intrahepatic_cholestasis_Orphanet_172,0.733,pigean,orphanet,29
+"['D000419', 'D003920']",MA_DM,0.733,pigean,portal,73
+"['D003920', 'D005919']",eGFRcreaInDiabetes,0.733,pigean,portal,64
+"['D003920', 'D003928']",AllDKDvControl_DM,0.733,pigean,portal,69
+"['D000419', 'D003920']",Macroalbuminuria_DM,0.733,pigean,portal,57
+"['D003920', 'D003928', 'D007676', 'D051436']",CKDpDKD_DM,0.733,pigean,portal,56
+"['D003920', 'D000740', 'D006402']",gcat_trait_hemoglobin_measurement,0.733,pigean,gcat,65
+"['D019040', 'D003920']",gcat_trait_eselectin_measurement,0.733,pigean,gcat,25
+['D044882'],gcat_trait_BMIadjusted_fasting_blood_glucose_measurement,0.727,pigean,gcat,13
+"['D007333', 'D044882']",gcat_trait_HOMAB,0.727,pigean,gcat,20
+['D044882'],gcat_trait_peak_insulin_response_measurement,0.727,pigean,gcat,14
+"['D006943', 'D044882']",gcat_trait_fasting_blood_glucose_measurement,0.727,pigean,gcat,82
+"['D044882', 'D005951']",gcat_trait_glucose_tolerance_test,0.727,pigean,gcat,40
+"['D003922', 'D007676', 'D051436']",CKDextremes_T1D,0.705,pigean,portal,61
+"['D000419', 'D003922']",MacrovControl_T1D,0.705,pigean,portal,51
+"['D000419', 'D003922']",MAadjHbA1cBMI_T1D,0.705,pigean,portal,71
+['D003922'],ESRDvControladjHbA1cBMI_T1D,0.705,pigean,portal,67
+"['D000419', 'D003922']",ESRDvMacro_T1D,0.705,pigean,portal,59
+"['D003922', 'D007676', 'D051436']",CKDadjHbA1cBMI_T1D,0.705,pigean,portal,70
+"['D000419', 'D003922']",MacrovControladjHbA1cBMI_T1D,0.705,pigean,portal,59
+"['D003922', 'D007676', 'D051436']",CKDextremesadjHbA1cBMI_T1D,0.705,pigean,portal,74
+"['D003922', 'D003928', 'D007676', 'D051436']",CKDpDKDadjHbA1cBMI_T1D,0.705,pigean,portal,70
+['D003922'],ESRDvControl_T1D,0.705,pigean,portal,49
+"['D000690', 'D002607', 'D002973', 'D003922', 'D005902', 'D006849', 'D007040', 'D009134', 'D009207', 'D010001', 'D015419', 'D019150', 'D020914', 'D049310', 'D057180']",Amyotrophic_lateral_sclerosis_Orphanet_803,0.705,pigean,orphanet,32
+['D003922'],gcat_trait_type_1_diabetes_mellitus,0.705,pigean,gcat,30
+['D003922'],T1D,0.705,pigean,portal,42
+['D003922'],ESRDvNonESRDadjHbA1cBMI_T1D,0.705,pigean,portal,77
+['D003922'],ESRDvNonESRD_T1D,0.705,pigean,portal,60
+"['D003922', 'D003928', 'D007676', 'D051436']",CKDpDKD_T1D,0.705,pigean,portal,70
+"['D000419', 'D003922']",MA_T1D,0.705,pigean,portal,70
+['D003922'],ESRDvMacroadjHbA1cBMI_T1D,0.705,pigean,portal,62
+"['D003324', 'D003327', 'D003922', 'D017202']",CADinT1D,0.705,pigean,portal,67
+"['D003922', 'D003928']",allDKDadjHbA1cBMI_T1D,0.705,pigean,portal,64
+"['D003922', 'D003928']",lateDKD_T1D,0.705,pigean,portal,62
+"['D003922', 'D003928']",lateDKDadjHbA1cBMI_T1D,0.705,pigean,portal,68
+"['D003922', 'D003928']",allDKD_T1D,0.705,pigean,portal,65
+"['D003922', 'D005919']",eGFRcrea_T1D,0.705,pigean,portal,61
+"['D003922', 'D007676', 'D051436']",CKD_T1D,0.705,pigean,portal,76
+['D003930'],PDRvNoDR,0.666,pigean,portal,80
+['D003930'],gcat_trait_diabetic_retinopathy,0.666,pigean,gcat,31
+['D003930'],PDRvNoPDRwDoD,0.666,pigean,portal,79
+['D003930'],PDRvNoDRwDoD,0.666,pigean,portal,65
+['D003930'],PDRvNoPDR,0.666,pigean,portal,60
+['D003930'],NPDRvNoDRwDoD,0.666,pigean,portal,66
+['D003930'],NPDRvNoDR,0.666,pigean,portal,76
+['D003930'],DiabeticRetino,0.666,pigean,portal,62
+['D003930'],DRvNoDRwDoD,0.666,pigean,portal,71
+['D003930'],DRvNoDR,0.666,pigean,portal,72
+['D004700'],gcat_trait_testosterone_measurement,0.663,pigean,gcat,107
+['D004700'],gcat_trait_sex_hormonebinding_globulin_measurement,0.663,pigean,gcat,112
+['D006946'],gcat_trait_fasting_blood_insulin_measurement,0.64,pigean,gcat,33
+['D006946'],gcat_trait_BMIadjusted_fasting_blood_insulin_measurement,0.64,pigean,gcat,10
+"['D040641', 'D007328', 'D007333']",gcat_trait_insulin_measurement,0.637,pigean,gcat,61
+['D007333'],ISIadjAgeSexBMI,0.637,pigean,portal,80
+['D007333'],ISIadjBMIinterGenoBMI,0.637,pigean,portal,65
+['D007333'],gcat_trait_HOMAIR,0.637,pigean,gcat,11
+['D007333'],ISen,0.637,pigean,portal,78
+['D007333'],ISenBMI,0.637,pigean,portal,75
+['D007333'],gcat_trait_insulin_sensitivity_measurement,0.637,pigean,gcat,18
+['D007333'],gcat_trait_insulin_resistance,0.637,pigean,gcat,24
+['D007333'],ISI,0.637,pigean,portal,68
+['D007333'],ISIadjAgeSex,0.637,pigean,portal,77
+['D007333'],AIRadjSI,0.637,pigean,portal,56
+['D007333'],HOMAIR,0.637,pigean,portal,76
+['D007333'],DIadjBMI,0.637,pigean,portal,61
+['D007333'],DI,0.637,pigean,portal,70
+['D007333'],CIRadjISI,0.637,pigean,portal,68
+['D007333'],CIR,0.637,pigean,portal,67
+['D007333'],AIRadjBMInSI,0.637,pigean,portal,54
+['D007333'],AIR,0.637,pigean,portal,59
+['D003928'],gcat_trait_diabetic_nephropathy,0.623,pigean,gcat,28
+"['D003928', 'D007676', 'D051436']",CKDpDKD,0.623,pigean,portal,52
+['D003928'],DiabeticNephro,0.623,pigean,portal,59
+['D003928'],SevereDKD,0.623,pigean,portal,63
+['D003928'],allDKD,0.623,pigean,portal,68
+['D003928'],lateDKD,0.623,pigean,portal,65
+['D003929'],NeuropathyinT2D,0.619,pigean,portal,66
+['D004701'],Tumor_of_endocrine_glands_Orphanet_182130,0.611,pigean,orphanet,55
+"['D013959', 'D013972']",gcat_trait_thyroid_stimulating_hormone_measurement,0.61,pigean,gcat,71
+['D013959'],gcat_trait_thyroid_volume,0.61,pigean,gcat,16
+['D013959'],gcat_trait_thyroid_peroxidase_antibody_measurement,0.61,pigean,gcat,22
+['D016640'],GDM_abnormal_gluc,0.605,pigean,portal,73
+['D016640'],GDM,0.605,pigean,portal,69
+['D009377'],Multiple_endocrine_neoplasia_Orphanet_276161,0.603,pigean,orphanet,38
+['D000307'],gcat_trait_hormone_measurement,0.601,pigean,gcat,27
+['D000307'],gcat_trait_dehydroepiandrosterone_sulphate_measurement,0.601,pigean,gcat,34
+['D000307'],gcat_trait_cortisol_measurement,0.601,pigean,gcat,21
+['D006029'],gcat_trait_Glycosuria,0.592,pigean,gcat,11
+['D050031'],gcat_trait_Hashimotos_thyroiditis,0.582,pigean,gcat,14
+['D013967'],gcat_trait_autoimmune_thyroid_disease,0.582,pigean,gcat,39
+"['D008661', 'D010049', 'D056784']",Ovarioleukodystrophy_Orphanet_99853,0.582,pigean,orphanet,4
+['D010279'],gcat_trait_parathyroid_hormone_measurement,0.576,pigean,gcat,29
+"['D042643', 'D054369', 'D018826', 'D042683', 'D001142', 'D003546', 'D015415', 'D055418', 'D002918', 'D007791', 'D051547', 'D064094', 'D007249', 'D008071', 'D019056', 'D012694', 'D013926', 'D018180', 'D053220', 'D015703', 'D015820', 'D000071451', 'D002402', 'D004815', 'D000071858', 'D037502', 'D037541', 'D000077155', 'D053722', 'D020780', 'D000071656', 'D053495', 'D018384', 'D053146', 'D037663', 'D008659', 'D019040', 'D019007', 'D008074', 'D047889', 'D053264', 'D000071681', 'D014568', 'D014842', 'D003598', 'D048868', 'D062727', 'D002394', 'D000075983', 'D011956', 'D004093', 'D047150', 'D000070816', 'D053671', 'D008666', 'D013939', 'D006128']",gcat_trait_blood_protein_measurement,0.574,pigean,gcat,90
+"['C024058', 'D005977', 'C035661', 'C052203', 'D002210', 'D045782', 'D007651', 'D008762', 'D002723', 'C042836', 'C010922', 'C054188', 'D010875', 'D000108', 'D011760', 'D000225', 'D024502', 'D015091', 'D001622', 'D002087', 'D010767', 'D008293', 'D004151', 'D002331', 'D013450', 'C007558', 'D004880', 'D004896', 'D008314', 'D005942', 'D018698', 'D005973', 'C053168', 'D006151', 'D013400', 'D006626', 'D007210', 'C020381', 'D007736', 'D008298', 'D008659', 'D015415', 'C018332', 'C013111', 'D005971', 'C032007', 'C023495', 'C088117', 'C044228', 'D062367', 'C008698', 'D010070', 'C003089', 'D010649', 'D011730', 'D019289', 'D011801', 'D012255', 'D012459', 'C003342', 'D013805', 'D013806']",gcat_trait_metabolite_measurement,0.574,pigean,gcat,98
+['D008659'],gcat_trait_BMIadjusted_adiponectin_measurement,0.574,pigean,gcat,13
+['D008659'],gcat_trait_BMIadjusted_leptin_measurement,0.574,pigean,gcat,13
+['D008659'],gcat_trait_adiponectin_measurement,0.574,pigean,gcat,39
+['D008659'],gcat_trait_delta6_desaturase_measurement,0.574,pigean,gcat,5
+['D008659'],gcat_trait_lactate_measurement,0.574,pigean,gcat,20
+['D008659'],gcat_trait_leptin_measurement,0.574,pigean,gcat,34
+['D008659'],gcat_trait_resistin_measurement,0.574,pigean,gcat,30
+"['D002386', 'D003638', 'D009135', 'D014929', 'D015785']",Earlyonset_zonular_cataract_Orphanet_98995,0.571,pigean,orphanet,8
+"['D000015', 'D000073376', 'D001168', 'D002658', 'D003638', 'D004392', 'D004421', 'D004476', 'D004831', 'D005350', 'D006228', 'D006313', 'D006319', 'D007634', 'D008607', 'D013036', 'D014564', 'D014849', 'D014929', 'D017495', 'D019280', 'D052245', 'D056266']",Rare_autosomal_dominant_nonsyndromic_sensorineural_deafness_type_DFNA_Orphanet_90635,0.571,pigean,orphanet,27
+"['D002386', 'D003638', 'D007039', 'D009135', 'D014929', 'D020914', 'D040181']",Earlyonset_nonsyndromic_cataract_Orphanet_91492,0.571,pigean,orphanet,9
+"['D002386', 'D003638', 'D009135', 'D014929']",Earlyonset_partial_cataract_Orphanet_98992,0.571,pigean,orphanet,9
+"['D002386', 'D003638', 'D014929', 'D015785']",Earlyonset_nuclear_cataract_Orphanet_98991,0.571,pigean,orphanet,8
+['D006980'],gcat_trait_hyperthyroidism,0.565,pigean,gcat,20
+"['D004392', 'D008607', 'D008831', 'D010024']",Autosomal_recessive_primary_microcephaly_Orphanet_2512,0.564,pigean,orphanet,30
+"['D004392', 'D008831', 'D009886', 'D019066']",Seckel_syndrome_Orphanet_808,0.564,pigean,orphanet,15
+"['D004392', 'D009216', 'D009755', 'D010009', 'D012164', 'D012174', 'D015785', 'D040181']",Congenital_stationary_night_blindness_Orphanet_215,0.564,pigean,orphanet,35
+"['D004392', 'D010022']",Osteopetrosis_and_related_disorders_Orphanet_2781,0.564,pigean,orphanet,34
+"['D004392', 'D014564', 'D017880', 'D019465', 'D059327']",Robinow_syndrome_Orphanet_97360,0.564,pigean,orphanet,25
+"['D000015', 'D000130', 'D000168', 'D003394', 'D003398', 'D004392', 'D007766', 'D013796']",Familial_primary_hyperparathyroidism_Orphanet_2207,0.564,pigean,orphanet,32
+"['D000015', 'D003638', 'D004392', 'D004421', 'D004476', 'D004831', 'D006044', 'D006228', 'D006319', 'D007634', 'D008661', 'D012640', 'D013036', 'D015209', 'D020754', 'D052177', 'D052245', 'D056266', 'D056784', 'D065886']",Rare_autosomal_recessive_nonsyndromic_sensorineural_deafness_type_DFNB_Orphanet_90636,0.564,pigean,orphanet,30
+"['D000544', 'D000941', 'D002311', 'D004392', 'D004393', 'D008661', 'D010900', 'D020774', 'D028243', 'D040181', 'D057180']",Nonacquired_isolated_growth_hormone_deficiency_Orphanet_631,0.564,pigean,orphanet,11
+"['D000130', 'D003398', 'D004392', 'D008228', 'D013796', 'D051359', 'D056735']",NonHodgkin_lymphoma_Orphanet_547,0.564,pigean,orphanet,33
+"['D000130', 'D003483', 'D004392']",Cutis_laxa_Orphanet_209,0.564,pigean,orphanet,27
+['D006042'],gcat_trait_goiter,0.563,pigean,gcat,23
+['D044903'],Congenital_isolated_hyperinsulinism_Orphanet_657,0.563,pigean,orphanet,62
+"['D001165', 'D002607', 'D004310', 'D006061', 'D006330', 'D006344', 'D006345', 'D006548', 'D007037', 'D010179', 'D013771', 'D016738', 'D018636']",Tetralogy_of_Fallot_Orphanet_3303,0.557,pigean,orphanet,26
+"['D004310', 'D006344', 'D006345', 'D007037', 'D013771', 'D018636', 'D050033']",Athyreosis_Orphanet_95713,0.557,pigean,orphanet,28
+['D007037'],gcat_trait_hypothyroidism,0.557,pigean,gcat,45
+['D007037'],Central_congenital_hypothyroidism_Orphanet_226298,0.557,pigean,orphanet,19
+['D007037'],Thyroid,0.557,pigean,portal,52
+"['D003409', 'D007037']",Familial_thyroid_dyshormonogenesis_Orphanet_95716,0.557,pigean,orphanet,4
+"['D004310', 'D006330', 'D006344', 'D006345', 'D007037', 'D010179', 'D013771', 'D018636']",Conotruncal_heart_malformations_Orphanet_2445,0.557,pigean,orphanet,26
+"['D002277', 'D004476', 'D005199', 'D006130', 'D009386', 'D009634', 'D010190', 'D010580', 'D016864', 'D056735']",Familial_pancreatic_carcinoma_Orphanet_1333,0.555,pigean,orphanet,35
+['D010051'],OvarianCancer,0.555,pigean,portal,66
+['D010051'],gcat_trait_ovarian_carcinoma,0.555,pigean,gcat,34
+['D010051'],gcat_trait_ovarian_mucinous_adenocarcinoma,0.555,pigean,gcat,18
+['D010911'],Pituitary_tumor_Orphanet_304055,0.555,pigean,orphanet,53
+['D010051'],gcat_trait_ovarian_serous_carcinoma,0.555,pigean,gcat,23
+['D010911'],Pituitary_adenoma_Orphanet_99408,0.555,pigean,orphanet,51
+['D010051'],gcat_trait_malignant_epithelial_tumor_of_ovary,0.555,pigean,gcat,25
+['D010190'],PancreaticCancer,0.555,pigean,portal,60
+['D010190'],Rare_carcinoma_of_pancreas_Orphanet_217074,0.555,pigean,orphanet,36
+['D010190'],gcat_trait_pancreatic_carcinoma,0.555,pigean,gcat,28
+['D013964'],gcat_trait_differentiated_thyroid_carcinoma,0.552,pigean,gcat,27
+['D013964'],ThyroidCancer,0.552,pigean,portal,65
+['D013964'],Rare_thyroid_tumor_Orphanet_100087,0.552,pigean,orphanet,23
+['D013964'],Rare_thyroid_carcinoma_Orphanet_100088,0.552,pigean,orphanet,22
+['D013964'],gcat_trait_thyroid_cancer,0.552,pigean,gcat,17
+['D013964'],gcat_trait_thyroid_carcinoma,0.552,pigean,gcat,15
+"['D006627', 'D010673', 'D013964', 'D018761']",Hirschsprung_disease_Orphanet_388,0.552,pigean,orphanet,27
+"['D005925', 'D006623', 'D008661', 'D009386', 'D010235', 'D010673', 'D011086', 'D013964', 'D018761', 'D046152']",Hereditary_pheochromocytomaparaganglioma_Orphanet_29072,0.552,pigean,orphanet,63
+['D006111'],Graves,0.55,pigean,portal,55
+['D006111'],gcat_trait_Graves_disease,0.55,pigean,gcat,19
+"['D001260', 'D001943', 'D002971', 'D004476', 'D005199', 'D006223', 'D009634', 'D013274', 'D016864', 'D020820', 'D050719', 'D056735']",Hereditary_breast_cancer_Orphanet_227535,0.548,pigean,orphanet,16
+"['D001260', 'D029242']",Leber_hereditary_optic_neuropathy_Orphanet_104,0.548,pigean,orphanet,45
+['D011085'],gcat_trait_polycystic_ovary_syndrome,0.546,pigean,gcat,31
+['D011085'],PCOSadjAge,0.546,pigean,portal,68
+['D011085'],PCOS,0.546,pigean,portal,65
+"['D013736', 'D009373']",gcat_trait_testicular_carcinoma,0.54,pigean,gcat,32
+"['D000015', 'D002526', 'D006223', 'D007006', 'D007248', 'D009136', 'D012174', 'D020788', 'D052177', 'D057130', 'D058747']",BardetBiedl_syndrome_Orphanet_110,0.539,pigean,orphanet,24
+"['D000168', 'D002178', 'D002971', 'D003398', 'D007006', 'D008607', 'D010009', 'D017436', 'D058747']",Normosmic_congenital_hypogonadotropic_hypogonadism_Orphanet_432,0.539,pigean,orphanet,34
+"['D000015', 'D000168', 'D002971', 'D003398', 'D007006', 'D008607', 'D010009', 'D017436', 'D058747']",Kallmann_syndrome_Orphanet_478,0.539,pigean,orphanet,23
+"['D001176', 'D007018', 'D008607', 'D008661', 'D011218', 'D019465']",PraderWilli_syndrome_Orphanet_739,0.537,pigean,orphanet,6
+"['D001848', 'D003286', 'D004479', 'D008382', 'D008661', 'D008945', 'D009503', 'D056846']",Autosomal_dominant_severe_congenital_neutropenia_Orphanet_486,0.537,pigean,orphanet,8
+"['D000544', 'D000941', 'D001281', 'D002037', 'D002311', 'D002312', 'D002313', 'D002386', 'D006332', 'D006344', 'D008133', 'D008305', 'D008661', 'D008831', 'D009135', 'D009136', 'D009202', 'D009634', 'D010235', 'D011371', 'D012804', 'D014693', 'D017696', 'D019571', 'D020388', 'D020389', 'D020774', 'D020914', 'D044542', 'D049310', 'D052496', 'D053840', 'D057180', 'D058494']",Familial_isolated_dilated_cardiomyopathy_Orphanet_154,0.537,pigean,orphanet,59
+"['D000544', 'D000941', 'D002311', 'D008661', 'D020774', 'D028243', 'D057180']",Earlyonset_autosomal_dominant_Alzheimer_disease_Orphanet_1020,0.537,pigean,orphanet,36
+"['D000544', 'D000941', 'D001281', 'D002037', 'D002311', 'D002312', 'D002313', 'D002386', 'D002607', 'D006332', 'D006344', 'D006627', 'D008133', 'D008305', 'D008661', 'D008831', 'D009135', 'D009136', 'D009202', 'D009447', 'D009634', 'D010235', 'D011371', 'D012804', 'D014693', 'D017696', 'D018305', 'D019571', 'D020388', 'D020389', 'D020774', 'D020914', 'D044542', 'D049310', 'D052496', 'D053840', 'D057180', 'D058494']",Neuroblastoma_Orphanet_635,0.537,pigean,orphanet,9
+"['D000742', 'D006059', 'D006223', 'D006551', 'D009404', 'D016471', 'D023961', 'D040181', 'D058627']",46XX_gonadal_dysgenesis_Orphanet_243,0.537,pigean,orphanet,15
+"['D008661', 'D010264', 'D010300', 'D020734']",Youngonset_Parkinson_disease_Orphanet_2828,0.537,pigean,orphanet,26
+"['D008661', 'D056784']",CACH_syndrome_Orphanet_135,0.537,pigean,orphanet,4
+"['D006201', 'D008661', 'D028361']",Isolated_complex_III_deficiency_Orphanet_1460,0.537,pigean,orphanet,36
+"['D005199', 'D006223', 'D008661', 'D011471', 'D016864', 'D058627']",Familial_prostate_cancer_Orphanet_1331,0.537,pigean,orphanet,24
+['D008661'],3methylglutaconic_aciduria_Orphanet_289902,0.537,pigean,orphanet,10
+['D047808'],Adrenogenital_syndrome_Orphanet_181412,0.535,pigean,orphanet,65
+['D016884'],Severe_immunemediated_enteropathy_Orphanet_94075,0.534,pigean,orphanet,32
+"['D010859', 'D040181', 'D056730']",SilverRussell_syndrome_Orphanet_813,0.534,pigean,orphanet,38
+"['D003414', 'D006061', 'D006932', 'D016649', 'D050090', 'D053627', 'D055036', 'D058490', 'D058531']",46XY_complete_gonadal_dysgenesis_Orphanet_242,0.533,pigean,orphanet,17
+['D058490'],46XY_difference_of_sex_development_Orphanet_98085,0.533,pigean,orphanet,67
+"['D006061', 'D006344', 'D006345', 'D006548', 'D013771', 'D016649', 'D050090', 'D053627', 'D055036', 'D058490', 'D058531']",46XY_partial_gonadal_dysgenesis_Orphanet_251510,0.533,pigean,orphanet,31
+['D000224'],gcat_trait_Genetic_chronic_primary_adrenal_insufficiency,0.532,pigean,gcat,17
+['D000224'],Addison,0.532,pigean,portal,52
+"['D000077273', 'D002819', 'D003409']",Differentiated_thyroid_carcinoma_Orphanet_146,0.531,pigean,orphanet,22
+['D006073'],gcat_trait_uric_acid_measurement,0.53,pigean,gcat,67
+"['D001176', 'D007018', 'D008607', 'D019465']",PraderWilli_syndrome_due_to_paternal_deletion_of_15q11q13_type_2_Orphanet_177904,0.53,pigean,orphanet,4
+"['D001176', 'D007018', 'D008607', 'D019465']",PraderWilli_syndrome_due_to_paternal_deletion_of_15q11q13_type_1_Orphanet_177901,0.53,pigean,orphanet,4
+"['D006073', 'D014527']",gcat_trait_urate_measurement,0.53,pigean,gcat,66
+"['D004827', 'D004831', 'D004832', 'D006929', 'D013036', 'D065768']",Childhood_absence_epilepsy_Orphanet_64280,0.53,pigean,orphanet,20
+"['D001145', 'D001281', 'D002037', 'D002311', 'D003402', 'D006929', 'D008133', 'D009135', 'D012804', 'D014693', 'D029593', 'D029597', 'D053840']",RomanoWard_syndrome_Orphanet_101016,0.53,pigean,orphanet,46
+"['D001145', 'D001281', 'D001321', 'D002037', 'D002311', 'D003402', 'D006929', 'D008133', 'D009135', 'D012804', 'D013576', 'D014693', 'D029593', 'D029597', 'D053840', 'D065886']",Familial_long_QT_syndrome_Orphanet_768,0.53,pigean,orphanet,45
+"['D000799', 'D001145', 'D001281', 'D001321', 'D002037', 'D002311', 'D003402', 'D006929', 'D008133', 'D009135', 'D012804', 'D013576', 'D014693', 'D029593', 'D029597', 'D053840', 'D065886']",Nonhistaminic_angioedema_Orphanet_658,0.53,pigean,orphanet,39
+['D006073'],gcat_trait_gout,0.53,pigean,gcat,30
+"['D002493', 'D002524', 'D004831', 'D004832', 'D006929', 'D020190', 'D056784']",Juvenile_myoclonic_epilepsy_Orphanet_307,0.53,pigean,orphanet,33
+['D011686'],Disorder_of_purine_or_pyrimidine_metabolism_Orphanet_79224,0.53,pigean,orphanet,47
+"['D007018', 'D025962', 'D058499']",Combined_pituitary_hormone_deficiencies_genetic_forms_Orphanet_95494,0.53,pigean,orphanet,22
+['D007018'],Pituitary_deficiency_Orphanet_101957,0.53,pigean,orphanet,57
+"['D000326', 'D004062', 'D005158', 'D058165']",22q112_deletion_syndrome_Orphanet_567,0.523,pigean,orphanet,7
+['D003409'],Congenital_hypothyroidism_Orphanet_442,0.521,pigean,orphanet,32
+['D047748'],Cushing_disease_Orphanet_96253,0.52,pigean,orphanet,45
+"['D000015', 'D000848', 'D002971', 'D002972', 'D004476', 'D008844', 'D008850', 'D016649', 'D017880']",Cleft_lippalate_Orphanet_199306,0.516,pigean,orphanet,27
+"['D000848', 'D002971', 'D008844', 'D016649', 'D017880']",Isolated_split_handsplit_foot_malformation_Orphanet_2440,0.516,pigean,orphanet,13
+"['D000015', 'D002925', 'D003398', 'D004613', 'D007246', 'D007248', 'D016649', 'D020788', 'D050090', 'D052177', 'D053627', 'D054331', 'D057130', 'D058531']",Male_infertility_with_azoospermia_or_oligozoospermia_due_to_single_gene_mutation_Orphanet_399805,0.516,pigean,orphanet,34
+['D058489'],46XX_difference_of_sex_development_Orphanet_2982,0.515,pigean,orphanet,43
+['D058489'],Genetic_46XX_difference_of_sex_development_Orphanet_325697,0.515,pigean,orphanet,43
+"['D000312', 'D054882']",Congenital_adrenal_hyperplasia_Orphanet_418,0.515,pigean,orphanet,43
+"['D000312', 'D002311', 'D004476', 'D009634', 'D018210', 'D044542', 'D054882', 'D056735']",Noonan_syndrome_Orphanet_648,0.515,pigean,orphanet,47
+"['D001932', 'D003123', 'D008286', 'D008382', 'D013921', 'D014923', 'D040181', 'D055653', 'D055847']",Lynch_syndrome_Orphanet_144,0.515,pigean,orphanet,26
+"['D000361', 'D004393', 'D006130', 'D014923', 'D040181']",Isolated_agammaglobulinemia_Orphanet_229717,0.513,pigean,orphanet,20
+"['D002607', 'D005923', 'D006551', 'D006849', 'D009396', 'D009404', 'D014718', 'D020371', 'D030321', 'D040181', 'D052159']",Genetic_steroidresistant_nephrotic_syndrome_Orphanet_656,0.513,pigean,orphanet,48
+"['D001176', 'D003638', 'D004535', 'D005199', 'D005350', 'D006958', 'D009396', 'D010013', 'D030321', 'D040181', 'D052159']",Nephroblastoma_Orphanet_654,0.513,pigean,orphanet,23
+['D002446'],gcat_trait_celiac_disease,0.512,pigean,gcat,40
+['D002446'],Celiac,0.512,pigean,portal,51
+"['D000015', 'D010009', 'D016864', 'D018268']",Adrenocortical_carcinoma_Orphanet_1501,0.51,pigean,orphanet,47
+"['D000073376', 'D002607', 'D003057', 'D010264', 'D014983', 'D054463']",Trichothiodystrophy_Orphanet_33364,0.507,pigean,orphanet,21
+"['D003057', 'D005199', 'D007248', 'D014983', 'D020820']",Fanconi_anemia_Orphanet_84,0.507,pigean,orphanet,15
+"['D003057', 'D005199', 'D014983', 'D054463']",Xeroderma_pigmentosum_Orphanet_910,0.507,pigean,orphanet,7
+"['D003057', 'D010787', 'D014983', 'D054463']",Cockayne_syndrome_Orphanet_191,0.507,pigean,orphanet,7
+['D011628'],gcat_trait_puberty_onset_measurement,0.5,pigean,gcat,36
+"['D011628', 'D008572']",gcat_trait_age_at_menarche,0.5,pigean,gcat,65
+['D011628'],gcat_trait_age_at_voice_drop,0.5,pigean,gcat,18
+['D006981'],gcat_trait_thyroxine_measurement,0.496,pigean,gcat,30
+"['D008594', 'D008593']",gcat_trait_age_at_menopause,0.493,pigean,gcat,25
+['D052439'],gcat_trait_very_longchain_saturated_fatty_acid_measurement,0.489,pigean,gcat,38
+['D052439'],gcat_trait_omega6_polyunsaturated_fatty_acid_measurement,0.489,pigean,gcat,78
+"['D000090542', 'D006937', 'D006938', 'D006952', 'D006995', 'D046150']",Homozygous_familial_hypercholesterolemia_Orphanet_391665,0.489,pigean,orphanet,66
+['D052439'],gcat_trait_gammalinolenic_acid_measurement,0.489,pigean,gcat,15
+['D052439'],gcat_trait_eicosapentaenoic_acid_measurement,0.489,pigean,gcat,24
+['D052439'],gcat_trait_docosapentaenoic_acid_measurement,0.489,pigean,gcat,9
+['D052439'],gcat_trait_docosahexaenoic_acid_measurement,0.489,pigean,gcat,62
+['D052439'],gcat_trait_dihomogammalinolenic_acid_measurement,0.489,pigean,gcat,12
+['D052439'],gcat_trait_arachidonic_acid_measurement,0.489,pigean,gcat,22
+['D052439'],gcat_trait_alphalinolenic_acid_measurement,0.489,pigean,gcat,23
+['D052439'],Disorder_of_lipid_metabolism_Orphanet_309005,0.489,pigean,orphanet,104
+['D052439'],gcat_trait_linoleic_acid_measurement,0.489,pigean,gcat,78
+"['D001049', 'D009157', 'D020294', 'D020739', 'D020754']",Presynaptic_congenital_myasthenic_syndromes_Orphanet_98914,0.488,pigean,orphanet,21
+['D000686'],Amyloidosis_Orphanet_69,0.486,pigean,orphanet,29
+['D028361'],Mitochondrial_disease_Orphanet_68380,0.485,pigean,orphanet,65
+['D028361'],gcat_trait_coenzyme_Q10_measurement,0.485,pigean,gcat,22
+"['D001259', 'D018908', 'D028361']",Coenzyme_Q10_deficiency_Orphanet_35656,0.485,pigean,orphanet,2
+['D028361'],Multiple_mitochondrial_dysfunctions_syndrome_Orphanet_289573,0.485,pigean,orphanet,7
+"['D028361', 'D040181']",Isolated_complex_I_deficiency_Orphanet_2609,0.485,pigean,orphanet,63
+['D028361'],gcat_trait_mitochondrial_DNA_measurement,0.485,pigean,gcat,34
+"['D004487', 'D006319', 'D009886', 'D018901', 'D023961', 'D028361']",Perrault_syndrome_Orphanet_2855,0.485,pigean,orphanet,8
+"['D007888', 'D028361']",Isolated_ATP_synthase_deficiency_Orphanet_254913,0.485,pigean,orphanet,23
+['D000075363'],gcat_trait_AL_amyloidosis,0.483,pigean,gcat,15
+"['D008052', 'D009136']",Muscular_lipidosis_Orphanet_206953,0.482,pigean,orphanet,58
+['D014883'],gcat_trait_blood_osmolality_measurement,0.478,pigean,gcat,29
+['D014883'],gcat_trait_erythrocyte_cadmium_measurement,0.478,pigean,gcat,13
+['D002128'],gcat_trait_calcium_measurement,0.478,pigean,gcat,36
+['D010300'],UPDRS1,0.477,pigean,portal,79
+['D010300'],UPDRS2,0.477,pigean,portal,67
+['D010300'],Parkinsons,0.477,pigean,portal,60
+['D010300'],SEADL70inPD,0.477,pigean,portal,51
+['D010300'],gcat_trait_Young_adultonset_Parkinsonism,0.477,pigean,gcat,20
+"['D008607', 'D010300', 'D013036', 'D038901', 'D038921', 'D040181']",Xlinked_nonsyndromic_intellectual_disability_Orphanet_777,0.477,pigean,orphanet,26
+['D010300'],UPDRS4,0.477,pigean,portal,71
+['D010300'],gcat_trait_Parkinson_disease,0.477,pigean,gcat,37
+"['D003248', 'D010300']",ConstipationInPD,0.477,pigean,portal,54
+['D010300'],UPDRS,0.477,pigean,portal,70
+['D010300'],UPDRS3,0.477,pigean,portal,72
+['D010300'],PDAndFirstDegree,0.477,pigean,portal,65
+['D010300'],SEADLinPD,0.477,pigean,portal,57
+['D010300'],Parkinson_progression_cognitive,0.477,pigean,portal,43
+['D010300'],Parkinson_progression_composite,0.477,pigean,portal,41
+['D010300'],MotorFlucInPD,0.477,pigean,portal,68
+"['D003865', 'D010300']",DepressionInPD,0.477,pigean,portal,62
+['D010300'],MOCAinPD,0.477,pigean,portal,69
+['D010300'],MMSEinPD,0.477,pigean,portal,63
+['D010300'],HyposmiaInPD,0.477,pigean,portal,59
+['D010300'],HyinPD,0.477,pigean,portal,65
+['D010300'],Hereditary_lateonset_Parkinson_disease_Orphanet_411602,0.477,pigean,orphanet,19
+['D010300'],HY3inPD,0.477,pigean,portal,62
+['D010300'],DyskinesiasInPD,0.477,pigean,portal,63
+['D010300'],DaySleepInPD,0.477,pigean,portal,70
+"['D007319', 'D010300']",InsomniaInPD,0.477,pigean,portal,68
+"['D010300', 'D012148']",RLinPD,0.477,pigean,portal,57
+"['D010300', 'D020187']",RBDinPD,0.477,pigean,portal,72
+"['D003704', 'D010300']",DementiaInPD,0.477,pigean,portal,53
+['D010300'],Parkinson_progression_motor,0.477,pigean,portal,36
+['D009765'],gcat_trait_obese_body_mass_index_status,0.475,pigean,gcat,18
+"['D015992', 'D009765', 'D063766']",gcat_trait_body_mass_index,0.475,pigean,gcat,113
+"['D009765', 'D001835']",gcat_trait_body_weight,0.475,pigean,gcat,86
+['D010024'],Osteoporosis_add,0.475,pigean,portal,56
+['D010024'],Osteoporosis,0.475,pigean,portal,65
+"['D010024', 'D018488']",gcat_trait_bone_quantitative_ultrasound_measurement,0.475,pigean,gcat,28
+['D009765'],ChildObesity,0.475,pigean,portal,64
+['D009765'],gcat_trait_obesity,0.475,pigean,gcat,32
+['D009765'],Obesity,0.475,pigean,portal,68
+['D009765'],SCOOPvSTILTS,0.475,pigean,portal,69
+['D010024'],Osteoporosis_het,0.475,pigean,portal,75
+['D009765'],SCOOPvUKHLS,0.475,pigean,portal,61
+['D009765'],gcat_trait_BMIadjusted_hip_circumference,0.475,pigean,gcat,60
+['D009765'],gcat_trait_CCL11_measurement,0.475,pigean,gcat,13
+['D009765'],gcat_trait_hip_circumference,0.475,pigean,gcat,36
+['D009765'],gcat_trait_lean_massadjusted_fat_body_mass,0.475,pigean,gcat,11
+['D009765'],gcat_trait_longitudinal_BMI_measurement,0.475,pigean,gcat,34
+['D010024'],Osteoporosis_dom,0.475,pigean,portal,53
+['D050171'],Dyslipid_add,0.475,pigean,portal,95
+['D010024'],Osteoporosis_rec,0.475,pigean,portal,60
+['D010024'],gcat_trait_cartilage_thickness_measurement,0.475,pigean,gcat,27
+['D050171'],Dyslipid_het,0.475,pigean,portal,80
+['D050171'],Dyslipid_rec,0.475,pigean,portal,99
+['D050171'],gcat_trait_LDL_cholesterol_change_measurement,0.475,pigean,gcat,19
+['D050171'],gcat_trait_apolipoprotein_AIV_measurement,0.475,pigean,gcat,38
+['D050171'],Dyslipid,0.475,pigean,portal,106
+['D050171'],gcat_trait_apolipoprotein_A_1_measurement,0.475,pigean,gcat,87
+['D050171'],gcat_trait_lipoprotein_measurement,0.475,pigean,gcat,70
+['D050171'],gcat_trait_phospholipid_measurement,0.475,pigean,gcat,82
+"['D000081207', 'D000745', 'D000755', 'D002647', 'D008708', 'D009421', 'D010024', 'D010859', 'D011086', 'D013789', 'D014652', 'D017086', 'D020274']",AicardiGoutires_syndrome_Orphanet_51,0.475,pigean,orphanet,2
+"['D050171', 'D024821']",gcat_trait_metabolic_syndrome,0.475,pigean,gcat,119
+['D050171'],gcat_trait_very_low_density_lipoprotein_cholesterol_measurement,0.475,pigean,gcat,82
+"['D000080345', 'D004827', 'D007690', 'D008607', 'D010013', 'D010022', 'D010024', 'D012174', 'D012178', 'D015576', 'D018630', 'D040181', 'D065768', 'D065886']",Familial_exudative_vitreoretinopathy_Orphanet_891,0.475,pigean,orphanet,36
+"['D050171', 'D008074', 'D006951']",gcat_trait_lipoprotein_A_measurement,0.475,pigean,gcat,49
+"['D050151', 'D009765']",gcat_trait_subcutaneous_adipose_tissue_measurement,0.475,pigean,gcat,30
+['D050171'],Dyslipid_dom,0.475,pigean,portal,85
+"['D056128', 'D009765']",gcat_trait_body_fat_percentage,0.475,pigean,gcat,82
+['D010024'],gcat_trait_velocity_of_sound_measurement,0.475,pigean,gcat,20
+['D010024'],gcat_trait_spine_bone_size,0.475,pigean,gcat,12
+['D010024'],gcat_trait_osteoporosis,0.475,pigean,gcat,12
+"['D006008', 'D011164']",Porphyria_Orphanet_738,0.475,pigean,orphanet,5
+['D009765'],gcat_trait_fat_body_mass,0.475,pigean,gcat,45
+"['D008078', 'D006937', 'D050171', 'D006951']",gcat_trait_low_density_lipoprotein_cholesterol_measurement,0.475,pigean,gcat,99
+"['D018488', 'D010024']",gcat_trait_spine_bone_mineral_density,0.475,pigean,gcat,27
+"['D018488', 'D010024', 'D015519']",gcat_trait_bone_density,0.475,pigean,gcat,62
+"['D018488', 'D010024']",gcat_trait_femoral_neck_bone_mineral_density,0.475,pigean,gcat,31
+"['D006937', 'D050171']",gcat_trait_lipid_measurement,0.475,pigean,gcat,107
+"['D006937', 'D002784', 'D050171']",gcat_trait_total_cholesterol_measurement,0.475,pigean,gcat,96
+['D006008'],Glycogen_storage_disease_Orphanet_79201,0.474,pigean,orphanet,70
+['D006949'],gcat_trait_hyperlipidemia,0.468,pigean,gcat,35
+['D013106'],gcat_trait_sphingolipid_measurement,0.468,pigean,gcat,28
+['D013106'],Sphingolipidosis_Orphanet_79225,0.468,pigean,orphanet,45
+['D003677'],gcat_trait_serum_copper_measurement,0.466,pigean,gcat,13
+['D003677'],gcat_trait_serum_zinc_measurement,0.466,pigean,gcat,10
+['D003677'],gcat_trait_serum_selenium_measurement,0.466,pigean,gcat,26
+['D003677'],gcat_trait_selenium_measurement,0.466,pigean,gcat,25
+"['D005199', 'D061325']",Hereditary_breast_andor_ovarian_cancer_syndrome_Orphanet_145,0.465,pigean,orphanet,18
+"['D001254', 'D004476', 'D005199', 'D005909', 'D007184', 'D014923', 'D016864', 'D056660']",Glioblastoma_Orphanet_360,0.465,pigean,orphanet,60
+"['D001254', 'D005199', 'D005910', 'D006223', 'D016864', 'D058627']",Glial_tumor_Orphanet_182067,0.465,pigean,orphanet,60
+"['D000138', 'D000140', 'D006937', 'D015325']",Pyruvate_dehydrogenase_deficiency_Orphanet_765,0.463,pigean,orphanet,28
+"['D000138', 'D000140', 'D015325']",Nonacquired_combined_pituitary_hormone_deficiency_Orphanet_467,0.463,pigean,orphanet,36
+"['D005293', 'D019189']",gcat_trait_ferritin_measurement,0.461,pigean,gcat,28
+['D007888'],Mitochondrial_DNAassociated_Leigh_syndrome_Orphanet_255210,0.461,pigean,orphanet,38
+"['D019150', 'D019189']",Neurodegeneration_with_brain_iron_accumulation_Orphanet_385,0.461,pigean,orphanet,5
+['D019189'],gcat_trait_iron_biomarker_measurement,0.461,pigean,gcat,4
+['D019189'],gcat_trait_liver_iron_measurement,0.461,pigean,gcat,5
+['D019189'],gcat_trait_serum_hepcidin_measurement,0.461,pigean,gcat,13
+['D019189'],gcat_trait_serum_iron_measurement,0.461,pigean,gcat,32
+['D019189'],gcat_trait_total_iron_binding_capacity,0.461,pigean,gcat,22
+"['D001480', 'D002114', 'D018224', 'D019636']",Bilateral_striopallidodentate_calcinosis_Orphanet_1980,0.46,pigean,orphanet,29
+['D016511'],Severe_combined_immunodeficiency_Orphanet_183660,0.451,pigean,orphanet,37
+"['D001327', 'D006105', 'D016511']",Omenn_syndrome_Orphanet_39041,0.451,pigean,orphanet,29
+['D014804'],gcat_trait_folic_acid_measurement,0.45,pigean,gcat,23
+['D014804'],gcat_trait_vitamin_B6_measurement,0.45,pigean,gcat,5
+"['D000544', 'D000690', 'D002311', 'D009386', 'D010001', 'D013494', 'D019150', 'D020774', 'D057180']",Behavioral_variant_of_frontotemporal_dementia_Orphanet_275864,0.447,pigean,orphanet,39
+['D000690'],gcat_trait_sporadic_amyotrophic_lateral_sclerosis,0.447,pigean,gcat,35
+"['D000690', 'D009134', 'D010001', 'D019150', 'D049310', 'D057180']",Frontotemporal_dementia_with_motor_neuron_disease_Orphanet_275872,0.447,pigean,orphanet,16
+"['D000015', 'D000081207', 'D000690', 'D002607', 'D002973', 'D008607', 'D010264', 'D054220', 'D065706']",Bilateral_polymicrogyria_Orphanet_268940,0.447,pigean,orphanet,46
+['D000690'],gcat_trait_amyotrophic_lateral_sclerosis,0.447,pigean,gcat,39
+['D000690'],ALS,0.447,pigean,portal,70
+['D018798'],IronDef,0.445,pigean,portal,81
+['D018798'],IronDef_add,0.445,pigean,portal,84
+['D018798'],IronDef_rec,0.445,pigean,portal,72
+['D018798'],IronDef_dom,0.445,pigean,portal,79
+['D018798'],IronDef_het,0.445,pigean,portal,76
+['D052556'],Fetal_and_neonatal_alloimmune_thrombocytopenia_Orphanet_853,0.444,pigean,orphanet,36
+['D003123'],Hereditary_nonpolyposis_colon_cancer_Orphanet_443909,0.442,pigean,orphanet,19
+['D006432'],Rare_hereditary_hemochromatosis_Orphanet_220489,0.441,pigean,orphanet,6
+"['D014807', 'D014808']",gcat_trait_vitamin_D_measurement,0.44,pigean,gcat,71
+['D009083'],Mucopolysaccharidosis_Orphanet_79213,0.44,pigean,orphanet,21
+['D014808'],gcat_trait_vitamin_D_deficiency,0.44,pigean,gcat,47
+['D014808'],gcat_trait_vitamin_Dbinding_protein_measurement,0.44,pigean,gcat,20
+['D015228'],gcat_trait_Hypertriglyceridemia,0.439,pigean,gcat,32
+"['D014280', 'D015228']",gcat_trait_triglyceride_measurement,0.439,pigean,gcat,110
+['D015228'],gcat_trait_triglycerideHDL_cholesterol_ratio,0.439,pigean,gcat,94
+['D017240'],Mitochondrial_myopathy_Orphanet_206966,0.436,pigean,orphanet,79
+"['D000848', 'D003103', 'D006947', 'D007714', 'D008850', 'D012873', 'D013580', 'D016142', 'D058499', 'D065707']",Colobomatous_microphthalmia_Orphanet_98938,0.436,pigean,orphanet,27
+['D057174'],gcat_trait_progranulin_measurement,0.435,pigean,gcat,31
+"['D000544', 'D002311', 'D013494', 'D018888', 'D020774', 'D057178', 'D057180']",Progressive_nonfluent_aphasia_Orphanet_100070,0.433,pigean,orphanet,31
+['D057180'],gcat_trait_frontotemporal_dementia,0.433,pigean,gcat,27
+"['D000544', 'D002311', 'D013494', 'D020774', 'D057180']",Semantic_dementia_Orphanet_100069,0.433,pigean,orphanet,29
+"['D000544', 'D002311', 'D013494', 'D018888', 'D020774', 'D051359', 'D057180']",Frontotemporal_dementia_Orphanet_282,0.433,pigean,orphanet,37
+['D014806'],gcat_trait_vitamin_B12_measurement,0.432,pigean,gcat,22
+"['D000567', 'D006319', 'D015211', 'D018901', 'D018902', 'D052919']",Neonatal_adrenoleukodystrophy_Orphanet_44,0.432,pigean,orphanet,22
+['D017674'],gcat_trait_phosphorus_measurement,0.432,pigean,gcat,9
+"['D000567', 'D006319', 'D015211', 'D018902', 'D052919']",Infantile_Refsum_disease_Orphanet_772,0.432,pigean,orphanet,16
+"['D000567', 'D006319', 'D015211', 'D018901', 'D018902', 'D052919']",Peroxisome_biogenesis_disorder_Orphanet_79189,0.432,pigean,orphanet,24
+"['D000567', 'D006319', 'D015211', 'D018901', 'D018902', 'D040181']",Zellweger_syndrome_Orphanet_912,0.432,pigean,orphanet,22
+"['D008607', 'D049932', 'D054198']",Acute_lymphoblastic_leukemia_Orphanet_513,0.431,pigean,orphanet,27
+['D016115'],Oculocutaneous_albinism_Orphanet_55,0.431,pigean,orphanet,5
+['D016657'],gcat_trait_cerebral_amyloid_angiopathy,0.429,pigean,gcat,21
+['D016657'],gcat_trait_cerebral_amyloid_deposition_measurement,0.429,pigean,gcat,33
+"['D003550', 'D003966', 'D015212', 'D016111', 'D052801']",Cystic_fibrosis_Orphanet_586,0.426,pigean,orphanet,60
+['D020961'],LBD,0.425,pigean,portal,64
+"['D000740', 'D000756', 'D040181', 'D046351']",Sideroblastic_anemia_Orphanet_1047,0.425,pigean,orphanet,13
+['D020961'],gcat_trait_Lewy_body_dementia,0.425,pigean,gcat,25
+['D009472'],Neuronal_ceroid_lipofuscinosis_Orphanet_216,0.424,pigean,orphanet,12
+['D017241'],MELAS_Orphanet_550,0.423,pigean,orphanet,30
+['D008275'],gcat_trait_magnesium_measurement,0.423,pigean,gcat,25
+['D018488'],gcat_trait_radius_bone_mineral_density,0.422,pigean,gcat,15
+['D018488'],gcat_trait_hip_bone_mineral_density,0.422,pigean,gcat,26
+['D018488'],gcat_trait_bone_mineral_content_measurement,0.422,pigean,gcat,29
+"['D061205', 'D015415']",gcat_trait_coronary_artery_calcification,0.421,pigean,gcat,53
+['D061205'],CAC,0.421,pigean,portal,73
+"['D000008', 'D006223', 'D011125', 'D016864', 'D018197', 'D065886']",Adult_hepatocellular_carcinoma_Orphanet_210159,0.419,pigean,orphanet,53
+"['D000008', 'D006223', 'D006528', 'D011125', 'D016864', 'D018197', 'D065886']",Hepatocellular_carcinoma_Orphanet_88673,0.419,pigean,orphanet,55
+"['D000795', 'D001254', 'D016864']",Astrocytoma_Orphanet_94,0.419,pigean,orphanet,59
+"['D056128', 'D001827']",gcat_trait_anthropometric_measurement,0.419,pigean,gcat,39
+['D056128'],gcat_trait_BMIadjusted_waisthip_ratio,0.419,pigean,gcat,64
+"['D056128', 'D049629']",gcat_trait_waisthip_ratio,0.419,pigean,gcat,91
+"['D056128', 'D055105']",gcat_trait_waist_circumference,0.419,pigean,gcat,33
+['D056128'],gcat_trait_BMIadjusted_waist_circumference,0.419,pigean,gcat,55
+"['D050152', 'D056128']",gcat_trait_visceral_adipose_tissue_measurement,0.419,pigean,gcat,43
+['D052456'],gcat_trait_HDL_cholesterol_change_measurement,0.418,pigean,gcat,35
+"['D000015', 'D000083143', 'D000083144', 'D000168', 'D001176', 'D002311', 'D003394', 'D003398', 'D006313', 'D009136', 'D011371', 'D019571', 'D020389', 'D020754', 'D040181', 'D052496']",EmeryDreifuss_muscular_dystrophy_Orphanet_261,0.418,pigean,orphanet,17
+"['D052456', 'D008076']",gcat_trait_high_density_lipoprotein_cholesterol_measurement,0.418,pigean,gcat,102
+['D017246'],Progressive_external_ophthalmoplegia_Orphanet_520820,0.418,pigean,orphanet,2
+"['D008107', 'D007014']",gcat_trait_alkaline_phosphatase_measurement,0.416,pigean,gcat,98
+"['D000077428', 'D001791', 'D004476', 'D008415', 'D008607', 'D009634', 'D013920', 'D013921', 'D014923', 'D015470', 'D016116', 'D019871', 'D046152', 'D054990', 'D056735']",Unclassified_acute_myeloid_leukemia_Orphanet_167714,0.415,pigean,orphanet,23
+"['D007946', 'D008415', 'D016116', 'D046152']",Mastocytosis_Orphanet_98292,0.415,pigean,orphanet,23
+"['D000015', 'D000077428', 'D001791', 'D002526', 'D004476', 'D008415', 'D008607', 'D009634', 'D012174', 'D013920', 'D013921', 'D014923', 'D015470', 'D016116', 'D019871', 'D046152', 'D054990', 'D056735', 'D057130']",Acute_myeloid_leukemia_Orphanet_519,0.415,pigean,orphanet,32
+"['D000077428', 'D001791', 'D004476', 'D008415', 'D008607', 'D009634', 'D013920', 'D013921', 'D014923', 'D015470', 'D016116', 'D019871', 'D046152', 'D054990', 'D056735']",Acute_myeloid_leukemia_with_recurrent_genetic_anomaly_Orphanet_98277,0.415,pigean,orphanet,24
+"['D009849', 'D020754', 'D040181']",Xlinked_cerebellar_ataxia_Orphanet_247765,0.414,pigean,orphanet,9
+"['D002526', 'D009849', 'D020422']",Pontocerebellar_hypoplasia_type_1_Orphanet_2254,0.414,pigean,orphanet,3
+['D028226'],Hereditary_amyloidosis_Orphanet_444116,0.412,pigean,orphanet,29
+['D063730'],Hypophosphatemic_rickets_Orphanet_437,0.412,pigean,orphanet,21
+"['D000015', 'D001176', 'D008607', 'D008881', 'D009135', 'D009224', 'D013576', 'D014923', 'D018981', 'D020294', 'D020511', 'D020513', 'D020514', 'D020914', 'D020967']",Congenital_myasthenic_syndrome_Orphanet_590,0.411,pigean,orphanet,13
+['D020514'],gcat_trait_thyrotoxic_periodic_paralysis,0.411,pigean,gcat,26
+"['D000015', 'D001176', 'D009224', 'D013576', 'D020294', 'D020511', 'D020513', 'D020514', 'D020914', 'D020967']",Postsynaptic_congenital_myasthenic_syndromes_Orphanet_98913,0.411,pigean,orphanet,11
+"['D000015', 'D000073376', 'D001321', 'D002658', 'D003638', 'D004827', 'D006816', 'D008607', 'D009135', 'D011546', 'D013036', 'D013576', 'D019066', 'D058627', 'D065886']",Nonspecific_syndromic_intellectual_disability_Orphanet_528084,0.41,pigean,orphanet,18
+['D011546'],Pseudohypoaldosteronism_Orphanet_444916,0.41,pigean,orphanet,37
+"['D002607', 'D030401']",Isolated_cytochrome_C_oxidase_deficiency_Orphanet_254905,0.41,pigean,orphanet,34
+"['D000081208', 'D056693']",Immunodeficiency_due_to_a_classical_component_pathway_complement_deficiency_Orphanet_169147,0.408,pigean,orphanet,27
+['D018981'],Congenital_disorder_of_glycosylation_Orphanet_137,0.407,pigean,orphanet,78
+"['D006031', 'D018981']",gcat_trait_serum_IgG_glycosylation_measurement,0.407,pigean,gcat,39
+"['D000015', 'D000071700', 'D000743', 'D002526', 'D002658', 'D003645', 'D006849', 'D008268', 'D008607', 'D009084', 'D009136', 'D009755', 'D009958', 'D012164', 'D012174', 'D014786', 'D015417', 'D015862', 'D020788', 'D040181', 'D052245', 'D057130', 'D058494', 'D065886']",Retinitis_pigmentosa_Orphanet_791,0.404,pigean,orphanet,57
+"['D001927', 'D015419', 'D052496', 'D052497']",Congenital_generalized_lipodystrophy_Orphanet_528,0.401,pigean,orphanet,94
+"['D001176', 'D003286', 'D006976', 'D009123', 'D011668', 'D052496', 'D052497', 'D065627']",Idiopathicheritable_pulmonary_arterial_hypertension_Orphanet_422,0.401,pigean,orphanet,20
+['D052496'],Familial_partial_lipodystrophy_Orphanet_98306,0.397,pigean,orphanet,99
+"['D003550', 'D015319', 'D050500', 'D052801']",Hereditary_chronic_pancreatitis_Orphanet_676,0.395,pigean,orphanet,22
+['D000071698'],LADA,0.282,pigean,portal,56
+['D007592'],gcat_trait_joint_hypermobility_measurement,0.28,pigean,gcat,14
+"['D015207', 'D010003']",gcat_trait_osteoarthritis_hip,0.278,pigean,gcat,23
+['D010003'],ALLOA_dom,0.278,pigean,portal,76
+['D010003'],ALLOA,0.278,pigean,portal,58
+['D010003'],ALLOA_rec,0.278,pigean,portal,58
+['D010003'],gcat_trait_osteoarthritis_hand,0.278,pigean,gcat,26
+['D010003'],gcat_trait_osteoarthritis,0.278,pigean,gcat,37
+['D010003'],ThumbOA,0.278,pigean,portal,66
+['D010003'],HandOA,0.278,pigean,portal,61
+['D010003'],Early_ALLOA,0.278,pigean,portal,75
+['D010003'],FingerOA,0.278,pigean,portal,67
+['D010003'],ALLOA_het,0.278,pigean,portal,68
+['D010003'],ALLOA_add,0.278,pigean,portal,74
+"['D007154', 'D009157', 'D001327']",gcat_trait_immune_system_disease,0.276,pigean,gcat,16
+['D002318'],AnyCVD_rec,0.275,pigean,portal,70
+['D002318'],gcat_trait_Larginine_measurement,0.275,pigean,gcat,21
+['D002318'],AnyCVD_het,0.275,pigean,portal,69
+['D002318'],gcat_trait_clinical_ideal_cardiovascular_health,0.275,pigean,gcat,46
+['D002318'],gcat_trait_lipoproteinassociated_phospholipase_A2_measurement,0.275,pigean,gcat,49
+['D002318'],gcat_trait_cardiovascular_disease,0.275,pigean,gcat,94
+['D002318'],gcat_trait_clinical_and_behavioural_ideal_cardiovascular_health,0.275,pigean,gcat,48
+['D002318'],AnyCVD_add,0.275,pigean,portal,71
+['D002318'],AnyCVD,0.275,pigean,portal,64
+['D002318'],gcat_trait_serum_dimethylarginine_measurement,0.275,pigean,gcat,18
+['D002318'],gcat_trait_serum_homoarginine_measurement,0.275,pigean,gcat,17
+['D002318'],gcat_trait_symmetrical_dimethylarginine_measurement,0.275,pigean,gcat,7
+['D002318'],AnyCVD_dom,0.275,pigean,portal,82
+"['D000013', 'D003638', 'D014564']",Renal_agenesis_bilateral_Orphanet_1848,0.273,pigean,orphanet,14
+"['D000799', 'D003231', 'D005175', 'D007153', 'D054179', 'D056828', 'D056829']",Hereditary_angioedema_Orphanet_91378,0.272,pigean,orphanet,33
+"['D000015', 'D001014', 'D002493', 'D004374', 'D006330', 'D007418', 'D008382', 'D009072', 'D017545', 'D055947']",Familial_thoracic_aortic_aneurysm_and_aortic_dissection_Orphanet_91387,0.272,pigean,orphanet,43
+['D007153'],gcat_trait_beta2_microglobulin_measurement,0.272,pigean,gcat,10
+['D009369'],Cancer_het,0.271,pigean,portal,75
+"['D010031', 'D007239']",gcat_trait_susceptibility_to_childhood_ear_infection_measurement,0.271,pigean,gcat,38
+['D009369'],Cancer_rec,0.271,pigean,portal,68
+['D007239'],gcat_trait_susceptibility_to_vaginal_yeast_infection_measurement,0.271,pigean,gcat,29
+['D007239'],gcat_trait_susceptibility_to_urinary_tract_infection_measurement,0.271,pigean,gcat,23
+"['D009369', 'D009371']",Cancer,0.271,pigean,portal,71
+['D009369'],gcat_trait_cancer_antigen_125_measurement,0.271,pigean,gcat,18
+['D009369'],gcat_trait_cancer,0.271,pigean,gcat,38
+['D009369'],Cancer_dom,0.271,pigean,portal,82
+"['D006331', 'D017379']",gcat_trait_left_ventricular_structural_measurement,0.269,pigean,gcat,25
+['D006331'],gcat_trait_P_wave_terminal_force_measurement,0.269,pigean,gcat,17
+['D006331'],gcat_trait_aortic_root_size,0.269,pigean,gcat,18
+['D006331'],gcat_trait_cardiac_troponin_I_measurement,0.269,pigean,gcat,35
+['D006331'],gcat_trait_left_ventricular_systolic_function_measurement,0.269,pigean,gcat,28
+['D006331'],gcat_trait_cardiac_troponin_T_measurement,0.269,pigean,gcat,36
+['D006331'],gcat_trait_cardiovascular_measurement,0.269,pigean,gcat,9
+['D006331'],gcat_trait_ejection_fraction_measurement,0.269,pigean,gcat,26
+['D006331'],gcat_trait_heart_rate_response_to_exercise,0.269,pigean,gcat,31
+['D006331'],gcat_trait_JT_interval,0.269,pigean,gcat,39
+['D006331'],gcat_trait_left_ventricular_diastolic_function_measurement,0.269,pigean,gcat,25
+['D006331'],gcat_trait_heart_rate_response_to_recovery_post_exercise,0.269,pigean,gcat,22
+['D006402'],gcat_trait_neutrophil_percentage_of_leukocytes,0.268,pigean,gcat,44
+"['D042643', 'D006402', 'D007970']",gcat_trait_myeloid_white_cell_count,0.268,pigean,gcat,49
+"['D007970', 'D006402']",gcat_trait_basophil_count,0.268,pigean,gcat,39
+['D006402'],gcat_trait_neutrophil_percentage_of_granulocytes,0.268,pigean,gcat,35
+['D006402'],gcat_trait_monocyte_percentage_of_leukocytes,0.268,pigean,gcat,68
+['D006402'],gcat_trait_lymphocyte_percentage_of_leukocytes,0.268,pigean,gcat,38
+['D006402'],gcat_trait_growthregulated_alpha_protein_measurement,0.268,pigean,gcat,24
+['D006402'],gcat_trait_albuminglobulin_ratio_measurement,0.268,pigean,gcat,15
+['D006402'],gcat_trait_serum_nonalbumin_protein_measurement,0.268,pigean,gcat,37
+['D006402'],gcat_trait_granulocyte_percentage_of_myeloid_white_cells,0.268,pigean,gcat,57
+"['D003402', 'D006402']",gcat_trait_creatine_kinase_measurement,0.268,pigean,gcat,30
+['D006402'],gcat_trait_granulocyte_count,0.268,pigean,gcat,26
+['D006402'],gcat_trait_eosinophil_percentage_of_leukocytes,0.268,pigean,gcat,44
+['D006402'],gcat_trait_eosinophil_percentage_of_granulocytes,0.268,pigean,gcat,44
+"['D000015', 'D016142', 'D065707']",Septopreoptic_holoprosencephaly_Orphanet_280195,0.267,pigean,orphanet,20
+"['D000015', 'D016142', 'D065707']",Midline_interhemispheric_variant_of_holoprosencephaly_Orphanet_93926,0.267,pigean,orphanet,21
+"['D000015', 'D002526', 'D009123', 'D009958', 'D040181']",Orofaciodigital_syndrome_type_6_Orphanet_2754,0.267,pigean,orphanet,10
+['D007960'],gcat_trait_basophil_percentage_of_leukocytes,0.267,pigean,gcat,20
+['D007960'],gcat_trait_basophil_percentage_of_granulocytes,0.267,pigean,gcat,16
+"['D000081207', 'D000848', 'D004476', 'D007184', 'D008209', 'D010022', 'D014923', 'D040181', 'D053358', 'D053359', 'D056660']",Hypohidrotic_ectodermal_dysplasia_Orphanet_238468,0.267,pigean,orphanet,16
+['D006474'],gcat_trait_plasminogen_activator_inhibitor_1_measurement,0.267,pigean,gcat,32
+"['D000015', 'D008305', 'D012868']",Multiple_pterygium_syndrome_Orphanet_294060,0.267,pigean,orphanet,36
+"['D000015', 'D016142', 'D065707', 'D065886']",Alobar_holoprosencephaly_Orphanet_93925,0.267,pigean,orphanet,20
+"['D000015', 'D008607', 'D010001', 'D010760', 'D012640']",Hyperphosphatasiaintellectual_disability_syndrome_Orphanet_247262,0.267,pigean,orphanet,24
+"['D000015', 'D003398', 'D004402', 'D004613', 'D006849', 'D012174', 'D012779', 'D020788', 'D052177', 'D057130']",Jeune_syndrome_Orphanet_474,0.267,pigean,orphanet,10
+"['D000015', 'D004613', 'D006849', 'D017689']",Ellis_Van_Creveld_syndrome_Orphanet_289,0.267,pigean,orphanet,6
+"['D000015', 'D006228', 'D008607', 'D008844']",CoffinSiris_syndrome_Orphanet_1465,0.267,pigean,orphanet,30
+"['D000015', 'D008305', 'D012868', 'D020294']",Lethal_multiple_pterygium_syndrome_Orphanet_33108,0.267,pigean,orphanet,32
+"['D004802', 'D007970']",gcat_trait_eosinophil_count,0.267,pigean,gcat,47
+"['D009503', 'D007970']",gcat_trait_neutrophil_count,0.267,pigean,gcat,61
+"['D000015', 'D002526', 'D003103', 'D005124', 'D007690', 'D012174', 'D052177', 'D057130']",Joubert_syndrome_with_oculorenal_defect_Orphanet_2318,0.267,pigean,orphanet,10
+"['D000015', 'D001259', 'D002526', 'D002925', 'D008831', 'D012174', 'D020788', 'D052177', 'D054877', 'D057130']",WolfHirschhorn_syndrome_Orphanet_280,0.267,pigean,orphanet,3
+"['D000015', 'D000848', 'D001478', 'D003103', 'D016142', 'D065707']",Holoprosencephaly_Orphanet_2162,0.267,pigean,orphanet,22
+"['D000015', 'D000567', 'D007644', 'D016109']",Hypoplastic_amelogenesis_imperfecta_Orphanet_100031,0.267,pigean,orphanet,5
+"['D000015', 'D000168', 'D002925', 'D003394', 'D003398', 'D007248', 'D007619', 'D053627']",Primary_ciliary_dyskinesia_Orphanet_244,0.267,pigean,orphanet,22
+"['D000071700', 'D000077765', 'D003117', 'D008268', 'D009216', 'D009755', 'D012174', 'D020788', 'D040181', 'D057130']",Cone_rod_dystrophy_Orphanet_1872,0.267,pigean,orphanet,46
+"['D000015', 'D016142', 'D065707']",Lobar_holoprosencephaly_Orphanet_93924,0.267,pigean,orphanet,21
+"['D000015', 'D000073376', 'D008607', 'D012640', 'D013036', 'D065886']",Autosomal_recessive_nonsyndromic_intellectual_disability_Orphanet_88616,0.267,pigean,orphanet,4
+"['D040181', 'D059446']",Heterotaxia_Orphanet_450,0.267,pigean,orphanet,13
+"['D000015', 'D000072661', 'D003398', 'D004613', 'D006849', 'D012162', 'D012174', 'D015418', 'D052177', 'D053040', 'D057130']",Nephronophthisis_Orphanet_655,0.267,pigean,orphanet,19
+"['D042643', 'D007970', 'D007958']",gcat_trait_leukocyte_count,0.267,pigean,gcat,57
+"['D042643', 'D018655', 'D007970', 'D008218']",gcat_trait_lymphocyte_count,0.267,pigean,gcat,41
+"['D000015', 'D000072661', 'D001259', 'D001478', 'D002526', 'D006849', 'D007248', 'D008607', 'D009958', 'D012162', 'D012174', 'D015835', 'D020788', 'D040181', 'D052177', 'D057130']",Joubert_syndrome_Orphanet_475,0.267,pigean,orphanet,14
+"['D006228', 'D010009', 'D040181', 'D054091']",Nodular_neuronal_heterotopia_Orphanet_2149,0.267,pigean,orphanet,9
+"['D000015', 'D000848', 'D003103', 'D016142', 'D065707']",Microform_holoprosencephaly_Orphanet_280200,0.267,pigean,orphanet,23
+"['D006228', 'D010009', 'D040181', 'D054091']",Periventricular_nodular_heterotopia_Orphanet_98892,0.267,pigean,orphanet,6
+"['D000015', 'D001259', 'D002526', 'D002925', 'D004677', 'D007690', 'D008831', 'D011030', 'D012174', 'D020788', 'D052177', 'D057130', 'D058249']",Meckel_syndrome_Orphanet_564,0.267,pigean,orphanet,17
+"['D000015', 'D016142', 'D065707', 'D065886']",Semilobar_holoprosencephaly_Orphanet_220386,0.267,pigean,orphanet,20
+"['D042643', 'D008232', 'D007970']",gcat_trait_monocyte_count,0.267,pigean,gcat,57
+['D001778'],gcat_trait_hematocrit,0.267,pigean,gcat,61
+"['D001778', 'D013915', 'D013921']",Autosomal_dominant_macrothrombocytopenia_Orphanet_140957,0.267,pigean,orphanet,27
+['D001778'],gcat_trait_protein_C_measurement,0.267,pigean,gcat,4
+['D001778'],gcat_trait_partial_thromboplastin_time,0.267,pigean,gcat,20
+['D001778'],gcat_trait_coagulation_factor_measurement,0.267,pigean,gcat,9
+['D001778'],gcat_trait_D_dimer_measurement,0.267,pigean,gcat,19
+"['D001778', 'D029424']",gcat_trait_fibrinogen_measurement,0.267,pigean,gcat,37
+['D001778'],gcat_trait_prothrombin_time_measurement,0.267,pigean,gcat,9
+"['D001176', 'D005317', 'D009135', 'D011625', 'D017880', 'D020294', 'D020511', 'D040181']",Fetal_akinesia_deformation_sequence_Orphanet_994,0.267,pigean,orphanet,8
+"['D000361', 'D006130', 'D014923']",Autosomal_agammaglobulinemia_Orphanet_33110,0.266,pigean,orphanet,19
+"['D005901', 'D031300', 'D007499', 'D014652']",gcat_trait_eye_measurement,0.262,pigean,gcat,26
+['D009461'],gcat_trait_hippocampal_CA1_volume,0.261,pigean,gcat,17
+['D009461'],gcat_trait_presubiculum_volume,0.261,pigean,gcat,16
+"['D058256', 'D009461']",gcat_trait_electroencephalogram_measurement,0.261,pigean,gcat,31
+"['D009461', 'D020547']",gcat_trait_lateral_ventricle_volume_measurement,0.261,pigean,gcat,24
+['D009461'],gcat_trait_brain_connectivity_measurement,0.261,pigean,gcat,28
+['D009461'],gcat_trait_brain_stem_volume_measurement,0.261,pigean,gcat,20
+['D009461'],gcat_trait_caudate_nucleus_volume,0.261,pigean,gcat,17
+['D009461'],gcat_trait_subiculum_volume,0.261,pigean,gcat,21
+['D009461'],gcat_trait_pallidum_volume,0.261,pigean,gcat,22
+['D009461'],gcat_trait_hippocampal_CA3_volume,0.261,pigean,gcat,18
+['D009461'],gcat_trait_nucleus_accumbens_volume,0.261,pigean,gcat,15
+['D009461'],gcat_trait_neuroimaging_measurement,0.261,pigean,gcat,47
+['D009461'],gcat_trait_infant_grey_matter_volume_measurement,0.261,pigean,gcat,8
+"['D012871', 'D015595']",gcat_trait_skin_aging_measurement,0.261,pigean,gcat,31
+['D009461'],gcat_trait_hippocampal_volume,0.261,pigean,gcat,33
+['D009461'],gcat_trait_hippocampal_tail_volume,0.261,pigean,gcat,9
+['D009461'],gcat_trait_hippocampal_CA4_volume,0.261,pigean,gcat,33
+['D009461'],gcat_trait_hippocampus_molecular_layer_volume,0.261,pigean,gcat,21
+['D009461'],gcat_trait_temporal_horn_of_lateral_ventricle_volume_measurement,0.261,pigean,gcat,22
+"['D019636', 'D001284']",gcat_trait_hippocampal_atrophy,0.26,pigean,gcat,24
+['D005128'],gcat_trait_eye_disease,0.26,pigean,gcat,27
+['D005128'],gcat_trait_ocular_sarcoidosis,0.26,pigean,gcat,27
+['D001024'],AorticStenosis,0.259,pigean,portal,57
+"['D002872', 'D025063', 'D065886']",1p36_deletion_syndrome_Orphanet_1606,0.259,pigean,orphanet,21
+"['D001024', 'D003560', 'D004476', 'D006330', 'D017880']",AdamsOliver_syndrome_Orphanet_974,0.259,pigean,orphanet,21
+['D001024'],gcat_trait_aortic_stenosis,0.259,pigean,gcat,24
+"['D000081208', 'D007674', 'D015432', 'D015785', 'D020246', 'D065766']",Atypical_hemolytic_uremic_syndrome_Orphanet_2134,0.257,pigean,orphanet,32
+"['D000081208', 'D005921', 'D007674', 'D015432', 'D015785']",Primary_membranoproliferative_glomerulonephritis_Orphanet_54370,0.257,pigean,orphanet,3
+"['D003117', 'D012174', 'D015785']",Achromatopsia_Orphanet_49382,0.257,pigean,orphanet,14
+"['D002386', 'D015785']",Pulverulent_cataract_Orphanet_98984,0.257,pigean,orphanet,5
+"['D000081208', 'D007674', 'D015432', 'D015785', 'D020246']",Atypical_hemolytic_uremic_syndrome_with_complement_gene_abnormality_Orphanet_544472,0.257,pigean,orphanet,23
+"['D003873', 'D012873']",Peeling_skin_syndrome_Orphanet_817,0.257,pigean,orphanet,2
+"['D007766', 'D015785']",Congenital_alacrima_Orphanet_98604,0.257,pigean,orphanet,29
+['D004476'],Ectodermal_dysplasia_syndrome_Orphanet_79373,0.256,pigean,orphanet,44
+"['D000077765', 'D002526', 'D003103', 'D007714', 'D008305', 'D008850', 'D009216', 'D010009', 'D012174', 'D013580', 'D020914', 'D057130']",Leber_congenital_amaurosis_Orphanet_65,0.256,pigean,orphanet,30
+"['D004416', 'D004476', 'D005134', 'D008545', 'D009634', 'D010580', 'D019871', 'D054990']",Familial_melanoma_Orphanet_618,0.256,pigean,orphanet,26
+"['D000073376', 'D002607', 'D002658', 'D008607', 'D009134', 'D013036', 'D020820', 'D065886']",Autosomal_dominant_nonsyndromic_intellectual_disability_Orphanet_178469,0.256,pigean,orphanet,46
+"['D000072661', 'D002526', 'D003398', 'D004613', 'D012162', 'D012174', 'D015418', 'D020788', 'D052177', 'D057130']",SeniorLoken_syndrome_Orphanet_3156,0.256,pigean,orphanet,19
+"['D000848', 'D002971', 'D004476', 'D053359']",Oligodontia_Orphanet_99798,0.256,pigean,orphanet,26
+"['D002386', 'D005124', 'D012891']",Anterior_segment_developmental_anomaly_Orphanet_88632,0.255,pigean,orphanet,32
+"['D008607', 'D009128', 'D009896', 'D020754']",Spastic_ataxia_Orphanet_316226,0.255,pigean,orphanet,3
+"['D000080344', 'D003103', 'D003318', 'D007634', 'D015783']",Developmental_defect_of_the_eye_Orphanet_98553,0.255,pigean,orphanet,34
+['D013132'],Hereditary_ataxia_Orphanet_183518,0.255,pigean,orphanet,41
+"['D000073376', 'D001259', 'D002524', 'D002607', 'D002658', 'D003294', 'D004421', 'D004827', 'D004831', 'D006429', 'D006963', 'D008607', 'D008881', 'D012640', 'D013036', 'D020754', 'D054463', 'D060825', 'D065768', 'D065886']",Nonspecific_earlyonset_epileptic_encephalopathy_Orphanet_442835,0.255,pigean,orphanet,65
+"['D000073376', 'D001259', 'D002971', 'D004831', 'D008607', 'D008831', 'D013036', 'D013274', 'D020936', 'D065886']",Early_infantile_epileptic_encephalopathy_Orphanet_1934,0.255,pigean,orphanet,31
+['D001471'],gcat_trait_Barretts_esophagus,0.254,pigean,gcat,21
+['D001471'],BarretsEsophagus,0.254,pigean,portal,63
+['D012140'],gcat_trait_respiratory_system_disease,0.252,pigean,gcat,44
+['D001327'],gcat_trait_antianoctamin_2_antibody_measurement,0.25,pigean,gcat,5
+['D001327'],gcat_trait_autoimmune_disease,0.25,pigean,gcat,38
+"['D000410', 'D008107']",gcat_trait_serum_alanine_aminotransferase_measurement,0.247,pigean,gcat,104
+['D008107'],gcat_trait_serum_gammaglutamyl_transferase_measurement,0.247,pigean,gcat,78
+"['D008171', 'D001249']",gcat_trait_FEVFVC_ratio,0.246,pigean,gcat,48
+"['D005541', 'D008171', 'D001249']",gcat_trait_forced_expiratory_volume,0.246,pigean,gcat,35
+"['D012129', 'D008171']",gcat_trait_pulmonary_function_measurement,0.246,pigean,gcat,28
+['D009468'],Neuromuscular_disease_Orphanet_68381,0.246,pigean,orphanet,74
+['D001835'],WEIGHT,0.24,pigean,portal,80
+"['D001249', 'D006967']",Allergy,0.239,pigean,portal,55
+['D006967'],gcat_trait_asparaginase_hypersensitivity,0.239,pigean,gcat,33
+['D009157'],Myasthenia_gravis,0.239,pigean,portal,82
+['D009157'],Myasthenia_gravis_early,0.239,pigean,portal,67
+['D009157'],Myasthenia_gravis_late,0.239,pigean,portal,71
+['D010146'],gcat_trait_pain,0.239,pigean,gcat,40
+['D009157'],gcat_trait_Myasthenia_gravis,0.239,pigean,gcat,11
+['D020511'],Neuromuscular_junction_disease_Orphanet_98491,0.239,pigean,orphanet,11
+['D006223'],PTEN_hamartoma_tumor_syndrome_Orphanet_306498,0.239,pigean,orphanet,49
+['D009157'],gcat_trait_lateonset_myasthenia_gravis,0.239,pigean,gcat,7
+"['D000742', 'D006223', 'D058627']",Cowden_syndrome_Orphanet_201,0.239,pigean,orphanet,50
+['D006967'],gcat_trait_allergic_disease,0.239,pigean,gcat,37
+['D006967'],gcat_trait_allergic_sensitization_measurement,0.239,pigean,gcat,23
+['D004660'],Encephalitis_Orphanet_97275,0.238,pigean,orphanet,29
+['D003108'],gcat_trait_colorectal_health,0.237,pigean,gcat,35
+['D015658'],gcat_trait_HIV1_infection,0.237,pigean,gcat,30
+"['D012164', 'D009901', 'D005901']",gcat_trait_optic_disc_size_measurement,0.237,pigean,gcat,20
+"['D001176', 'D003286', 'D003394', 'D009886', 'D012164', 'D017696']",Distal_arthrogryposis_Orphanet_97120,0.237,pigean,orphanet,26
+['D012164'],gcat_trait_optic_disc_area_measurement,0.237,pigean,gcat,20
+['D001847'],gcat_trait_hip_bone_size,0.237,pigean,gcat,23
+"['D006689', 'D008223']",gcat_trait_lymphoma,0.235,pigean,gcat,10
+['D008223'],Lymphoma_Orphanet_223735,0.235,pigean,orphanet,33
+['D006505'],gcat_trait_Hepatitis,0.235,pigean,gcat,14
+"['D001176', 'D005532', 'D006228', 'D009135', 'D017696']",Distal_arthrogryposis_type_1_Orphanet_1146,0.234,pigean,orphanet,8
+"['D001806', 'D007674']",gcat_trait_blood_urea_nitrogen_measurement,0.234,pigean,gcat,53
+"['D001281', 'D006973']",AFxHTN,0.234,pigean,portal,52
+['D009135'],Skeletal_muscle_disease_Orphanet_98472,0.234,pigean,orphanet,85
+"['D009135', 'D012208', 'D014849', 'D018232']",Rhabdomyosarcoma_Orphanet_780,0.234,pigean,orphanet,42
+['D000740'],gcat_trait_mean_corpuscular_hemoglobin_concentration,0.234,pigean,gcat,41
+['D006973'],HYPERTENSION_dom,0.234,pigean,portal,76
+"['D051436', 'D007674']",gcat_trait_serum_urea_measurement,0.234,pigean,gcat,34
+['D006973'],gcat_trait_systolic_blood_pressure,0.234,pigean,gcat,104
+"['D003324', 'D003327', 'D017202']",CAD,0.234,pigean,portal,85
+"['D003324', 'D003327', 'D017202']",CADinNonT2D,0.234,pigean,portal,82
+"['D000740', 'D000742']",Congenital_dyserythropoietic_anemia_Orphanet_85,0.234,pigean,orphanet,8
+"['D007674', 'D051437']",gcat_trait_renal_system_measurement,0.234,pigean,gcat,19
+"['D000740', 'D004909']",gcat_trait_mean_corpuscular_volume,0.234,pigean,gcat,43
+"['D000740', 'D005319']",gcat_trait_fetal_hemoglobin_measurement,0.234,pigean,gcat,11
+['D007674'],gcat_trait_urinary_uromodulin_measurement,0.234,pigean,gcat,31
+['D000740'],gcat_trait_Red_cell_distribution_width,0.234,pigean,gcat,55
+['D006973'],HYPERTENSION,0.234,pigean,portal,81
+['D006973'],gcat_trait_treatmentresistant_hypertension,0.234,pigean,gcat,30
+['D009373'],gcat_trait_Testicular_Germ_Cell_Tumor,0.234,pigean,gcat,33
+"['D002386', 'D009135']",Earlyonset_posterior_polar_cataract_Orphanet_98993,0.234,pigean,orphanet,7
+['D006973'],HYPERTENSION_het,0.234,pigean,portal,82
+['D000740'],gcat_trait_mean_corpuscular_hemoglobin,0.234,pigean,gcat,40
+['D006973'],HYPERTENSION_add,0.234,pigean,portal,75
+"['D001794', 'D006973', 'D007022']",DBP,0.234,pigean,portal,63
+"['D002386', 'D009135']",Earlyonset_lamellar_cataract_Orphanet_441452,0.234,pigean,orphanet,3
+"['D002311', 'D002312', 'D006330', 'D006344', 'D009135', 'D009202', 'D049310']",Left_ventricular_noncompaction_Orphanet_54260,0.234,pigean,orphanet,52
+['D006973'],HYPERTENSION_rec,0.234,pigean,portal,80
+['D006973'],gcat_trait_diastolic_blood_pressure,0.234,pigean,gcat,97
+['D006973'],gcat_trait_hypertension,0.234,pigean,gcat,92
+['D006973'],gcat_trait_mean_arterial_pressure,0.234,pigean,gcat,61
+['D006973'],gcat_trait_pulse_pressure_measurement,0.234,pigean,gcat,69
+"['D015415', 'D007249']",gcat_trait_interleukin1_beta_measurement,0.233,pigean,gcat,36
+['D005831'],gcat_trait_female_reproductive_system_disease,0.233,pigean,gcat,17
+"['D053221', 'D007249']",gcat_trait_TNFrelated_apoptosisinducing_ligand_measurement,0.233,pigean,gcat,28
+['D007249'],gcat_trait_tumor_necrosis_factor_beta_measurement,0.233,pigean,gcat,15
+"['D007938', 'D009456', 'D009634', 'D015477', 'D018210', 'D044542', 'D054429']",Juvenile_myelomonocytic_leukemia_Orphanet_86834,0.233,pigean,orphanet,49
+['D007249'],gcat_trait_interleukin_18_measurement,0.233,pigean,gcat,17
+['D007249'],gcat_trait_inflammatory_biomarker_measurement,0.233,pigean,gcat,16
+['D001145'],gcat_trait_TPE_interval_measurement,0.233,pigean,gcat,9
+['D007249'],gcat_trait_interleukin_2_receptor_antagonist_measurement,0.233,pigean,gcat,30
+['D007249'],gcat_trait_CXC_motif_chemokine_10_measurement,0.233,pigean,gcat,47
+['D001145'],gcat_trait_early_cardiac_repolarization_measurement,0.233,pigean,gcat,24
+['D001145'],gcat_trait_cardiac_arrhythmia,0.233,pigean,gcat,19
+['D007249'],gcat_trait_chemokine_CC_motif_ligand_27_measurement,0.233,pigean,gcat,16
+['D001145'],gcat_trait_T_wave_morphology_measurement,0.233,pigean,gcat,12
+"['D000210', 'D007249', 'D002097']",gcat_trait_Creactive_protein_measurement,0.233,pigean,gcat,116
+['D007249'],gcat_trait_interleukin_7_measurement,0.233,pigean,gcat,18
+['D001145'],gcat_trait_PR_interval,0.233,pigean,gcat,55
+"['D001145', 'D008133']",gcat_trait_QT_interval,0.233,pigean,gcat,54
+"['D001145', 'D001281', 'D002037', 'D002311', 'D006332', 'D008133', 'D009202', 'D012804', 'D014693', 'D020914', 'D029593', 'D029597', 'D050030', 'D053840']",Familial_atrial_fibrillation_Orphanet_334,0.233,pigean,orphanet,71
+"['D003638', 'D006319', 'D007634', 'D007938', 'D015473']",Acute_promyelocytic_leukemia_Orphanet_520,0.233,pigean,orphanet,39
+"['D007249', 'D015415']",gcat_trait_interleukin_12_measurement,0.233,pigean,gcat,33
+['D007249'],gcat_trait_CCL2_measurement,0.233,pigean,gcat,32
+['D007249'],gcat_trait_interleukin_5_measurement,0.233,pigean,gcat,25
+['D007249'],gcat_trait_ICAM1_measurement,0.233,pigean,gcat,16
+['D007249'],gcat_trait_macrophage_inflammatory_protein_1b_measurement,0.233,pigean,gcat,33
+['D007249'],gcat_trait_macrophage_migration_inhibitory_factor_measurement,0.233,pigean,gcat,32
+['D007249'],gcat_trait_monokine_induced_by_gamma_interferon_measurement,0.233,pigean,gcat,22
+['D007249'],gcat_trait_interleukin_1_receptor_antagonist_measurement,0.233,pigean,gcat,34
+['D007249'],gcat_trait_interleukin_17_measurement,0.233,pigean,gcat,20
+['D007249'],gcat_trait_interleukin_16_measurement,0.233,pigean,gcat,27
+['D007249'],gcat_trait_interleukin8_measurement,0.233,pigean,gcat,32
+['D007249'],gcat_trait_interleukin_10_measurement,0.233,pigean,gcat,33
+['D007249'],gcat_trait_interleukin_13_measurement,0.233,pigean,gcat,25
+['D007249'],gcat_trait_interleukin6_measurement,0.233,pigean,gcat,23
+"['D003638', 'D004421', 'D004827', 'D004831', 'D006228', 'D013036']",Malignant_migrating_focal_seizures_of_infancy_Orphanet_293181,0.232,pigean,orphanet,26
+"['D004827', 'D004829']",gcat_trait_epilepsy,0.232,pigean,gcat,17
+['D004827'],gcat_trait_hippocampal_sclerosis_of_aging,0.232,pigean,gcat,20
+"['D004827', 'D004831']",Benign_adult_familial_myoclonic_epilepsy_Orphanet_86814,0.232,pigean,orphanet,1
+"['D004827', 'D004831', 'D008607', 'D065768']",Myoclonicastatic_epilepsy_Orphanet_1942,0.232,pigean,orphanet,26
+"['D000073376', 'D003294', 'D004827', 'D004829', 'D004831', 'D008881', 'D013036']",Generalized_epilepsy_with_febrile_seizuresplus_Orphanet_36387,0.232,pigean,orphanet,42
+"['D004827', 'D013036', 'D017034']",Autosomal_dominant_nocturnal_frontal_lobe_epilepsy_Orphanet_98784,0.232,pigean,orphanet,44
+['D012509'],Soft_tissue_sarcoma_Orphanet_3394,0.232,pigean,orphanet,30
+"['D000073376', 'D004827', 'D004831', 'D008881', 'D013036']",Dravet_syndrome_Orphanet_33069,0.232,pigean,orphanet,42
+"['D012878', 'D012880']",gcat_trait_skin_pigmentation,0.231,pigean,gcat,7
+['D012878'],gcat_trait_nonmelanoma_skin_carcinoma,0.231,pigean,gcat,23
+['D012878'],gcat_trait_skin_neoplasm,0.231,pigean,gcat,26
+"['D002780', 'D011248']",ICP,0.231,pigean,portal,75
+"['D000072661', 'D012162', 'D052177']",Juvenile_nephronophthisis_Orphanet_93592,0.231,pigean,orphanet,11
+['D043183'],IBS_rec,0.231,pigean,portal,71
+['D043183'],IBS_add,0.231,pigean,portal,70
+['D014376'],gcat_trait_susceptibility_to_Mycobacterium_tuberculosis_infection_measurement,0.231,pigean,gcat,17
+['D050723'],gcat_trait_bone_fracture,0.231,pigean,gcat,27
+['D050723'],Fracture,0.231,pigean,portal,62
+['D050723'],ForearmFracture,0.231,pigean,portal,70
+['D014376'],gcat_trait_tuberculosis,0.231,pigean,gcat,35
+['D043183'],gcat_trait_irritable_bowel_syndrome,0.231,pigean,gcat,30
+['D043183'],IBS_het,0.231,pigean,portal,72
+['D043183'],IBS_dom,0.231,pigean,portal,71
+['D043183'],IBS,0.231,pigean,portal,61
+"['D008607', 'D013036']",Infantile_spasms_syndrome_Orphanet_3451,0.23,pigean,orphanet,42
+['D004829'],gcat_trait_generalised_epilepsy,0.23,pigean,gcat,32
+['D014657'],Vasculitis_Orphanet_52759,0.23,pigean,orphanet,42
+['D008607'],MiT_family_translocation_renal_cell_carcinoma_Orphanet_319308,0.23,pigean,orphanet,1
+"['D000073376', 'D003635']",Cornelia_de_Lange_syndrome_Orphanet_199,0.23,pigean,orphanet,4
+"['D012130', 'D006969', 'D006255']",gcat_trait_seasonal_allergic_rhinitis,0.23,pigean,gcat,13
+"['D000073376', 'D004421', 'D006429', 'D008881', 'D009165']",Mendelian_susceptibility_to_mycobacterial_diseases_Orphanet_748,0.23,pigean,orphanet,34
+"['D000073376', 'D013036', 'D065768']",LennoxGastaut_syndrome_Orphanet_2382,0.23,pigean,orphanet,31
+['D000073376'],Epilepsy_syndrome_Orphanet_166463,0.23,pigean,orphanet,73
+"['D005317', 'D008607', 'D008831', 'D011658', 'D019871', 'D054990']",HoyeraalHreidarsson_syndrome_Orphanet_3322,0.23,pigean,orphanet,9
+['D006969'],gcat_trait_serum_IgE_measurement,0.23,pigean,gcat,17
+['D008415'],gcat_trait_Mastocytosis,0.23,pigean,gcat,29
+['D056784'],gcat_trait_brain_measurement,0.229,pigean,gcat,40
+['D056784'],gcat_trait_white_matter_integrity,0.229,pigean,gcat,33
+['D056784'],gcat_trait_white_matter_hyperintensity_measurement,0.229,pigean,gcat,38
+['D008228'],NonHodgkinsLymphoma,0.229,pigean,portal,52
+['D056784'],gcat_trait_white_matter_microstructure_measurement,0.229,pigean,gcat,37
+['D012877'],gcat_trait_chin_morphology_measurement,0.229,pigean,gcat,11
+"['D000230', 'D008175']",gcat_trait_lung_adenocarcinoma,0.229,pigean,gcat,27
+['D034701'],gcat_trait_cutaneous_mastocytosis,0.229,pigean,gcat,22
+['D008228'],gcat_trait_nonHodgkins_lymphoma,0.229,pigean,gcat,22
+"['D000083262', 'D001157']",CCScSAO,0.228,pigean,portal,71
+"['D001157', 'D016481', 'D016491']",PVD,0.228,pigean,portal,60
+"['D000083262', 'D001157']",toastSAO,0.228,pigean,portal,50
+['D009103'],gcat_trait_multiple_sclerosis,0.228,pigean,gcat,41
+['D009103'],MultipleSclerosis,0.228,pigean,portal,49
+"['D000083262', 'D001157']",CCSpSAOmajincl,0.228,pigean,portal,64
+['D001172'],RhA,0.227,pigean,portal,50
+['D001172'],SeropositiveRhA,0.227,pigean,portal,46
+['D018358'],Neuroendocrine_neoplasm_Orphanet_877,0.227,pigean,orphanet,20
+['D001172'],gcat_trait_rheumatoid_arthritis,0.227,pigean,gcat,55
+['D008881'],gcat_trait_migraine_without_aura_susceptibility_to_4,0.227,pigean,gcat,16
+"['D009136', 'D012174', 'D058494']",Congenital_muscular_dystrophy_with_cerebellar_involvement_Orphanet_370959,0.227,pigean,orphanet,3
+['D009136'],Muscular_dystrophy_Orphanet_98473,0.227,pigean,orphanet,32
+['D006330'],gcat_trait_congenital_leftsided_heart_lesions,0.227,pigean,gcat,18
+['D006330'],gcat_trait_congenital_heart_disease,0.227,pigean,gcat,27
+"['D006330', 'D008382', 'D017545', 'D055947']",LoeysDietz_syndrome_Orphanet_60030,0.227,pigean,orphanet,27
+['D058499'],Pattern_dystrophy_Orphanet_63454,0.227,pigean,orphanet,27
+['D058499'],Inherited_retinal_disorder_Orphanet_71862,0.227,pigean,orphanet,70
+['D008881'],gcat_trait_migraine_disorder,0.227,pigean,gcat,22
+"['D002607', 'D003638', 'D006319', 'D012174', 'D052245']",Usher_syndrome_Orphanet_886,0.227,pigean,orphanet,17
+"['D002311', 'D004820', 'D006201', 'D006313', 'D006330', 'D019571', 'D055947']",Inherited_isolated_arrhythmogenic_cardiomyopathy_Orphanet_217656,0.227,pigean,orphanet,52
+"['D002311', 'D009136', 'D012174', 'D058494']",WalkerWarburg_syndrome_Orphanet_899,0.227,pigean,orphanet,11
+"['D002311', 'D009136', 'D012174', 'D054220', 'D058494', 'D058495']",Muscleeyebrain_disease_Orphanet_588,0.227,pigean,orphanet,9
+['D020521'],Stroke,0.226,pigean,portal,62
+['D013290'],gcat_trait_susceptibility_to_strep_throat_measurement,0.226,pigean,gcat,22
+['D020521'],CCScINCUNC,0.226,pigean,portal,69
+['D000163'],gcat_trait_AIDS,0.226,pigean,gcat,19
+"['D001249', 'D012130']",gcat_trait_asthma,0.226,pigean,gcat,54
+['D009203'],gcat_trait_myocardial_infarction,0.226,pigean,gcat,70
+['D009203'],MI,0.226,pigean,portal,101
+['D020521'],CCScUNDETER,0.226,pigean,portal,68
+['D020521'],CCSpCryptoincl,0.226,pigean,portal,84
+['D011014'],gcat_trait_susceptibility_to_pneumonia_measurement,0.226,pigean,gcat,28
+['D011014'],gcat_trait_pneumonia,0.226,pigean,gcat,23
+"['D020521', 'D059409']",gcat_trait_small_vessel_stroke,0.226,pigean,gcat,32
+['D020521'],gcat_trait_Ischemic_stroke,0.226,pigean,gcat,35
+['D020521'],gcat_trait_large_artery_stroke,0.226,pigean,gcat,25
+['D020521'],LacunarStroke,0.226,pigean,portal,79
+['D009506'],gcat_trait_nevus_count,0.226,pigean,gcat,12
+"['D000083262', 'D020521']",gcat_trait_cardioembolic_stroke,0.226,pigean,gcat,11
+['D020734'],YnEOPD,0.226,pigean,portal,48
+"['D020521', 'D059409']",gcat_trait_stroke,0.226,pigean,gcat,36
+['D012130'],gcat_trait_allergic_rhinitis,0.226,pigean,gcat,29
+['D008944'],imitral_regurgitation,0.226,pigean,portal,62
+['D016393'],Bcell_nonHodgkin_lymphoma_Orphanet_171915,0.225,pigean,orphanet,47
+['D001249'],Asthma,0.225,pigean,portal,55
+"['D055113', 'D010518']",gcat_trait_periodontitis,0.225,pigean,gcat,42
+['D001249'],Asthma_ChildhoodOnset,0.225,pigean,portal,52
+"['D055113', 'D010518']",gcat_trait_periodontal_measurement,0.225,pigean,gcat,16
+"['D001249', 'D014797']",gcat_trait_vital_capacity,0.225,pigean,gcat,49
+['D001249'],Asthma_AdultOnset,0.225,pigean,portal,53
+['D001249'],Asthma_add,0.225,pigean,portal,53
+['D001249'],Asthma_dom,0.225,pigean,portal,58
+['D001249'],Asthma_het,0.225,pigean,portal,73
+['D001249'],gcat_trait_response_to_corticosteroid,0.225,pigean,gcat,11
+['D001249'],gcat_trait_nitric_oxide_exhalation_measurement,0.225,pigean,gcat,30
+['D001249'],gcat_trait_childhood_onset_asthma,0.225,pigean,gcat,41
+['D001249'],gcat_trait_atopic_asthma,0.225,pigean,gcat,33
+['D001249'],gcat_trait_age_of_onset_of_asthma,0.225,pigean,gcat,28
+['D019966'],gcat_trait_drug_dependence,0.225,pigean,gcat,18
+['D020031'],gcat_trait_antiEpstein_Barr_virus_antibody_measurement,0.225,pigean,gcat,19
+['D020031'],gcat_trait_Epstein_Barr_virus_nuclear_antigen_1_IgG_measurement,0.225,pigean,gcat,2
+"['D003327', 'D003324']",gcat_trait_coronary_artery_disease,0.225,pigean,gcat,90
+['D001249'],gcat_trait_adult_onset_asthma,0.225,pigean,gcat,37
+['D001249'],Asthma_rec,0.225,pigean,portal,66
+['D008268'],AMD_add,0.224,pigean,portal,72
+['D008268'],AMD,0.224,pigean,portal,57
+['D000544'],gcat_trait_betaamyloid_142_measurement,0.224,pigean,gcat,35
+['D000544'],AD,0.224,pigean,portal,52
+['D000544'],gcat_trait_ttaubetaamyloid_142_ratio_measurement,0.224,pigean,gcat,31
+"['D000544', 'D008487']",Family_AD_history,0.224,pigean,portal,63
+['D008268'],AMD_dom,0.224,pigean,portal,71
+['D008268'],AMD_het,0.224,pigean,portal,74
+['D008268'],gcat_trait_macula_measurement,0.224,pigean,gcat,30
+['D008268'],AMD_rec,0.224,pigean,portal,71
+['D008268'],AMDprogression,0.224,pigean,portal,52
+['D013927'],gcat_trait_plasma_plasminogen_measurement,0.224,pigean,gcat,22
+"['D013927', 'D010974']",gcat_trait_platelet_aggregation,0.224,pigean,gcat,25
+['D000544'],gcat_trait_ptaubetaamyloid_142_ratio_measurement,0.224,pigean,gcat,17
+['D008268'],gcat_trait_wet_macular_degeneration,0.224,pigean,gcat,26
+['D006258'],gcat_trait_oropharynx_cancer,0.224,pigean,gcat,25
+['D006258'],gcat_trait_upper_aerodigestive_tract_neoplasm,0.224,pigean,gcat,21
+['D000544'],gcat_trait_family_history_of_Alzheimers_disease,0.224,pigean,gcat,15
+['D000544'],AD_or_AD_history,0.224,pigean,portal,55
+['D000544'],gcat_trait_lateonset_Alzheimers_disease,0.224,pigean,gcat,23
+['D024801'],gcat_trait_ttau_measurement,0.224,pigean,gcat,32
+['D024801'],gcat_trait_ptau_measurement,0.224,pigean,gcat,29
+['D008268'],gcat_trait_atrophic_macular_degeneration,0.224,pigean,gcat,16
+['D000544'],gcat_trait_age_of_onset_of_Alzheimer_disease,0.224,pigean,gcat,23
+['D008268'],EarlyAMD,0.224,pigean,portal,51
+['D000544'],LateAD,0.224,pigean,portal,61
+['D000544'],gcat_trait_plasma_betaamyloid_140_measurement,0.224,pigean,gcat,11
+['D000544'],gcat_trait_Alzheimer_disease,0.224,pigean,gcat,22
+['D000544'],Paternal_AD_history,0.224,pigean,portal,63
+['D008268'],gcat_trait_agerelated_macular_degeneration,0.224,pigean,gcat,33
+['D024801'],gcat_trait_neurofibrillary_tangles_measurement,0.224,pigean,gcat,34
+['D008545'],gcat_trait_melanoma,0.223,pigean,gcat,30
+"['D019465', 'D019767']",gcat_trait_eye_morphology_measurement,0.223,pigean,gcat,23
+"['D019767', 'D019465']",gcat_trait_lip_morphology_measurement,0.223,pigean,gcat,12
+['D001791'],gcat_trait_platelet_crit,0.223,pigean,gcat,49
+['D008545'],gcat_trait_cutaneous_melanoma,0.223,pigean,gcat,15
+['D008545'],Melanoma,0.223,pigean,portal,61
+['D001791'],gcat_trait_platelet_count,0.223,pigean,gcat,48
+['D001791'],gcat_trait_platelet_component_distribution_width,0.223,pigean,gcat,47
+['D001791'],gcat_trait_mean_platelet_volume,0.223,pigean,gcat,38
+"['D014604', 'D008545']",gcat_trait_Uveal_Melanoma,0.223,pigean,gcat,18
+['D015179'],gcat_trait_colorectal_cancer,0.223,pigean,gcat,51
+"['D019767', 'D019465']",gcat_trait_facial_morphology_measurement,0.223,pigean,gcat,18
+"['D019767', 'D019465']",gcat_trait_nose_morphology_measurement,0.223,pigean,gcat,29
+['D019465'],gcat_trait_facial_width_measurement,0.223,pigean,gcat,33
+['D019465'],Frontonasal_dysplasia_Orphanet_250,0.223,pigean,orphanet,14
+['D006509'],gcat_trait_hepatitis_B_virus_infection,0.223,pigean,gcat,6
+['D006509'],gcat_trait_susceptibility_to_hepatitis_B_infection_measurement,0.223,pigean,gcat,19
+['D019465'],gcat_trait_craniofacial_microsomia,0.223,pigean,gcat,11
+"['D000081207', 'D008180']",Systemic_lupus_erythematosus_Orphanet_536,0.222,pigean,orphanet,38
+['D029424'],gcat_trait_chronic_obstructive_pulmonary_disease,0.222,pigean,gcat,38
+['D008180'],Autosomal_systemic_lupus_erythematosus_Orphanet_300345,0.222,pigean,orphanet,21
+['D008175'],gcat_trait_lung_carcinoma,0.222,pigean,gcat,23
+['D007251'],gcat_trait_influenza_A_H1N1,0.222,pigean,gcat,31
+['D008175'],LungCancer,0.222,pigean,portal,73
+['D029424'],WAPinCOPD,0.222,pigean,portal,71
+['D029424'],COPD,0.222,pigean,portal,41
+['D006333'],HF,0.222,pigean,portal,63
+['D029424'],Perc15HUinCOPD,0.222,pigean,portal,75
+['D029424'],COPD_ICD,0.222,pigean,portal,64
+['D012214'],gcat_trait_rheumatic_heart_disease,0.222,pigean,gcat,23
+['D006333'],gcat_trait_heart_failure,0.222,pigean,gcat,22
+['D008180'],SLE,0.222,pigean,portal,41
+['D008180'],gcat_trait_systemic_lupus_erythematosus,0.222,pigean,gcat,43
+"['D000081207', 'D008180', 'D029503']",DiamondBlackfan_anemia_Orphanet_124,0.222,pigean,orphanet,40
+['D029424'],PercLAA950inCOPD,0.222,pigean,portal,59
+['D029424'],Pi10mminCOPD,0.222,pigean,portal,80
+['D006333'],gcat_trait_NTproBNP_measurement,0.222,pigean,gcat,5
+['D013610'],gcat_trait_P_wave_duration,0.221,pigean,gcat,11
+['D013610'],gcat_trait_resting_heart_rate,0.221,pigean,gcat,26
+['D013610'],gcat_trait_RR_interval,0.221,pigean,gcat,18
+"['D013610', 'D008133']",gcat_trait_QRS_duration,0.221,pigean,gcat,35
+['D013610'],gcat_trait_heart_rate_variability_measurement,0.221,pigean,gcat,29
+['D013610'],gcat_trait_heart_rate,0.221,pigean,gcat,23
+"['D002386', 'D003316']",Cataractmicrocornea_syndrome_Orphanet_1377,0.221,pigean,orphanet,2
+['D008103'],gcat_trait_Hepatic_fibrosis,0.221,pigean,gcat,33
+['D005910'],gcat_trait_central_nervous_system_cancer,0.221,pigean,gcat,21
+['D001943'],BreastCancer,0.221,pigean,portal,50
+['D001943'],gcat_trait_estrogenreceptor_positive_breast_cancer,0.221,pigean,gcat,7
+['D001943'],gcat_trait_estrogenreceptor_negative_breast_cancer,0.221,pigean,gcat,31
+['D001943'],gcat_trait_male_breast_carcinoma,0.221,pigean,gcat,12
+['D001943'],gcat_trait_mammographic_density_percentage,0.221,pigean,gcat,21
+['D001943'],gcat_trait_response_to_antineoplastic_agent,0.221,pigean,gcat,33
+['D001022'],ao_regurgitation_fraction,0.221,pigean,portal,87
+['D001943'],gcat_trait_estradiol_measurement,0.221,pigean,gcat,31
+"['D005910', 'D005909']",gcat_trait_glioma,0.221,pigean,gcat,31
+"['D057108', 'D003316']",gcat_trait_corneal_topography,0.221,pigean,gcat,24
+['D001022'],ao_regurgitation_volume,0.221,pigean,portal,75
+"['D000071060', 'D001943']",gcat_trait_mammographic_density_measurement,0.221,pigean,gcat,24
+['D001943'],gcat_trait_breast_carcinoma,0.221,pigean,gcat,36
+['D009202'],Rare_cardiomyopathy_Orphanet_167848,0.221,pigean,orphanet,77
+['D001943'],gcat_trait_BRCAX_breast_cancer,0.221,pigean,gcat,17
+['D008103'],Cirrhosis,0.221,pigean,portal,70
+['D010437'],PepticUlcers_add,0.221,pigean,portal,70
+['D010437'],PepticUlcers,0.221,pigean,portal,70
+['D010437'],PepticUlcers_het,0.221,pigean,portal,70
+['D010437'],PepticUlcers_rec,0.221,pigean,portal,65
+"['D004562', 'D013610']",gcat_trait_electrocardiography,0.221,pigean,gcat,68
+['D016472'],Motor_neuron_disease_Orphanet_98503,0.221,pigean,orphanet,25
+['D010437'],PepticUlcers_dom,0.221,pigean,portal,75
+"['D003316', 'D007640']",gcat_trait_keratoconus,0.221,pigean,gcat,32
+['D008288'],gcat_trait_malaria,0.22,pigean,gcat,34
+"['D001176', 'D007057', 'D010013', 'D017490']",Lamellar_ichthyosis_Orphanet_313,0.22,pigean,orphanet,29
+['D009134'],Distal_hereditary_motor_neuropathy_Orphanet_53739,0.22,pigean,orphanet,14
+['D016491'],PVD_add,0.22,pigean,portal,70
+['D003731'],gcat_trait_dental_caries,0.22,pigean,gcat,36
+['D016491'],PVD_dom,0.22,pigean,portal,74
+['D007172'],gcat_trait_erectile_dysfunction,0.22,pigean,gcat,26
+['D019767'],gcat_trait_facial_attractiveness_measurement,0.22,pigean,gcat,12
+['D009134'],Bulbospinal_muscular_atrophy_Orphanet_206701,0.22,pigean,orphanet,14
+"['D006201', 'D000505']",gcat_trait_balding_measurement,0.22,pigean,gcat,37
+['D016491'],PVD_het,0.22,pigean,portal,80
+['D006201'],gcat_trait_facial_hair_thickness_measurement,0.22,pigean,gcat,11
+['D006201'],gcat_trait_synophrys_measurement,0.22,pigean,gcat,20
+['D016491'],PVD_rec,0.22,pigean,portal,77
+"['D006200', 'D006201']",gcat_trait_hair_colour_measurement,0.22,pigean,gcat,18
+['D006201'],gcat_trait_hair_shape_measurement,0.22,pigean,gcat,15
+['D006261'],gcat_trait_Headache,0.22,pigean,gcat,25
+['D019767'],gcat_trait_facial_morphology,0.22,pigean,gcat,29
+['D019767'],gcat_trait_forehead_morphology_measurement,0.22,pigean,gcat,13
+['D019767'],gcat_trait_lower_face_morphology_measurement,0.22,pigean,gcat,35
+['D007057'],Ichthyosis_Orphanet_79354,0.22,pigean,orphanet,30
+"['D007057', 'D017490']",Congenital_ichthyosiform_erythroderma_Orphanet_79394,0.22,pigean,orphanet,25
+['D019767'],gcat_trait_upper_face_morphology_measurement,0.22,pigean,gcat,22
+['D006201'],gcat_trait_hair_morphology_measurement,0.22,pigean,gcat,24
+['D006201'],gcat_trait_hair_morphology,0.22,pigean,gcat,6
+['D017563'],gcat_trait_interstitial_lung_disease,0.219,pigean,gcat,30
+['D034381'],gcat_trait_agerelated_hearing_impairment,0.219,pigean,gcat,14
+['D034381'],gcat_trait_hearing_loss,0.219,pigean,gcat,27
+['D015212'],IBD,0.219,pigean,portal,52
+"['D003324', 'D009195']",gcat_trait_myeloperoxidase_measurement,0.219,pigean,gcat,29
+['D009798'],gcat_trait_intraocular_pressure_measurement,0.219,pigean,gcat,23
+['D003324'],gcat_trait_cholesterol_efflux_capacity_measurement,0.219,pigean,gcat,45
+"['D010195', 'D050500']",gcat_trait_pancreatitis,0.219,pigean,gcat,8
+"['D042643', 'D003324']",gcat_trait_matrix_metalloproteinase_measurement,0.219,pigean,gcat,14
+['D017563'],Interstitial_lung_disease_Orphanet_182095,0.219,pigean,orphanet,50
+['D050197'],gcat_trait_homocysteine_measurement,0.219,pigean,gcat,18
+"['D020781', 'D003324']",gcat_trait_matrix_metalloproteinase_1_measurement,0.219,pigean,gcat,17
+['D050197'],gcat_trait_PCSK9_protein_measurement,0.219,pigean,gcat,36
+"['D050197', 'D000083262']",toastLAA,0.219,pigean,portal,61
+"['D050197', 'D000083262']",CCScLAA,0.219,pigean,portal,63
+['D015212'],gcat_trait_inflammatory_bowel_disease,0.219,pigean,gcat,55
+"['D050197', 'D000083262']",CCSpLAAmajincl,0.219,pigean,portal,89
+['D003967'],gcat_trait_Diarrhea,0.219,pigean,gcat,13
+['D002972'],gcat_trait_Cleft_palate,0.219,pigean,gcat,26
+['D002819'],Paroxysmal_dyskinesia_Orphanet_1431,0.219,pigean,orphanet,26
+['D009080'],gcat_trait_mucocutaneous_lymph_node_syndrome,0.219,pigean,gcat,29
+"['D011658', 'D017563', 'D019871', 'D054990']",Idiopathic_pulmonary_fibrosis_Orphanet_2032,0.219,pigean,orphanet,7
+['D007945'],LymphLeukemia,0.219,pigean,portal,64
+['D007945'],gcat_trait_lymphoid_leukemia,0.219,pigean,gcat,29
+['D016399'],Tcell_nonHodgkin_lymphoma_Orphanet_171918,0.219,pigean,orphanet,43
+"['D000787', 'D000789']",gcat_trait_angina_pectoris,0.219,pigean,gcat,40
+"['D007951', 'D015470']",gcat_trait_acute_myeloid_leukemia,0.219,pigean,gcat,10
+"['D000093922', 'D004370', 'D006228', 'D009886', 'D015835', 'D054220']",Congenital_fibrosis_of_extraocular_muscles_Orphanet_45358,0.219,pigean,orphanet,18
+"['D002386', 'D003103', 'D007714', 'D008850', 'D010004', 'D013580']",Isolated_microphthalmiaanophthalmiacoloboma_Orphanet_2542,0.218,pigean,orphanet,30
+"['D021081', 'D012893']",gcat_trait_chronotype_measurement,0.218,pigean,gcat,36
+['D003550'],gcat_trait_cystic_fibrosis_associated_meconium_ileus,0.218,pigean,gcat,2
+['D003550'],Lung_disease_inCF,0.218,pigean,portal,60
+"['D002386', 'D007039']",Hypotrichosis_simplex_Orphanet_55654,0.218,pigean,orphanet,6
+['D002386'],gcat_trait_cataract,0.218,pigean,gcat,35
+['D002386'],Earlyonset_sutural_cataract_Orphanet_98985,0.218,pigean,orphanet,9
+['D002386'],CataractSenile,0.218,pigean,portal,47
+['D002386'],gcat_trait_Agerelated_nuclear_cataract,0.218,pigean,gcat,23
+"['D002386', 'D007039']",Total_earlyonset_cataract_Orphanet_98994,0.218,pigean,orphanet,10
+['D004802'],gcat_trait_eotaxin_measurement,0.218,pigean,gcat,29
+['D012893'],Rare_sleep_disorder_Orphanet_68354,0.218,pigean,orphanet,37
+['D001724'],MBWadjFGen,0.218,pigean,portal,108
+['D005901'],gcat_trait_openangle_glaucoma,0.218,pigean,gcat,34
+['D005901'],gcat_trait_glaucoma,0.218,pigean,gcat,35
+['D005901'],gcat_trait_central_corneal_thickness,0.218,pigean,gcat,20
+['D005901'],Pediatriconset_glaucoma_of_genetic_origin_Orphanet_359,0.218,pigean,orphanet,39
+['D011695'],gcat_trait_HenochSchoenlein_purpura,0.218,pigean,gcat,9
+['D016410'],Primary_cutaneous_Tcell_lymphoma_Orphanet_171901,0.218,pigean,orphanet,30
+['D001724'],FBW,0.218,pigean,portal,115
+['D001724'],MBW,0.218,pigean,portal,113
+['D001724'],gcat_trait_birth_weight,0.218,pigean,gcat,92
+['D012893'],SleepShort,0.218,pigean,portal,68
+['D004413'],Dysostosis_Orphanet_364559,0.218,pigean,orphanet,46
+['D004485'],gcat_trait_Eczematoid_dermatitis,0.218,pigean,gcat,44
+"['D009901', 'D005901']",gcat_trait_cuptodisc_ratio_measurement,0.218,pigean,gcat,22
+"['D014564', 'D014718']",Renal_or_urinary_tract_malformation_Orphanet_93545,0.218,pigean,orphanet,54
+['D014564'],Renal_agenesis_Orphanet_411709,0.218,pigean,orphanet,18
+['D014564'],Urogenital_tract_malformation_Orphanet_83001,0.218,pigean,orphanet,30
+['D010009'],Multiple_epiphyseal_dysplasia_Orphanet_251,0.218,pigean,orphanet,28
+['D014605'],Uveitis_Orphanet_98715,0.218,pigean,orphanet,48
+['D005901'],gcat_trait_primary_angle_closure_glaucoma,0.218,pigean,gcat,10
+"['D000075529', 'D003638', 'D014564']",Renal_agenesis_unilateral_Orphanet_93100,0.218,pigean,orphanet,15
+['D001281'],gcat_trait_atrial_fibrillation,0.218,pigean,gcat,60
+['D001281'],AIpredictedAF,0.218,pigean,portal,67
+['D012893'],gcat_trait_daytime_rest_measurement,0.218,pigean,gcat,43
+['D012893'],gcat_trait_sleep_duration,0.218,pigean,gcat,34
+['D046449'],HerniaAbdomin_add,0.218,pigean,portal,61
+['D046449'],HerniaAbdomin_dom,0.218,pigean,portal,59
+['D046449'],HerniaAbdomin_het,0.218,pigean,portal,66
+['D046449'],HerniaAbdomin_rec,0.218,pigean,portal,59
+['D011655'],gcat_trait_pulmonary_embolism,0.218,pigean,gcat,24
+['D017880'],Congenital_limb_malformation_Orphanet_68378,0.218,pigean,orphanet,35
+['D001724'],FBWadjMGen,0.218,pigean,portal,117
+"['D001281', 'D001282']",AfibFlutter,0.218,pigean,portal,89
+"['D001281', 'D001321', 'D002037', 'D002311', 'D008133', 'D012804', 'D013576', 'D014693', 'D053840', 'D065886']",Brugada_syndrome_Orphanet_130,0.218,pigean,orphanet,61
+"['D001281', 'D015992']",AFxBMI,0.218,pigean,portal,54
+['D001281'],AF,0.218,pigean,portal,79
+['D001281'],AFxAGE,0.218,pigean,portal,55
+['D001281'],AFxAGEo65,0.218,pigean,portal,51
+['D001281'],AFxAGEy65,0.218,pigean,portal,59
+['D001281'],AFxSEX,0.218,pigean,portal,42
+"['D000008', 'D004065', 'D005736', 'D011125']",Attenuated_familial_adenomatous_polyposis_Orphanet_220460,0.217,pigean,orphanet,10
+['D002769'],gcat_trait_cholelithiasis,0.217,pigean,gcat,44
+['D013921'],gcat_trait_red_blood_cell_density_measurement,0.217,pigean,gcat,46
+"['D005919', 'D051437']",gcat_trait_glomerular_filtration_rate,0.217,pigean,gcat,74
+['D011125'],Genetic_intestinal_polyposis_Orphanet_363314,0.217,pigean,orphanet,29
+['D012512'],gcat_trait_Ewing_sarcoma,0.217,pigean,gcat,5
+['D007680'],KidneyCancer,0.217,pigean,portal,83
+"['D013920', 'D013921']",Essential_thrombocythemia_Orphanet_3318,0.217,pigean,orphanet,29
+"['D013921', 'D020914']",Centronuclear_myopathy_Orphanet_595,0.217,pigean,orphanet,23
+['D013921'],gcat_trait_erythrocyte_count,0.217,pigean,gcat,54
+['D006689'],gcat_trait_nodular_sclerosis_Hodgkin_lymphoma,0.217,pigean,gcat,5
+['D051437'],gcat_trait_creatinine_measurement,0.217,pigean,gcat,55
+['D014069'],gcat_trait_tonsillectomy_risk_measurement,0.217,pigean,gcat,27
+['D007680'],gcat_trait_kidney_cancer,0.217,pigean,gcat,16
+['D006689'],gcat_trait_Hodgkins_lymphoma,0.217,pigean,gcat,26
+['D009196'],Myeloproliferative_neoplasm_Orphanet_98274,0.217,pigean,orphanet,39
+['D006562'],gcat_trait_susceptibility_to_shingles_measurement,0.217,pigean,gcat,12
+['D006562'],gcat_trait_Herpes_Zoster,0.217,pigean,gcat,18
+['D002294'],gcat_trait_cutaneous_squamous_cell_carcinoma,0.216,pigean,gcat,14
+['D000437'],gcat_trait_alcohol_use_disorder_measurement,0.216,pigean,gcat,39
+['D002294'],gcat_trait_esophageal_squamous_cell_carcinoma,0.216,pigean,gcat,25
+"['D000428', 'D000437']",gcat_trait_alcohol_consumption_measurement,0.216,pigean,gcat,35
+['D009101'],gcat_trait_multiple_myeloma,0.216,pigean,gcat,29
+['D002294'],gcat_trait_squamous_cell_carcinoma,0.216,pigean,gcat,14
+['D002294'],gcat_trait_squamous_cell_lung_carcinoma,0.216,pigean,gcat,19
+['D000437'],gcat_trait_alcohol_dependence,0.216,pigean,gcat,34
+['D000437'],gcat_trait_alcohol_dependence_measurement,0.216,pigean,gcat,27
+['D001416'],BackPain,0.216,pigean,portal,56
+['D009901'],gcat_trait_optic_cup_area_measurement,0.216,pigean,gcat,26
+['D005879'],gcat_trait_Tourette_syndrome,0.216,pigean,gcat,30
+['D001416'],gcat_trait_Back_pain,0.216,pigean,gcat,29
+"['D002289', 'D002294']",gcat_trait_nonsmall_cell_lung_carcinoma,0.216,pigean,gcat,34
+['D013576'],Nonsyndromic_syndactyly_Orphanet_90025,0.215,pigean,orphanet,11
+"['D013576', 'D017689']",Nonsyndromic_polydactyly_Orphanet_2913,0.215,pigean,orphanet,14
+['D009389'],gcat_trait_vascular_endothelial_growth_factor_measurement,0.215,pigean,gcat,24
+['D003424'],gcat_trait_Crohns_disease,0.215,pigean,gcat,51
+['D003424'],CD,0.215,pigean,portal,59
+['D011507'],gcat_trait_Proteinuria,0.215,pigean,gcat,16
+['D011507'],gcat_trait_urinary_pH_measurement,0.215,pigean,gcat,12
+['D009389'],gcat_trait_chemerin_measurement,0.215,pigean,gcat,9
+['D064420'],gcat_trait_antipsychotic_drug_related_weight_gain,0.215,pigean,gcat,21
+"['D019698', 'D020127', 'D064420']",gcat_trait_chronic_hepatitis_C_virus_infection,0.215,pigean,gcat,18
+['D015864'],Panuveitis_Orphanet_280898,0.215,pigean,orphanet,48
+"['D006932', 'D001663']",gcat_trait_bilirubin_measurement,0.215,pigean,gcat,78
+"['D020181', 'D012891']",AHIinREM,0.214,pigean,portal,66
+['D011471'],ProstateCancer,0.214,pigean,portal,53
+['D011565'],gcat_trait_psoriasis_vulgaris,0.214,pigean,gcat,26
+"['D020181', 'D012891']",AHIinNREM,0.214,pigean,portal,61
+"['D020181', 'D012891']",AHI,0.214,pigean,portal,67
+['D011565'],gcat_trait_psoriasis,0.214,pigean,gcat,42
+['D011565'],Psoriasis,0.214,pigean,portal,42
+['D009447'],gcat_trait_neuroblastoma,0.214,pigean,gcat,36
+['D057765'],gcat_trait_eosinophilic_esophagitis,0.214,pigean,gcat,34
+['D011471'],gcat_trait_prostate_carcinoma,0.214,pigean,gcat,35
+['D014860'],gcat_trait_susceptibility_to_plantar_warts_measurement,0.214,pigean,gcat,14
+['D012891'],gcat_trait_sleep_apnea,0.214,pigean,gcat,30
+['D012030'],gcat_trait_Abnormality_of_refraction,0.214,pigean,gcat,28
+"['D017430', 'D011471']",gcat_trait_prostate_specific_antigen_amount,0.214,pigean,gcat,28
+['D014606'],gcat_trait_anterior_uveitis,0.214,pigean,gcat,14
+['D014606'],Anterior_uveitis_Orphanet_280886,0.214,pigean,orphanet,48
+['D056660'],Hereditary_periodic_fever_syndrome_Orphanet_324924,0.214,pigean,orphanet,44
+"['D020181', 'D012891']",AvgDesaturation,0.214,pigean,portal,46
+['D012891'],SleepApnea,0.214,pigean,portal,65
+['D012891'],SleepApneaAdjBMI,0.214,pigean,portal,74
+['D012030'],gcat_trait_axial_length_measurement,0.214,pigean,gcat,32
+['D009006'],Autosomal_monosomy_Orphanet_102020,0.214,pigean,orphanet,37
+"['D007676', 'D051436']",gcat_trait_chronic_kidney_disease,0.214,pigean,gcat,36
+['D001528'],gcat_trait_Behcets_syndrome,0.214,pigean,gcat,25
+"['D007676', 'D051436']",eGFRcrea_med_DeclineInCKD,0.214,pigean,portal,72
+"['D001528', 'D020192']",Behet_disease_Orphanet_117,0.214,pigean,orphanet,39
+"['D002311', 'D002312', 'D006344', 'D006345']",Atrial_septal_defect_ostium_secundum_type_Orphanet_99103,0.214,pigean,orphanet,32
+"['D002311', 'D002312', 'D002971', 'D006344', 'D006345', 'D010179']",Interatrial_communication_Orphanet_1478,0.214,pigean,orphanet,32
+"['D007676', 'D051436']",CKD,0.214,pigean,portal,83
+['D007676'],ESRD,0.213,pigean,portal,63
+['D020300'],BMB_any_noexclusions,0.213,pigean,portal,50
+['D011087'],gcat_trait_myeloproliferative_disorder,0.213,pigean,gcat,19
+"['D013274', 'D004938']",EsoStomachCancer,0.213,pigean,portal,69
+"['D003638', 'D014849', 'D017496']",Waardenburg_syndrome_Orphanet_3440,0.213,pigean,orphanet,10
+"['D003638', 'D014849', 'D017495', 'D017496']",Waardenburg_syndrome_type_2_Orphanet_895,0.213,pigean,orphanet,13
+['D020300'],BMB_strictlylobar_noexclusions,0.213,pigean,portal,69
+['D007918'],gcat_trait_leprosy,0.213,pigean,gcat,28
+"['D000098850', 'D017180', 'D029597']",Catecholaminergic_polymorphic_ventricular_tachycardia_Orphanet_3286,0.213,pigean,orphanet,49
+['D008577'],Tumor_of_meninges_Orphanet_252025,0.213,pigean,orphanet,48
+['D012507'],gcat_trait_sarcoidosis,0.213,pigean,gcat,23
+['D054198'],gcat_trait_acute_lymphoblastic_leukemia,0.213,pigean,gcat,32
+"['D054198', 'D015452']",gcat_trait_Bcell_acute_lymphoblastic_leukemia,0.213,pigean,gcat,13
+['D020300'],BMB_any_withexclusions,0.213,pigean,portal,53
+['D020300'],BMB_mixed_or_strictlydeep_noexclusions,0.213,pigean,portal,50
+['D000076385'],DiverticularDisease,0.213,pigean,portal,48
+['D020300'],BMB_mixed_or_strictlydeep_withexclusions,0.213,pigean,portal,62
+['D013274'],gcat_trait_gastric_carcinoma,0.213,pigean,gcat,15
+['D010033'],gcat_trait_Otitis_media,0.213,pigean,gcat,19
+['D002872'],Partial_deletion_of_the_short_arm_of_chromosome_1_Orphanet_261857,0.213,pigean,orphanet,20
+['D002872'],Partial_deletion_of_the_short_arm_of_chromosome_11_Orphanet_261947,0.213,pigean,orphanet,31
+['D020300'],Stroke_lobar,0.213,pigean,portal,60
+['D002872'],Partial_deletion_of_the_long_arm_of_chromosome_15_Orphanet_262119,0.213,pigean,orphanet,4
+['D020300'],Stroke_hemorrhagic,0.213,pigean,portal,51
+['D017496'],Hypopigmentation_of_the_skin_Orphanet_79376,0.213,pigean,orphanet,13
+['D006332'],gcat_trait_ventricular_enlargement_measurement,0.213,pigean,gcat,18
+"['D002872', 'D007248', 'D012729', 'D050174', 'D054331', 'D058533']",Partial_chromosome_Y_deletion_Orphanet_1646,0.213,pigean,orphanet,27
+"['D000748', 'D002872']",Partial_deletion_of_the_long_arm_of_chromosome_5_Orphanet_262038,0.213,pigean,orphanet,34
+['D000076385'],gcat_trait_diverticular_disease,0.213,pigean,gcat,40
+"['D011225', 'D014115']",GestationalHypertension,0.213,pigean,portal,70
+"['D011225', 'D014115']",PreEclampsia,0.213,pigean,portal,73
+"['D010022', 'D017496', 'D020821']",Doparesponsive_dystonia_Orphanet_255,0.213,pigean,orphanet,6
+['D020300'],BMB_strictlylobar_withexclusions,0.213,pigean,portal,64
+['D020300'],Stroke_deep,0.213,pigean,portal,60
+['D002583'],gcat_trait_cervical_carcinoma,0.212,pigean,gcat,30
+['D006849'],Ciliopathies_with_major_skeletal_involvement_Orphanet_93426,0.212,pigean,orphanet,13
+"['D003110', 'D002272']",gcat_trait_serum_carcinoembryonic_antigen_measurement,0.212,pigean,gcat,10
+['D004715'],gcat_trait_endometriosis,0.212,pigean,gcat,20
+['D003110'],ColonCancer,0.212,pigean,portal,69
+"['D019571', 'D055947', 'D061085']",Inherited_isolated_arrhythmogenic_cardiomyopathy_dominantright_variant_Orphanet_293910,0.212,pigean,orphanet,50
+['D003110'],gcat_trait_colon_carcinoma,0.212,pigean,gcat,16
+['D009503'],gcat_trait_neutrophiltolymphocyte_ratio,0.212,pigean,gcat,23
+['D003110'],gcat_trait_colonic_neoplasm,0.212,pigean,gcat,28
+['D004381'],gcat_trait_duodenal_ulcer,0.212,pigean,gcat,29
+"['D012595', 'D017675']",Systemic_sclerosis_Orphanet_90291,0.212,pigean,orphanet,36
+['D012595'],gcat_trait_anticentromereantibodypositive_systemic_scleroderma,0.212,pigean,gcat,13
+['D012595'],gcat_trait_systemic_scleroderma,0.212,pigean,gcat,29
+['D002583'],CervicalCancer,0.212,pigean,portal,61
+['D052878'],gcat_trait_urolithiasis,0.212,pigean,gcat,27
+['D009436'],Neural_tube_defect_Orphanet_3388,0.212,pigean,orphanet,17
+['D009759'],gcat_trait_Nystagmus,0.212,pigean,gcat,11
+['D009062'],gcat_trait_oral_cavity_cancer,0.212,pigean,gcat,6
+['D009220'],gcat_trait_myositis,0.212,pigean,gcat,21
+['D059345'],WMHinCSVD,0.212,pigean,portal,60
+['D059345'],MDinCSVD,0.212,pigean,portal,67
+['D059345'],FAinCSVD,0.212,pigean,portal,62
+['D056648'],gcat_trait_antineutrophil_antibody_associated_vasculitis,0.211,pigean,gcat,18
+['D002340'],gcat_trait_atherosclerosis,0.211,pigean,gcat,14
+"['D002340', 'D059168']",gcat_trait_carotid_artery_intima_media_thickness,0.211,pigean,gcat,23
+['D011656'],gcat_trait_emphysema_pattern_measurement,0.211,pigean,gcat,23
+['D000072661'],Ciliopathy_Orphanet_363250,0.211,pigean,orphanet,55
+['D011656'],gcat_trait_emphysema_imaging_measurement,0.211,pigean,gcat,34
+['D005764'],gcat_trait_gastroesophageal_reflux_disease,0.211,pigean,gcat,33
+['D011656'],gcat_trait_emphysema,0.211,pigean,gcat,21
+['D057049'],Thrombotic_microangiopathy_Orphanet_93573,0.211,pigean,orphanet,48
+"['D011658', 'D019871', 'D054990']",Dyskeratosis_congenita_Orphanet_1775,0.211,pigean,orphanet,11
+"['D006551', 'D008831', 'D009401', 'D009404']",GallowayMowat_syndrome_Orphanet_2065,0.211,pigean,orphanet,12
+['D014581'],gcat_trait_urticaria,0.211,pigean,gcat,23
+['D006467'],gcat_trait_factor_VIII_measurement,0.211,pigean,gcat,18
+['D002340'],gcat_trait_common_carotid_intimal_medial_thickness,0.211,pigean,gcat,29
+['D002340'],gcat_trait_carotid_atherosclerosis,0.211,pigean,gcat,19
+"['D011024', 'D018352', 'D058873', 'D000086382']",SevereC19vAllandMild,0.211,pigean,portal,70
+"['D011024', 'D018352', 'D058873', 'D000086382']",SevereC19vAll,0.211,pigean,portal,57
+"['D011024', 'D018352', 'D058873', 'D000086382']",HospC19vAllandMild,0.211,pigean,portal,71
+['D005764'],GERD,0.211,pigean,portal,58
+"['D011024', 'D018352', 'D058873', 'D000086382']",HospvNonHospC19,0.211,pigean,portal,60
+"['D011024', 'D018352', 'D058873', 'D000086382']",C19vAll,0.211,pigean,portal,58
+"['D008579', 'D009381']",Meningioma_Orphanet_2495,0.211,pigean,orphanet,53
+"['D011024', 'D018352', 'D058873', 'D000086382']",PredC19vPredNoC19,0.211,pigean,portal,63
+"['D011024', 'D018352', 'D058873', 'D000086382']",HospC19vAll,0.211,pigean,portal,72
+"['D011024', 'D018352', 'D058873', 'D000086382']",C19vNeg,0.211,pigean,portal,61
+"['D011024', 'D018352', 'D058873', 'D000086382']",SeverevNonHospC19,0.211,pigean,portal,72
+['D011658'],gcat_trait_idiopathic_pulmonary_fibrosis,0.211,pigean,gcat,29
+['D014842'],gcat_trait_von_Willebrand_factor_measurement,0.211,pigean,gcat,26
+"['D003638', 'D006319', 'D052245']",Usher_syndrome_type_1_Orphanet_231169,0.211,pigean,orphanet,15
+['D014648'],VaricoseVeins_rec,0.21,pigean,portal,70
+['D005909'],Giant_cell_glioblastoma_Orphanet_251579,0.21,pigean,orphanet,59
+['D006620'],HipFracture,0.21,pigean,portal,52
+['D009437'],gcat_trait_neuropathic_pain,0.21,pigean,gcat,27
+"['D006976', 'D011668', 'D065627']",Heritable_pulmonary_arterial_hypertension_Orphanet_275777,0.21,pigean,orphanet,22
+"['D006623', 'D010673', 'D011086']",Autosomal_dominant_cerebellar_ataxia_Orphanet_99,0.21,pigean,orphanet,20
+['D014648'],gcat_trait_Varicose_veins,0.21,pigean,gcat,24
+['D001749'],BladderCancer,0.21,pigean,portal,73
+['D001749'],gcat_trait_urinary_bladder_carcinoma,0.21,pigean,gcat,21
+['D001749'],gcat_trait_gallbladder_neoplasm,0.21,pigean,gcat,13
+['D007244'],gcat_trait_susceptibility_to_mononucleosis_measurement,0.21,pigean,gcat,25
+['D000402'],gcat_trait_airway_imaging_measurement,0.21,pigean,gcat,21
+['D014648'],VaricoseVeins_het,0.21,pigean,portal,61
+['D058729'],PADnonT2D,0.21,pigean,portal,67
+['D003093'],UC,0.21,pigean,portal,58
+['D014648'],VaricoseVeins_dom,0.21,pigean,portal,68
+"['D007889', 'D047708']",UterineFibroids_HMB,0.21,pigean,portal,53
+"['D007889', 'D047708']",UterineFibroids,0.21,pigean,portal,65
+['D058729'],PAD,0.21,pigean,portal,65
+['D058729'],PAD_eversmk,0.21,pigean,portal,57
+['D058729'],PAD_neversmk,0.21,pigean,portal,53
+['D058729'],gcat_trait_peripheral_arterial_disease,0.21,pigean,gcat,28
+"['D000081029', 'D006976']",PAH,0.21,pigean,portal,49
+['D002764'],gcat_trait_Cholecystitis,0.21,pigean,gcat,20
+['D065631'],AllergicRhinitis,0.21,pigean,portal,65
+['D065631'],AllergicRhinitis_add,0.21,pigean,portal,73
+['D065631'],AllergicRhinitis_dom,0.21,pigean,portal,76
+['D065631'],AllergicRhinitis_het,0.21,pigean,portal,74
+['D065631'],AllergicRhinitis_rec,0.21,pigean,portal,77
+"['D065852', 'D008569']",gcat_trait_memory_performance,0.21,pigean,gcat,31
+['D003093'],gcat_trait_ulcerative_colitis,0.21,pigean,gcat,44
+['D007889'],gcat_trait_uterine_fibroid,0.21,pigean,gcat,20
+['D001064'],gcat_trait_appendicitis,0.21,pigean,gcat,16
+['D012600'],gcat_trait_adolescent_idiopathic_scoliosis,0.21,pigean,gcat,49
+['D004938'],gcat_trait_esophageal_adenocarcinoma,0.21,pigean,gcat,17
+['D004938'],gcat_trait_esophageal_carcinoma,0.21,pigean,gcat,15
+['D013285'],gcat_trait_Strabismus,0.21,pigean,gcat,16
+['D012852'],gcat_trait_chronic_rhinosinusitis,0.21,pigean,gcat,19
+['D014648'],VaricoseVeins,0.21,pigean,portal,53
+['D000152'],gcat_trait_acne,0.21,pigean,gcat,24
+['D042882'],gcat_trait_gallstones,0.21,pigean,gcat,50
+['D045745'],gcat_trait_limited_scleroderma,0.21,pigean,gcat,10
+['D014648'],VaricoseVeins_add,0.21,pigean,portal,58
+['D002292'],Renal_cell_carcinoma_Orphanet_217071,0.209,pigean,orphanet,15
+['D006417'],gcat_trait_Hematuria,0.209,pigean,gcat,12
+['D006086'],gcat_trait_acute_graft_vs_host_disease,0.209,pigean,gcat,20
+['D009216'],gcat_trait_Myopia,0.209,pigean,gcat,33
+['D009216'],gcat_trait_pathological_myopia,0.209,pigean,gcat,35
+['D009216'],gcat_trait_refractive_error,0.209,pigean,gcat,30
+['D012163'],gcat_trait_retinal_detachment,0.209,pigean,gcat,10
+['D002292'],gcat_trait_renal_cell_carcinoma,0.209,pigean,gcat,34
+['D004421'],Paroxysmal_dystonia_Orphanet_200037,0.209,pigean,orphanet,34
+['D012004'],gcat_trait_rectum_cancer,0.209,pigean,gcat,18
+['D009477'],Hereditary_sensory_and_autonomic_neuropathy_Orphanet_140471,0.209,pigean,orphanet,38
+['D009404'],CSSNS,0.209,pigean,portal,66
+['D009404'],gcat_trait_nephrotic_syndrome,0.209,pigean,gcat,25
+['D009404'],pSSNS,0.209,pigean,portal,66
+"['D010212', 'D015776']",Focal_palmoplantar_keratoderma_Orphanet_307837,0.209,pigean,orphanet,22
+['D012004'],RectalCancer,0.209,pigean,portal,73
+['D013345'],SAH,0.209,pigean,portal,66
+"['D002925', 'D006850', 'D007248', 'D053627']",Nonsyndromic_male_infertility_due_to_sperm_motility_disorder_Orphanet_276234,0.209,pigean,orphanet,17
+"['D000505', 'D006197']",gcat_trait_androgenetic_alopecia,0.209,pigean,gcat,19
+"['D000070636', 'D013180']",gcat_trait_rotator_cuff_tear,0.209,pigean,gcat,14
+['D000505'],gcat_trait_frontal_fibrosing_alopecia,0.209,pigean,gcat,24
+['D000505'],Alopecia_Orphanet_79364,0.209,pigean,orphanet,24
+"['D000072660', 'D007248', 'D053627']",Male_infertility_with_teratozoospermia_due_to_single_gene_mutation_Orphanet_399808,0.209,pigean,orphanet,11
+['D000505'],gcat_trait_alopecia,0.209,pigean,gcat,18
+"['D007248', 'D053627']",Male_infertility_due_to_largeheaded_multiflagellar_polyploid_spermatozoa_Orphanet_137893,0.209,pigean,orphanet,5
+['D000022'],SporadicMiscarriage,0.209,pigean,portal,69
+['D014005'],Dermatophytosis_add,0.208,pigean,portal,67
+['D014005'],Dermatophytosis_dom,0.208,pigean,portal,65
+['D014005'],Dermatophytosis,0.208,pigean,portal,52
+"['D006130', 'D008844', 'D065817']",Earpatellashort_stature_syndrome_Orphanet_2554,0.208,pigean,orphanet,8
+['D015451'],Bcell_chronic_lymphocytic_leukemia_Orphanet_67038,0.208,pigean,orphanet,37
+['D015451'],gcat_trait_chronic_lymphocytic_leukemia,0.208,pigean,gcat,14
+['D014005'],Dermatophytosis_het,0.208,pigean,portal,76
+['D002532'],IA,0.208,pigean,portal,69
+['D002532'],IAU,0.208,pigean,portal,53
+['D016920'],gcat_trait_susceptibility_to_bacterial_meningitis_measurement,0.208,pigean,gcat,24
+['D002532'],gcat_trait_brain_aneurysm,0.208,pigean,gcat,36
+['D012859'],gcat_trait_Sjogren_syndrome,0.208,pigean,gcat,16
+['D052177'],Infantile_nephronophthisis_Orphanet_93591,0.208,pigean,orphanet,21
+['D014005'],Dermatophytosis_rec,0.208,pigean,portal,66
+['D002761'],gcat_trait_biliary_liver_cirrhosis,0.208,pigean,gcat,18
+"['D002761', 'D008105']",gcat_trait_primary_biliary_cirrhosis,0.208,pigean,gcat,31
+['D013276'],gcat_trait_gastric_ulcer,0.207,pigean,gcat,17
+['D020181'],gcat_trait_obstructive_sleep_apnea,0.207,pigean,gcat,32
+['D016757'],gcat_trait_sudden_cardiac_arrest,0.207,pigean,gcat,32
+"['D002312', 'D024741']",Cardiomyopathy,0.207,pigean,portal,57
+['D014012'],gcat_trait_Tinnitus,0.207,pigean,gcat,37
+['D008209'],Primary_lymphedema_Orphanet_77240,0.207,pigean,orphanet,54
+['D002971'],gcat_trait_cleft_lip,0.207,pigean,gcat,40
+['D017544'],gcat_trait_Abdominal_Aortic_Aneurysm,0.207,pigean,gcat,64
+['D009107'],gcat_trait_susceptibility_to_mumps_measurement,0.207,pigean,gcat,35
+['D017544'],AbAA,0.207,pigean,portal,87
+['D002971'],gcat_trait_Orofacial_cleft,0.207,pigean,gcat,25
+['D003398'],Craniosynostosis_Orphanet_1531,0.207,pigean,orphanet,45
+['D020181'],gcat_trait_sleep_apnea_measurement,0.207,pigean,gcat,36
+['D010020'],Avascular_necrosis_Orphanet_399164,0.207,pigean,orphanet,56
+['D010787'],gcat_trait_skin_sensitivity_to_sun,0.207,pigean,gcat,10
+['D002644'],gcat_trait_susceptibility_to_chickenpox_measurement,0.207,pigean,gcat,13
+['D054082'],Lissencephaly_Orphanet_48471,0.207,pigean,orphanet,19
+['D002312'],gcat_trait_hypertrophic_cardiomyopathy,0.207,pigean,gcat,30
+['D002312'],Rare_hypertrophic_cardiomyopathy_Orphanet_217569,0.207,pigean,orphanet,74
+['D059350'],gcat_trait_multisite_chronic_pain,0.207,pigean,gcat,24
+['D017285'],gcat_trait_polymyositis,0.207,pigean,gcat,19
+['D017495'],Hyperpigmentation_of_the_skin_Orphanet_79375,0.207,pigean,orphanet,29
+['D010020'],Osteonecrosis_Orphanet_399158,0.207,pigean,orphanet,46
+['D011086'],Polycythemia_Orphanet_98427,0.206,pigean,orphanet,29
+"['D007669', 'D053040']",KSD,0.206,pigean,portal,53
+['D000419'],gcat_trait_urinary_albumin_to_creatinine_ratio,0.206,pigean,gcat,34
+['D004828'],Epilepsy_FocalHS,0.206,pigean,portal,60
+['D004828'],Epilepsy_FocalLN,0.206,pigean,portal,57
+['D003876'],gcat_trait_atopic_eczema,0.206,pigean,gcat,39
+['D002189'],gcat_trait_cannabis_dependence_measurement,0.206,pigean,gcat,21
+"['D014797', 'D054990']",FVCinIPF,0.206,pigean,portal,75
+['D002189'],gcat_trait_cannabis_dependence,0.206,pigean,gcat,35
+['D002189'],gcat_trait_Cannabis_use,0.206,pigean,gcat,26
+['D058494'],Qualitative_or_quantitative_defects_of_alphadystroglycan_Orphanet_371024,0.206,pigean,orphanet,11
+['D004828'],gcat_trait_partial_epilepsy,0.206,pigean,gcat,17
+['D000419'],MacrovControl,0.206,pigean,portal,51
+['D000419'],gcat_trait_albuminuria,0.206,pigean,gcat,27
+['D011086'],Autosomal_dominant_secondary_polycythemia_Orphanet_247511,0.206,pigean,orphanet,17
+['D054990'],IPFSurvival,0.206,pigean,portal,69
+['D054990'],IPF,0.206,pigean,portal,75
+['D054990'],DLCOInIPF,0.206,pigean,portal,60
+['D054222'],gcat_trait_cortical_thickness,0.206,pigean,gcat,43
+['D054222'],Cobblestone_lissencephaly_Orphanet_51577,0.206,pigean,orphanet,11
+"['D007669', 'D053040']",gcat_trait_nephrolithiasis,0.206,pigean,gcat,29
+['D010392'],gcat_trait_pemphigus_vulgaris,0.206,pigean,gcat,9
+"['D007690', 'D016891', 'D050396']",Autosomal_dominant_polycystic_kidney_disease_Orphanet_730,0.206,pigean,orphanet,16
+['D016889'],gcat_trait_endometrial_neoplasm,0.206,pigean,gcat,13
+['D000419'],gcat_trait_Moderate_albuminuria,0.206,pigean,gcat,47
+['D016889'],EndometrialCancer,0.206,pigean,portal,76
+['D002349'],gcat_trait_carpal_tunnel_syndrome,0.206,pigean,gcat,29
+['D002349'],CTS,0.206,pigean,portal,62
+['D000419'],ALBUMIN,0.206,pigean,portal,68
+['D000419'],MA,0.206,pigean,portal,46
+['D001251'],gcat_trait_Astigmatism,0.206,pigean,gcat,34
+['D001251'],gcat_trait_Corneal_astigmatism,0.206,pigean,gcat,35
+['D003876'],Eczema,0.206,pigean,portal,51
+['D016889'],gcat_trait_endometrial_carcinoma,0.206,pigean,gcat,23
+['D002311'],Dilated_cardiomyopathy_Orphanet_217604,0.205,pigean,orphanet,59
+['D002311'],Familial_dilated_cardiomyopathy_Orphanet_217607,0.205,pigean,orphanet,61
+['D055752'],gcat_trait_small_cell_lung_carcinoma,0.205,pigean,gcat,29
+['D007855'],gcat_trait_blood_lead_measurement,0.205,pigean,gcat,30
+['D002311'],gcat_trait_dilated_cardiomyopathy,0.205,pigean,gcat,11
+['D008108'],gcat_trait_alcoholic_liver_disease,0.205,pigean,gcat,31
+['D002311'],gcat_trait_idiopathic_dilated_cardiomyopathy,0.205,pigean,gcat,22
+"['D007839', 'D009293']",gcat_trait_Opioid_use_measurement,0.205,pigean,gcat,18
+['D019586'],gcat_trait_intracranial_volume_measurement,0.205,pigean,gcat,20
+['D009293'],gcat_trait_opioid_use_disorder,0.205,pigean,gcat,30
+['D008548'],gcat_trait_freckles,0.205,pigean,gcat,18
+['D008548'],gcat_trait_facial_pigmentation_measurement,0.205,pigean,gcat,26
+['D009293'],gcat_trait_opioid_dependence,0.205,pigean,gcat,37
+['D016893'],gcat_trait_carotid_plaque_build,0.205,pigean,gcat,30
+"['D001176', 'D002311', 'D017696', 'D020914']",Childhoodonset_nemaline_myopathy_Orphanet_171439,0.205,pigean,orphanet,16
+['D013167'],AnkylosingSpondylitis,0.204,pigean,portal,67
+"['D004535', 'D006958', 'D010013']",Osteogenesis_imperfecta_type_2_Orphanet_216804,0.204,pigean,orphanet,21
+['D013167'],gcat_trait_ankylosing_spondylitis,0.204,pigean,gcat,26
+['D010001'],gcat_trait_osteitis_deformans,0.204,pigean,gcat,5
+"['D000168', 'D017689', 'D054975']",Postaxial_polydactyly_type_A_Orphanet_93334,0.204,pigean,orphanet,10
+"['D008133', 'D006334']",gcat_trait_heart_function_measurement,0.204,pigean,gcat,15
+['D004238'],gcat_trait_diverticulitis,0.204,pigean,gcat,19
+['D006970'],SleepEDS,0.204,pigean,portal,68
+['D019694'],gcat_trait_chronic_hepatitis_B_virus_infection,0.204,pigean,gcat,3
+['D006970'],gcat_trait_excessive_daytime_sleepiness_measurement,0.204,pigean,gcat,12
+['D054556'],gcat_trait_venous_thromboembolism,0.204,pigean,gcat,31
+['D006970'],SleepNaps,0.204,pigean,portal,64
+['D005512'],gcat_trait_food_allergy_measurement,0.204,pigean,gcat,13
+"['D001176', 'D004535', 'D006958', 'D010013']",Osteogenesis_imperfecta_type_4_Orphanet_216820,0.204,pigean,orphanet,17
+"['none', 'D008133']",LongQT,0.204,pigean,portal,66
+['D011297'],gcat_trait_digit_length_ratio,0.204,pigean,gcat,15
+"['D001176', 'D004535', 'D006958', 'D010013']",Osteogenesis_imperfecta_Orphanet_666,0.204,pigean,orphanet,12
+['D056887'],gcat_trait_pelvic_organ_prolapse,0.204,pigean,gcat,27
+['D005173'],gcat_trait_factor_XI_measurement,0.204,pigean,gcat,5
+"['D001176', 'D004535', 'D006958', 'D010013']",Osteogenesis_imperfecta_type_3_Orphanet_216812,0.204,pigean,orphanet,15
+['D055009'],gcat_trait_spondylosis,0.204,pigean,gcat,23
+['D007021'],gcat_trait_hypospadias,0.204,pigean,gcat,16
+['D004244'],gcat_trait_Vertigo,0.204,pigean,gcat,37
+['D014718'],gcat_trait_vesicoureteral_reflux,0.204,pigean,gcat,22
+['D008105'],PBC,0.203,pigean,portal,53
+"['D017696', 'D020914']",Congenital_fibertype_disproportion_myopathy_Orphanet_2020,0.203,pigean,orphanet,23
+['D054218'],Precursor_Tcell_acute_lymphoblastic_leukemia_Orphanet_99861,0.203,pigean,orphanet,26
+['D006463'],Hemolytic_uremic_syndrome_Orphanet_544458,0.203,pigean,orphanet,30
+['D012913'],gcat_trait_snoring_measurement,0.203,pigean,gcat,27
+['D012913'],SnoringAdjBMI,0.203,pigean,portal,62
+['D006552'],gcat_trait_Inguinal_hernia,0.203,pigean,gcat,19
+['D020914'],Myofibrillar_myopathy_Orphanet_593,0.203,pigean,orphanet,20
+['D016403'],gcat_trait_diffuse_large_Bcell_lymphoma,0.203,pigean,gcat,5
+['D006552'],HerniaAbdomin,0.203,pigean,portal,48
+['D047928'],EarlyPretermBirthFetal,0.203,pigean,portal,80
+['D009290'],NT1,0.203,pigean,portal,73
+['D024741'],Rare_familial_disorder_with_hypertrophic_cardiomyopathy_Orphanet_99739,0.203,pigean,orphanet,72
+['D047928'],PretermBirthFetal,0.203,pigean,portal,69
+['D005902'],POAG,0.203,pigean,portal,50
+"['D001176', 'D017696', 'D020914']",Typical_nemaline_myopathy_Orphanet_171436,0.203,pigean,orphanet,10
+['D009290'],Narcolepsy_Orphanet_619284,0.203,pigean,orphanet,23
+['D009290'],gcat_trait_narcolepsycataplexy_syndrome,0.203,pigean,gcat,25
+['D008105'],Primary_biliary_cholangitis_Orphanet_186,0.203,pigean,orphanet,14
+['D006255'],Pollinosis,0.203,pigean,portal,49
+['D012913'],Snoring,0.203,pigean,portal,60
+['D008269'],DME,0.203,pigean,portal,58
+['D014820'],gcat_trait_Vitiligo,0.203,pigean,gcat,25
+['D013494'],gcat_trait_progressive_supranuclear_palsy,0.203,pigean,gcat,15
+['D004535'],EhlersDanlos_syndrome_Orphanet_98249,0.203,pigean,orphanet,27
+['D008945'],gcat_trait_Mitral_valve_prolapse,0.202,pigean,gcat,26
+['D006484'],gcat_trait_hemorrhoid,0.202,pigean,gcat,16
+['D006484'],Hemorrhoids_rec,0.202,pigean,portal,68
+['D006484'],Hemorrhoids_het,0.202,pigean,portal,67
+['D015140'],gcat_trait_Vascular_dementia,0.202,pigean,gcat,37
+['D006484'],Hemorrhoids_dom,0.202,pigean,portal,73
+['D006484'],Hemorrhoids,0.202,pigean,portal,73
+['D007627'],gcat_trait_Keloid,0.202,pigean,gcat,4
+['D007640'],Keratoconus,0.202,pigean,portal,42
+['D006484'],Hemorrhoids_add,0.202,pigean,portal,79
+['D009298'],gcat_trait_Nasal_Cavity_Polyp,0.202,pigean,gcat,27
+['D009303'],gcat_trait_nasopharyngeal_neoplasm,0.202,pigean,gcat,7
+['D013625'],gcat_trait_Takayasu_arteritis,0.202,pigean,gcat,29
+"['D021081', 'D002940']",gcat_trait_circadian_rhythm,0.202,pigean,gcat,29
+['D013342'],gcat_trait_Stuttering,0.202,pigean,gcat,36
+['D005922'],IgAN,0.202,pigean,portal,47
+['D020191'],Progressive_myoclonic_epilepsy_Orphanet_98261,0.202,pigean,orphanet,15
+['D006627'],gcat_trait_Hirschsprung_disease,0.202,pigean,gcat,11
+['D005271'],gcat_trait_idiopathic_osteonecrosis_of_the_femoral_head,0.202,pigean,gcat,20
+['D008945'],MVP,0.202,pigean,portal,65
+['D010040'],gcat_trait_otosclerosis,0.202,pigean,gcat,29
+['D005922'],gcat_trait_IGA_glomerulonephritis,0.202,pigean,gcat,26
+['D013700'],gcat_trait_temporal_arteritis,0.202,pigean,gcat,15
+['D000361'],Agammaglobulinemia_Orphanet_183669,0.201,pigean,orphanet,24
+['D007319'],SleepInsomnia_add,0.201,pigean,portal,79
+['D004412'],gcat_trait_dysmenorrheic_pain_measurement,0.201,pigean,gcat,18
+['D007319'],SleepInsomnia_rec,0.201,pigean,portal,56
+['D007319'],SleepInsomnia_dom,0.201,pigean,portal,78
+['D001763'],Rare_disorder_with_ptosis_Orphanet_98578,0.201,pigean,orphanet,38
+['D012148'],gcat_trait_restless_legs_syndrome,0.201,pigean,gcat,35
+['D007319'],gcat_trait_insomnia_measurement,0.201,pigean,gcat,26
+['D007319'],Insomnia,0.201,pigean,portal,57
+['D007319'],gcat_trait_insomnia,0.201,pigean,gcat,35
+['D007319'],SleepInsomnia_ICD,0.201,pigean,portal,71
+['D015866'],Posterior_uveitis_Orphanet_280892,0.201,pigean,orphanet,38
+['D007319'],SleepInsomnia,0.201,pigean,portal,59
+['D033461'],gcat_trait_hyperuricemia,0.201,pigean,gcat,22
+['D001656'],gcat_trait_biliary_atresia,0.201,pigean,gcat,24
+['D009072'],gcat_trait_Moyamoya_disease,0.201,pigean,gcat,23
+['D016512'],gcat_trait_ankle_injury,0.201,pigean,gcat,20
+['D008831'],Isolated_congenital_microcephaly_Orphanet_199642,0.201,pigean,orphanet,31
+['D007319'],SleepInsomnia_het,0.201,pigean,portal,73
+['D001763'],gcat_trait_eyelid_sagging_measurement,0.201,pigean,gcat,22
+['D013130'],gcat_trait_spinal_stenosis,0.201,pigean,gcat,12
+['D013130'],SCS,0.201,pigean,portal,55
+['D008342'],Mandibulofacial_dysostosis_Orphanet_155899,0.2,pigean,orphanet,27
+['D017545'],gcat_trait_thoracic_aortic_aneurysm,0.2,pigean,gcat,11
+"['D000074765', 'D002352', 'D008565', 'D011506', 'D022861', 'D047908']",HermanskyPudlak_syndrome_Orphanet_79430,0.2,pigean,orphanet,10
+['D009041'],gcat_trait_motion_sickness,0.2,pigean,gcat,14
+['D012393'],gcat_trait_rosacea_severity_measurement,0.2,pigean,gcat,27
+['D012729'],gcat_trait_mosaic_loss_of_chromosome_Y_measurement,0.2,pigean,gcat,32
+['D008595'],HMB,0.2,pigean,portal,45
+['D002607'],CharcotMarieTooth_diseaseHereditary_motor_and_sensory_neuropathy_Orphanet_166,0.2,pigean,orphanet,29
+['D012729'],Sexchromosome_anomaly_Orphanet_98155,0.2,pigean,orphanet,14
+['D015209'],gcat_trait_sclerosing_cholangitis,0.2,pigean,gcat,25
+['D008224'],gcat_trait_neoplasm_of_mature_Bcells,0.2,pigean,gcat,12
+['D015209'],PSC,0.2,pigean,portal,46
+['D008104'],gcat_trait_cirrhosis_of_liver,0.2,pigean,gcat,19
+['D008104'],gcat_trait_alcoholic_liver_cirrhosis,0.2,pigean,gcat,12
+"['D002607', 'D016738', 'D031845']",Spondyloepiphyseal_dysplasia_and_spondyloepimetaphyseal_dysplasia_Orphanet_253,0.2,pigean,orphanet,22
+['D015209'],Sclerosing_cholangitis_Orphanet_447771,0.2,pigean,orphanet,8
+['D014029'],gcat_trait_nicotine_dependence_symptom_count,0.199,pigean,gcat,37
+['D014596'],gcat_trait_uterine_prolapse,0.199,pigean,gcat,15
+['D000506'],gcat_trait_alopecia_areata,0.199,pigean,gcat,23
+['D004387'],gcat_trait_Dupuytren_Contracture,0.199,pigean,gcat,34
+['D015535'],gcat_trait_psoriatic_arthritis,0.199,pigean,gcat,26
+['D014029'],gcat_trait_nicotine_dependence,0.199,pigean,gcat,28
+['D020370'],KneeOAreplacement,0.199,pigean,portal,70
+['D020370'],KneeOAnoreplacement,0.199,pigean,portal,57
+['D020370'],KNEEOA,0.199,pigean,portal,57
+['D020370'],gcat_trait_osteoarthritis_knee,0.199,pigean,gcat,33
+['D000210'],gcat_trait_haptoglobin_measurement,0.199,pigean,gcat,3
+['D019693'],gcat_trait_Autoimmune_Hepatitis,0.199,pigean,gcat,19
+['D000210'],gcat_trait_blood_sedimentation,0.199,pigean,gcat,10
+"['D015207', 'D020370']",HIPKNEEOA,0.199,pigean,portal,55
+['D006956'],gcat_trait_Hypermetropia,0.199,pigean,gcat,32
+['D019970'],gcat_trait_cocaine_dependence,0.198,pigean,gcat,21
+['D013851'],gcat_trait_lean_body_mass,0.198,pigean,gcat,51
+['D013851'],Ap-LM,0.198,pigean,portal,87
+['D017098'],gcat_trait_serum_IgA_measurement,0.198,pigean,gcat,20
+['D017098'],gcat_trait_selective_IgA_deficiency_disease,0.198,pigean,gcat,31
+['D013471'],gcat_trait_sunburn,0.198,pigean,gcat,22
+"['D000081207', 'D017074', 'D017098']",Common_variable_immunodeficiency_Orphanet_1572,0.198,pigean,orphanet,24
+"['D017098', 'D015415', 'D040641']",gcat_trait_protein_measurement,0.198,pigean,gcat,74
+['D005146'],gcat_trait_facial_asymmetry_measurement,0.198,pigean,gcat,11
+['D005923'],gcat_trait_focal_segmental_glomerulosclerosis,0.198,pigean,gcat,26
+['D007299'],gcat_trait_mosquito_bite_reaction_itch_intensity_measurement,0.198,pigean,gcat,35
+['D007299'],gcat_trait_mosquito_bite_reaction_size_measurement,0.198,pigean,gcat,25
+['D007299'],gcat_trait_perceived_unattractiveness_to_mosquitos_measurement,0.198,pigean,gcat,15
+['D015207'],HipOAnoreplacement,0.197,pigean,portal,56
+['D065626'],gcat_trait_nonalcoholic_fatty_liver_disease,0.197,pigean,gcat,64
+['D001176'],Arthrogryposis_multiplex_congenita_Orphanet_1037,0.197,pigean,orphanet,14
+['D001176'],Arthrogryposis_syndrome_Orphanet_109007,0.197,pigean,orphanet,41
+['D065626'],gcat_trait_nonalcoholic_fatty_liver_disease_severity_measurement,0.197,pigean,gcat,11
+['D008850'],Nanophthalmos_Orphanet_35612,0.197,pigean,orphanet,31
+['D020329'],gcat_trait_essential_tremor,0.197,pigean,gcat,35
+['D020330'],gcat_trait_Bells_palsy,0.197,pigean,gcat,32
+['D000081208'],Immunodeficiency_due_to_a_late_component_of_complement_deficiency_Orphanet_169150,0.197,pigean,orphanet,15
+['D001746'],gcat_trait_bladder_exstrophy,0.197,pigean,gcat,27
+['D012541'],gcat_trait_susceptibility_to_scarlet_fever_measurement,0.197,pigean,gcat,25
+['D065626'],gcat_trait_nonalcoholic_steatohepatitis,0.197,pigean,gcat,14
+['D004830'],Epilepsy_GeneralizedTCS,0.197,pigean,portal,58
+['D003323'],gcat_trait_coronary_aneurysm,0.197,pigean,gcat,17
+['D005352'],FMD,0.197,pigean,portal,69
+['D065626'],NAFLDfibrosis,0.197,pigean,portal,68
+['D003294'],gcat_trait_Febrile_seizure_within_the_age_range_of_3_months_to_6_years,0.197,pigean,gcat,14
+['D055959'],gcat_trait_lumbar_disc_degeneration,0.197,pigean,gcat,20
+['D003294'],gcat_trait_MMRrelated_febrile_seizures,0.197,pigean,gcat,14
+['D065626'],NAFLD,0.197,pigean,portal,100
+['D015207'],HIPOA,0.197,pigean,portal,67
+['D006105'],Chronic_granulomatous_disease_Orphanet_379,0.197,pigean,orphanet,11
+['D002385'],Narcolepsy_type_1_Orphanet_2073,0.196,pigean,orphanet,20
+['D053840'],gcat_trait_Brugada_syndrome,0.196,pigean,gcat,21
+"['D014097', 'D000848']",gcat_trait_tooth_eruption,0.196,pigean,gcat,19
+['D003317'],Corneal_dystrophy_Orphanet_34533,0.196,pigean,orphanet,14
+['D000848'],gcat_trait_odontogenesis,0.196,pigean,gcat,12
+['D008998'],gcat_trait_monoclonal_gammopathy,0.196,pigean,gcat,6
+['D000848'],gcat_trait_tooth_agenesis,0.196,pigean,gcat,14
+['D012912'],gcat_trait_autosomal_dominant_compelling_helioophthalmic_outburst_syndrome,0.196,pigean,gcat,31
+['D053306'],gcat_trait_serum_IgM_measurement,0.196,pigean,gcat,14
+['D006983'],Rare_disorder_with_hypertrichosis_Orphanet_79365,0.196,pigean,orphanet,56
+['D015433'],gcat_trait_membranous_glomerulonephritis,0.196,pigean,gcat,5
+['D015812'],PACG,0.196,pigean,portal,67
+['D046728'],gcat_trait_microscopic_colitis,0.196,pigean,gcat,20
+['D015433'],MN,0.196,pigean,portal,59
+['D013651'],gcat_trait_sensory_perception_of_bitter_taste,0.195,pigean,gcat,10
+['D011273'],gcat_trait_gestational_age,0.195,pigean,gcat,39
+['D011273'],PosttermBirthFetal,0.195,pigean,portal,71
+['D000857'],gcat_trait_sensory_perception_of_smell,0.195,pigean,gcat,28
+['D051359'],Hemophagocytic_syndrome_Orphanet_158032,0.195,pigean,orphanet,22
+['D019226'],gcat_trait_Oral_ulcer,0.195,pigean,gcat,36
+['D012628'],gcat_trait_seborrheic_dermatitis,0.195,pigean,gcat,16
+['D051359'],Primary_hemophagocytic_lymphohistiocytosis_Orphanet_158038,0.195,pigean,orphanet,17
+['D012594'],Scleroderma_Orphanet_801,0.195,pigean,orphanet,28
+['D014681'],gcat_trait_velopharyngeal_dysfunction,0.194,pigean,gcat,31
+['D002806'],Chondrodysplasia_punctata_Orphanet_93442,0.194,pigean,orphanet,52
+['D006560'],gcat_trait_susceptibility_to_cold_sores_measurement,0.194,pigean,gcat,27
+['D014077'],gcat_trait_erosive_tooth_wear_measurement,0.194,pigean,gcat,30
+['D046248'],gcat_trait_infantile_hypertrophic_pyloric_stenosis,0.194,pigean,gcat,13
+"['D019571', 'D055947']",Inherited_isolated_arrhythmogenic_cardiomyopathy_dominantleft_variant_Orphanet_293888,0.194,pigean,orphanet,55
+"['D019571', 'D055947']",Inherited_isolated_arrhythmogenic_ventricular_dysplasia_biventricular_variant_Orphanet_293899,0.194,pigean,orphanet,54
+['D017887'],OPLL,0.194,pigean,portal,64
+['D018316'],Gliosarcoma_Orphanet_251576,0.194,pigean,orphanet,60
+['D019571'],Inherited_arrhythmogenic_cardiomyopathy_Orphanet_247,0.194,pigean,orphanet,50
+"['D005167', 'D015415', 'D005168']",gcat_trait_factor_VII_measurement,0.193,pigean,gcat,14
+['D049288'],Autosomal_recessive_limbgirdle_muscular_dystrophy_Orphanet_102015,0.193,pigean,orphanet,30
+['D049288'],Limbgirdle_muscular_dystrophy_Orphanet_263,0.193,pigean,orphanet,29
+['D002280'],gcat_trait_basal_cell_carcinoma,0.193,pigean,gcat,23
+['D000567'],Hypomaturation_amelogenesis_imperfecta_Orphanet_100033,0.193,pigean,orphanet,9
+['D009471'],Neuromyelitis_optica_IgG_plus,0.193,pigean,portal,64
+['D009471'],Neuromyelitis_optica_IgG_minus,0.193,pigean,portal,78
+['D009471'],Neuromyelitis_optica,0.193,pigean,portal,62
+"['D000567', 'D016109']",Amelogenesis_imperfecta_Orphanet_88661,0.193,pigean,orphanet,10
+['D002313'],Restrictive_cardiomyopathy_Orphanet_217632,0.192,pigean,orphanet,52
+['D006528'],HCC,0.192,pigean,portal,50
+['D065706'],Polymicrogyria_Orphanet_35981,0.192,pigean,orphanet,52
+['D056833'],gcat_trait_central_serous_retinopathy,0.192,pigean,gcat,8
+['D019512'],gcat_trait_alcoholic_pancreatitis,0.192,pigean,gcat,11
+['D006528'],gcat_trait_hepatocellular_carcinoma,0.192,pigean,gcat,21
+['D016110'],Epidermolysis_bullosa_simplex_Orphanet_304,0.191,pigean,orphanet,16
+['D045262'],gcat_trait_reticulocyte_measurement,0.191,pigean,gcat,47
+['D002543'],gcat_trait_cerebral_microbleeds,0.191,pigean,gcat,21
+['D002543'],gcat_trait_nonlobar_intracerebral_hemorrhage,0.191,pigean,gcat,31
+['D002543'],allSVS,0.191,pigean,portal,65
+['D045262'],gcat_trait_reticulocyte_count,0.191,pigean,gcat,52
+"['D007074', 'D017099']",gcat_trait_serum_IgG_measurement,0.191,pigean,gcat,18
+['D017696'],Nemaline_myopathy_Orphanet_607,0.191,pigean,orphanet,37
+['D015419'],Hereditary_spastic_paraplegia_Orphanet_685,0.191,pigean,orphanet,22
+['D002543'],gcat_trait_intracerebral_hemorrhage,0.191,pigean,gcat,29
+"['D000072660', 'D053627']",Male_infertility_due_to_globozoospermia_Orphanet_171709,0.19,pigean,orphanet,4
+['D021183'],gcat_trait_peanut_allergy_measurement,0.19,pigean,gcat,13
+['D058456'],gcat_trait_macular_telangiectasia_type_2,0.19,pigean,gcat,26
+['D005642'],gcat_trait_Fuchs_endothelial_corneal_dystrophy,0.19,pigean,gcat,10
+['D020215'],gcat_trait_cervical_artery_dissection,0.19,pigean,gcat,14
+['D016109'],Junctional_epidermolysis_bullosa_Orphanet_305,0.19,pigean,orphanet,19
+['D049310'],Distal_myopathy_Orphanet_599,0.19,pigean,orphanet,35
+['D000071378'],gcat_trait_Hallux_valgus,0.189,pigean,gcat,31
+['D009958'],Orofaciodigital_syndrome_Orphanet_140997,0.189,pigean,orphanet,10
+['D000071017'],Hyperekplexia_Orphanet_306773,0.189,pigean,orphanet,4
+['D020083'],gcat_trait_SAPHO_syndrome,0.189,pigean,gcat,24
+['D057092'],GA,0.189,pigean,portal,67
+['D025962'],Septooptic_dysplasia_spectrum_Orphanet_3157,0.189,pigean,orphanet,23
+['D056486'],gcat_trait_druginduced_liver_injury,0.187,pigean,gcat,13
+['D015776'],Diffuse_palmoplantar_keratoderma_Orphanet_307141,0.186,pigean,orphanet,31
+['D057135'],ND,0.183,pigean,portal,69
+['D055013'],SpineOA,0.183,pigean,portal,70
+['D054221'],Classic_lissencephaly_Orphanet_102009,0.178,pigean,orphanet,10
+['D001171'],gcat_trait_juvenile_idiopathic_arthritis,0.095,pigean,gcat,10
+['D007589'],HyperIgE_syndrome_Orphanet_331223,0.095,pigean,orphanet,41
+['D065817'],gcat_trait_lobe_attachment,0.095,pigean,gcat,18
+['D000071056'],Anorectal_malformation_Orphanet_96346,0.095,pigean,orphanet,24
+['D059446'],Situs_ambiguus_Orphanet_157769,0.095,pigean,orphanet,11
+['D001171'],gcat_trait_systemic_juvenile_idiopathic_arthritis,0.095,pigean,gcat,12
+['D059409'],Stroke_smallvessel,0.095,pigean,portal,68
+['D006618'],gcat_trait_developmental_dysplasia_of_the_hip,0.095,pigean,gcat,18
+['D000081029'],Pulmonary_arterial_hypertension_Orphanet_182090,0.095,pigean,orphanet,19
+['D000081029'],gcat_trait_pulmonary_arterial_hypertension,0.095,pigean,gcat,8
+['D001171'],Juvenile_idiopathic_arthritis_Orphanet_92,0.095,pigean,orphanet,45
+['D001171'],Oligoarticular_juvenile_idiopathic_arthritis_Orphanet_85410,0.095,pigean,orphanet,24
+['D001171'],Polyarticular_juvenile_idiopathic_arthritis_Orphanet_404580,0.095,pigean,orphanet,28
+['D058225'],gcat_trait_neuritic_plaque_measurement,0.095,pigean,gcat,34
+['D000071056'],gcat_trait_anorectal_malformation,0.095,pigean,gcat,17
+"['D012309', 'D001519']",gcat_trait_risktaking_behaviour,0.04,pigean,gcat,36
+['D001921'],gcat_trait_thalamus_volume,0.039,pigean,gcat,37
+['D000596'],gcat_trait_serine_measurement,0.039,pigean,gcat,20
+['D004644'],gcat_trait_feeling_fedup_measurement,0.039,pigean,gcat,27
+['D004644'],gcat_trait_feeling_tense_measurement,0.039,pigean,gcat,20
+['D004644'],gcat_trait_guilt_measurement,0.039,pigean,gcat,10
+['D001523'],Psychiatric_dom,0.038,pigean,portal,74
+['D001523'],Psychiatric,0.038,pigean,portal,56
+"['D000071451', 'D015415']",gcat_trait_YKL40_measurement,0.038,pigean,gcat,5
+['D001523'],Psychiatric_rec,0.038,pigean,portal,58
+['D001523'],Psychiatric_het,0.038,pigean,portal,67
+['D001523'],Psychiatric_add,0.038,pigean,portal,63
+['D015415'],gcat_trait_interleukin_18_receptor_1_measurement,0.038,pigean,gcat,10
+"['D001714', 'D001523']",gcat_trait_mental_or_behavioural_disorder,0.038,pigean,gcat,34
+['D015415'],gcat_trait_osteoprotegerin_measurement,0.038,pigean,gcat,10
+['D015415'],gcat_trait_cotinine_measurement,0.038,pigean,gcat,12
+['D015415'],gcat_trait_cystatinD_measurement,0.038,pigean,gcat,19
+['D015415'],gcat_trait_glutamine_measurement,0.038,pigean,gcat,33
+['D015415'],gcat_trait_hepatocyte_growth_factor_measurement,0.038,pigean,gcat,21
+['D015415'],gcat_trait_hydroxyleucine_measurement,0.038,pigean,gcat,21
+['D015415'],gcat_trait_interleukin_6_receptor_subunit_alpha_measurement,0.038,pigean,gcat,2
+['D015415'],gcat_trait_kallikrein11_measurement,0.038,pigean,gcat,28
+['D015415'],gcat_trait_macrophage_colony_stimulating_factor_measurement,0.038,pigean,gcat,16
+['D015415'],gcat_trait_matrix_metalloproteinase_10_measurement,0.038,pigean,gcat,15
+['D015415'],gcat_trait_melanomaderived_growth_regulatory_protein_measurement,0.038,pigean,gcat,18
+['D015415'],gcat_trait_pyroglutamine_measurement,0.038,pigean,gcat,32
+['D015415'],gcat_trait_blood_metabolite_measurement,0.038,pigean,gcat,93
+['D015415'],gcat_trait_sclerostin_measurement,0.038,pigean,gcat,23
+['D015415'],gcat_trait_serum_ST2_measurement,0.038,pigean,gcat,5
+['D015415'],gcat_trait_serum_metabolite_measurement,0.038,pigean,gcat,83
+['D015415'],gcat_trait_soluble_triggering_receptor_expressed_on_myeloid_cells_2_measurement,0.038,pigean,gcat,39
+['D015415'],gcat_trait_stem_Cell_Factor_measurement,0.038,pigean,gcat,44
+['D015415'],gcat_trait_stem_Cell_Growth_Factor_beta_measurement,0.038,pigean,gcat,25
+['D015415'],gcat_trait_thrombin_activatable_fibrinolysis_inhibitor_activation_peptide_measurement,0.038,pigean,gcat,12
+['D015415'],gcat_trait_thyroglobulin_measurement,0.038,pigean,gcat,26
+['D015415'],gcat_trait_total_blood_protein_measurement,0.038,pigean,gcat,38
+['D015415'],gcat_trait_urinary_metabolite_measurement,0.038,pigean,gcat,71
+['D015415'],gcat_trait_cerebrospinal_fluid_biomarker_measurement,0.038,pigean,gcat,21
+['D015415'],gcat_trait_interleukin12_receptor_subunit_beta1_measurement,0.038,pigean,gcat,20
+['D015415'],gcat_trait_CC_motif_chemokine_4_levels,0.038,pigean,gcat,19
+['D015415'],gcat_trait_MHC_class_I_polypeptiderelated_sequence_A_measurement,0.038,pigean,gcat,2
+['D015415'],gcat_trait_betanerve_growth_factor_measurement,0.038,pigean,gcat,25
+['D015415'],gcat_trait_asparagine_measurement,0.038,pigean,gcat,29
+['D015415'],gcat_trait_apolipoprotein_B_measurement,0.038,pigean,gcat,96
+['D015415'],gcat_trait_alpha_fetoprotein_measurement,0.038,pigean,gcat,16
+['D015415'],gcat_trait_CCL4_measurement,0.038,pigean,gcat,8
+['D015415'],gcat_trait_a_disintegrin_and_metalloproteinase_with_thrombospondin_motifs_13_measurement,0.038,pigean,gcat,16
+"['D015415', 'D042643']",gcat_trait_plateletderived_growth_factor_BB_measurement,0.038,pigean,gcat,20
+['D015415'],gcat_trait_CXC_motif_chemokine_6_measurement,0.038,pigean,gcat,26
+['D000886'],TibiaToHeight,0.037,pigean,portal,61
+['D000886'],TibiofemoralAngle,0.037,pigean,portal,54
+['D011188'],KExcretion,0.037,pigean,portal,67
+['D000886'],TorsoToHeight,0.037,pigean,portal,67
+['D011188'],K,0.037,pigean,portal,69
+['D011188'],gcat_trait_potassium_measurement,0.037,pigean,gcat,26
+"['D007360', 'D004522']",gcat_trait_mathematical_ability,0.037,pigean,gcat,45
+['D001837'],gcat_trait_pancreas_volume,0.037,pigean,gcat,21
+['D001837'],gcat_trait_liver_volume,0.037,pigean,gcat,19
+['D000886'],ShoulderToHeight,0.037,pigean,portal,49
+['D000886'],ForearmToHeight,0.037,pigean,portal,50
+['D000886'],gcat_trait_body_weights_and_measures,0.037,pigean,gcat,31
+"['D007360', 'D060825', 'D003071']",gcat_trait_intelligence,0.037,pigean,gcat,34
+['D000886'],FemurToHeight,0.037,pigean,portal,63
+['D007360'],Intelligence,0.037,pigean,portal,60
+['D000886'],HiptoHeight,0.037,pigean,portal,40
+['D049628'],gcat_trait_appendicular_lean_mass,0.037,pigean,gcat,69
+['D000886'],HumerusToHeight,0.037,pigean,portal,47
+"['D001491', 'D007958']",BasoCount,0.036,pigean,portal,50
+['D015444'],PA_ModerateDur,0.036,pigean,portal,74
+['D007958'],WBC,0.036,pigean,portal,58
+['D008074'],gcat_trait_free_cholesterol_measurement,0.036,pigean,gcat,80
+"['D001786', 'D005947']",gcat_trait_glucose_measurement,0.036,pigean,gcat,97
+['D008074'],gcat_trait_high_density_lipoprotein_particle_size_measurement,0.036,pigean,gcat,77
+['D008074'],gcat_trait_intermediate_density_lipoprotein_measurement,0.036,pigean,gcat,80
+['D015444'],PA_Vigorous,0.036,pigean,portal,70
+['D008074'],gcat_trait_low_density_lipoprotein_particle_size_measurement,0.036,pigean,gcat,73
+['D015444'],gcat_trait_exercise,0.036,pigean,gcat,3
+['D015444'],PA_OverallDur,0.036,pigean,portal,62
+['D015444'],gcat_trait_physical_activity_measurement,0.036,pigean,gcat,35
+['D018655'],LymphoCount,0.036,pigean,portal,41
+['D001794'],SBP,0.036,pigean,portal,77
+"['D004804', 'D007958']",EosinCount,0.036,pigean,portal,56
+['D010599'],gcat_trait_response_to_anticoagulant,0.036,pigean,gcat,29
+['D002118'],Ca,0.036,pigean,portal,60
+['D002104'],gcat_trait_blood_cadmium_measurement,0.036,pigean,gcat,29
+['D018655'],LymphoPerc,0.036,pigean,portal,47
+['D005191'],gcat_trait_number_of_children_ever_born_measurement,0.036,pigean,gcat,15
+['D009026'],gcat_trait_mortality,0.036,pigean,gcat,34
+['D010599'],gcat_trait_response_to_methotrexate,0.036,pigean,gcat,12
+['D010710'],Phosphate,0.036,pigean,portal,58
+['D012129'],FEV1toFVC,0.036,pigean,portal,42
+['D012725'],gcat_trait_risky_sexual_behaviour_measurement,0.036,pigean,gcat,34
+['D012725'],gcat_trait_age_at_first_sexual_intercourse_measurement,0.036,pigean,gcat,36
+"['D000078790', 'D007328']",FIadjBMI,0.036,pigean,portal,102
+['D005247'],gcat_trait_breakfast_skipping_measurement,0.036,pigean,gcat,11
+['D012964'],Sodium,0.036,pigean,portal,65
+"['D000078790', 'D007328']",FI,0.036,pigean,portal,105
+"['D012964', 'D017673']",gcat_trait_sodium_measurement,0.036,pigean,gcat,33
+"['D000078790', 'D007328']",2hrI,0.036,pigean,portal,50
+['D002712'],Cl,0.036,pigean,portal,87
+['D008074'],gcat_trait_very_low_density_lipoprotein_particle_size_measurement,0.036,pigean,gcat,66
+['D002712'],gcat_trait_chloride_measurement,0.036,pigean,gcat,21
+"['D019964', 'D001008']",gcat_trait_mood_instability_measurement,0.035,pigean,gcat,23
+"['D008136', 'D000375']",gcat_trait_parental_longevity,0.035,pigean,gcat,43
+['D011374'],gcat_trait_progesterone_measurement,0.035,pigean,gcat,10
+"['D000375', 'D008136']",gcat_trait_longevity,0.035,pigean,gcat,34
+['D012890'],gcat_trait_sleep_measurement,0.035,pigean,gcat,35
+['D000375'],EAA_Intrinsic,0.035,pigean,portal,62
+['D019964'],gcat_trait_feeling_emotionally_hurt_measurement,0.035,pigean,gcat,23
+['D000073869'],gcat_trait_maximum_cigarettes_per_day_measurement,0.035,pigean,gcat,13
+['D000375'],gcat_trait_aging,0.035,pigean,gcat,24
+['D000375'],mvAging,0.035,pigean,portal,115
+"['D003863', 'D000079225']",gcat_trait_depressive_symptom_measurement,0.035,pigean,gcat,20
+['D010976'],PlatCount,0.035,pigean,portal,44
+['D010976'],PlatDistWidth,0.035,pigean,portal,46
+['D010976'],gcat_trait_platelettolymphocyte_ratio,0.035,pigean,gcat,34
+['D020404'],gcat_trait_lysophosphatidylcholine_161_measurement,0.035,pigean,gcat,9
+['D003071'],gcat_trait_cognitive_domain_measurement,0.035,pigean,gcat,20
+['D003071'],CogPerformance,0.035,pigean,portal,56
+"['D003071', 'D065855']",gcat_trait_cognitive_function_measurement,0.035,pigean,gcat,41
+['D012890'],gcat_trait_sleep_quality,0.035,pigean,gcat,30
+['D012907'],gcat_trait_smoking_initiation,0.035,pigean,gcat,53
+['D003863'],Neuroticism_DepressedAffect,0.035,pigean,portal,42
+['D004351'],gcat_trait_response_to_angiotensinconverting_enzyme_inhibitor,0.035,pigean,gcat,21
+['D000073869'],gcat_trait_tobacco_smoke_exposure_measurement,0.035,pigean,gcat,28
+['D014797'],FVC,0.035,pigean,portal,42
+['D007501'],LiverIron,0.035,pigean,portal,69
+['D007501'],PancreasIron,0.035,pigean,portal,80
+['D014408'],gcat_trait_cancer_biomarker_measurement,0.035,pigean,gcat,11
+['D012907'],gcat_trait_cigarettes_per_day_measurement,0.035,pigean,gcat,44
+['D006454'],Hb,0.035,pigean,portal,50
+['D004906'],RedCount,0.035,pigean,portal,52
+['D004906'],NucleatedRedCount,0.035,pigean,portal,99
+"['D006454', 'D004909']",HbConc,0.035,pigean,portal,62
+"['D001008', 'D000275', 'D003866', 'D009497']",Neuroticism,0.035,pigean,portal,64
+['D006487'],gcat_trait_factor_VII_activating_protease_measurement,0.035,pigean,gcat,28
+['D012907'],gcat_trait_smoking_behavior,0.035,pigean,gcat,31
+['D012907'],gcat_trait_smoking_behaviour_measurement,0.035,pigean,gcat,36
+['D012907'],gcat_trait_smoking_status_measurement,0.035,pigean,gcat,34
+['D004906'],NucleatedRedPerc,0.035,pigean,portal,98
+"['D003866', 'D003863', 'D003865']",gcat_trait_major_depressive_disorder,0.035,pigean,gcat,43
+"['D010179', 'D000375']",PanAge,0.035,pigean,portal,72
+['D000597'],gcat_trait_amino_acid_measurement,0.034,pigean,gcat,47
+['D008593'],MP,0.034,pigean,portal,31
+['D016739'],gcat_trait_delayed_reward_discounting_measurement,0.034,pigean,gcat,23
+['D001007'],gcat_trait_nervousness,0.034,pigean,gcat,9
+['D005998'],Gly,0.034,pigean,portal,40
+['D005998'],gcat_trait_glycine_measurement,0.034,pigean,gcat,31
+['D006339'],HR,0.034,pigean,portal,78
+['D001007'],gcat_trait_anxiety_measurement,0.034,pigean,gcat,22
+['D000469'],ALP,0.034,pigean,portal,103
+['D000428'],gcat_trait_trait_in_response_to_ethanol,0.034,pigean,gcat,25
+['D000428'],gcat_trait_alcohol_drinking,0.034,pigean,gcat,40
+['D000428'],EtOH,0.034,pigean,portal,73
+['D006339'],PulseRate,0.034,pigean,portal,78
+['D011392'],gcat_trait_proline_measurement,0.034,pigean,gcat,13
+['D013972'],TSH,0.034,pigean,portal,97
+['D001786'],FGovertime,0.034,pigean,portal,59
+"['D013405', 'D016728']",gcat_trait_suicide_behaviour_measurement,0.034,pigean,gcat,27
+['D013405'],gcat_trait_suicide,0.034,pigean,gcat,28
+"['D014280', 'D008076']",TGtoHDL,0.034,pigean,portal,119
+['D014280'],TG,0.034,pigean,portal,122
+['D014284'],gcat_trait_triiodothyronine_measurement,0.034,pigean,gcat,19
+['D014409'],gcat_trait_tumor_necrosis_factor_measurement,0.034,pigean,gcat,22
+['D014409'],gcat_trait_tumor_necrosis_factor_receptor_superfamily_member_5_measurement,0.034,pigean,gcat,24
+['D001786'],FGadjBMI,0.034,pigean,portal,112
+['D004327'],gcat_trait_coffee_consumption_measurement,0.034,pigean,gcat,39
+['D001786'],FG_plus_diab,0.034,pigean,portal,69
+['D001786'],FG,0.034,pigean,portal,112
+['D001786'],BS,0.034,pigean,portal,123
+['D009504'],NeutroPerc,0.034,pigean,portal,51
+['D001786'],2hrGadjBMI,0.034,pigean,portal,124
+['D014796'],gcat_trait_visual_perception_measurement,0.034,pigean,gcat,38
+['D001786'],2hrG,0.034,pigean,portal,62
+['D004327'],gcat_trait_cups_of_coffee_per_day_measurement,0.034,pigean,gcat,11
+"['D009497', 'D001007', 'D000075384']",gcat_trait_worry_measurement,0.034,pigean,gcat,34
+['D004327'],gcat_trait_coffee_consumption,0.034,pigean,gcat,7
+['D003778'],gcat_trait_dentures,0.034,pigean,gcat,32
+['D010716'],gcat_trait_phosphatidylinositol_measurement,0.034,pigean,gcat,41
+['D010713'],gcat_trait_phosphatidylcholine_measurement,0.034,pigean,gcat,85
+['D012559'],SCZ,0.034,pigean,portal,49
+['D012559'],gcat_trait_pursuit_maintenance_gain_measurement,0.034,pigean,gcat,33
+['D012559'],gcat_trait_schizophrenia,0.034,pigean,gcat,75
+"['D060825', 'D003072']",gcat_trait_reasoning,0.034,pigean,gcat,18
+['D005239'],gcat_trait_fear_of_minor_pain_measurement,0.033,pigean,gcat,17
+"['D007770', 'D040641']",gcat_trait_L_lactate_dehydrogenase_measurement,0.033,pigean,gcat,24
+['D011618'],BIP_Schizoaffective,0.033,pigean,portal,47
+['D006031'],gcat_trait_Nglycan_measurement,0.033,pigean,gcat,11
+['D011618'],gcat_trait_psychosis_predisposition_measurement,0.033,pigean,gcat,20
+['D011930'],ReactionTime,0.033,pigean,portal,80
+['D005346'],gcat_trait_fibroblast_growth_factor_23_measurement,0.033,pigean,gcat,17
+['D011930'],gcat_trait_reaction_time_measurement,0.033,pigean,gcat,45
+['D059906'],gcat_trait_superior_temporal_gyrus_volume_measurement,0.033,pigean,gcat,8
+['D006400'],Hematocrit,0.033,pigean,portal,63
+['D006400'],HmPerc,0.033,pigean,portal,68
+['D001219'],gcat_trait_aspartate_aminotransferase_measurement,0.033,pigean,gcat,95
+['D008345'],gcat_trait_blood_manganese_measurement,0.033,pigean,gcat,33
+['D005973'],Gln,0.033,pigean,portal,55
+['D001219'],AST,0.033,pigean,portal,107
+"['D001008', 'D009497', 'D000075384']",gcat_trait_neuroticism_measurement,0.033,pigean,gcat,31
+['D001008'],gcat_trait_anxiety_disorder,0.033,pigean,gcat,25
+['D059906'],gcat_trait_amygdala_volume,0.033,pigean,gcat,31
+['D050218'],gcat_trait_body_fat_distribution,0.033,pigean,gcat,25
+['D050218'],TFR,0.033,pigean,portal,50
+['D050218'],LFR,0.033,pigean,portal,72
+['D050218'],AFR,0.033,pigean,portal,88
+['D001205'],gcat_trait_vitamin_C_measurement,0.033,pigean,gcat,21
+['D003402'],CK,0.033,pigean,portal,50
+['D009929'],gcat_trait_breast_size,0.033,pigean,gcat,24
+['D002518'],gcat_trait_ceramide_measurement,0.033,pigean,gcat,23
+['D002097'],CRP,0.033,pigean,portal,121
+['D005865'],GestationalDurationFetal,0.033,pigean,portal,61
+['D015992'],BMI1yr,0.033,pigean,portal,84
+['D015992'],BMI6mons,0.033,pigean,portal,73
+['D015992'],BMIadjSMK,0.033,pigean,portal,79
+['D015992'],BMI8yrs,0.033,pigean,portal,72
+['D015992'],BMI,0.033,pigean,portal,105
+['D005640'],gcat_trait_follicle_stimulating_hormone_measurement,0.033,pigean,gcat,30
+"['D005951', 'D015992']",IFCadjBMI,0.033,pigean,portal,61
+['D015992'],BMI1_5yrs,0.033,pigean,portal,67
+['D015992'],BMI8mons,0.033,pigean,portal,80
+['D015603'],gcat_trait_keratinocyte_carcinoma,0.033,pigean,gcat,14
+['D005865'],GestationalDur,0.033,pigean,portal,51
+['D015992'],STILTSvUKHLS,0.033,pigean,portal,75
+['D015992'],BMI6wks,0.033,pigean,portal,60
+['D015992'],BMI7yrs,0.033,pigean,portal,66
+['D015992'],BMI5yrs,0.033,pigean,portal,55
+['D015992'],BMI3mons,0.033,pigean,portal,77
+['D015992'],BMI3yrs,0.033,pigean,portal,79
+['D015992'],BMI2yrs,0.033,pigean,portal,47
+['D015992'],BMIbirth,0.033,pigean,portal,62
+['D012934'],gcat_trait_social_interaction_measurement,0.032,pigean,gcat,24
+['D003865'],MDD_dom,0.032,pigean,portal,69
+['D060825'],gcat_trait_Mental_deterioration,0.032,pigean,gcat,25
+['D007839'],gcat_trait_Calcium_channel_blocker_use_measurement,0.032,pigean,gcat,54
+['D001714'],BIP2,0.032,pigean,portal,49
+['D007839'],gcat_trait_Beta_blocking_agent_use_measurement,0.032,pigean,gcat,48
+['D005919'],eGFRcreaNoDiabetes,0.032,pigean,portal,84
+['D000735'],gcat_trait_androstenedione_measurement,0.032,pigean,gcat,9
+['D002508'],gcat_trait_infant_head_circumference,0.032,pigean,gcat,13
+['D007839'],gcat_trait_peak_expiratory_flow,0.032,pigean,gcat,31
+['D007839'],gcat_trait_BRCA2_mutation_carier_statu,0.032,pigean,gcat,4
+['D019820'],gcat_trait_xanthine_measurement,0.032,pigean,gcat,8
+['D040641'],gcat_trait_IGF1_measurement,0.032,pigean,gcat,71
+['D007839'],gcat_trait_BRCA1_mutation_carier_status,0.032,pigean,gcat,12
+['D007839'],gcat_trait_Antithrombotic_agent_use_measurement,0.032,pigean,gcat,58
+['D003865'],gcat_trait_feeling_miserable_measurement,0.032,pigean,gcat,22
+['D003865'],MDD_rec,0.032,pigean,portal,71
+['D003865'],MDD,0.032,pigean,portal,62
+['D013109'],gcat_trait_sphingomyelin_measurement,0.032,pigean,gcat,79
+['D003865'],MDD_NoTrauma,0.032,pigean,portal,70
+['D000856'],gcat_trait_anorexia_nervosa,0.032,pigean,gcat,24
+['D003865'],MDD_Trauma,0.032,pigean,portal,66
+['D040641'],gcat_trait_insulin_like_growth_factor_measurement,0.032,pigean,gcat,48
+['D003865'],MDD_het,0.032,pigean,portal,64
+['D003865'],MDD_add,0.032,pigean,portal,73
+['D003865'],MDD_symptoms,0.032,pigean,portal,68
+['D001321'],gcat_trait_social_communication_impairment,0.032,pigean,gcat,20
+['D060825'],gcat_trait_attention_function_measurement,0.032,pigean,gcat,35
+['D007839'],gcat_trait_Antihistamine_use_measurement,0.032,pigean,gcat,14
+['D015519'],gcat_trait_volumetric_bone_mineral_density,0.032,pigean,gcat,22
+['D007839'],gcat_trait_Antiglaucoma_preparations_and_miotics_use_measurement,0.032,pigean,gcat,19
+['D002659'],Rare_pervasive_developmental_disorder_Orphanet_168778,0.032,pigean,orphanet,44
+['D007288'],gcat_trait_inosine_measurement,0.032,pigean,gcat,16
+['D015519'],gcat_trait_heel_bone_mineral_density,0.032,pigean,gcat,50
+['D015519'],eBMD,0.032,pigean,portal,57
+['D007839'],gcat_trait_Anilide_use_measurement,0.032,pigean,gcat,13
+['D007839'],gcat_trait_Agents_acting_on_the_reninangiotensin_system_use_measurement,0.032,pigean,gcat,69
+['D008136'],ParentalLifespan,0.032,pigean,portal,63
+['D008136'],ParentalLongevity_AtDeath,0.032,pigean,portal,62
+['D000410'],ALT,0.032,pigean,portal,104
+['D015519'],TBLH-BMD,0.032,pigean,portal,76
+['D015519'],TB-BMD,0.032,pigean,portal,64
+['D002788'],gcat_trait_esterified_cholesterol_measurement,0.032,pigean,gcat,79
+['D015519'],ForearmBMD,0.032,pigean,portal,64
+['D008136'],ParentalLongevity_Attained,0.032,pigean,portal,79
+['D008136'],PaternalLongevity_AtDeath,0.032,pigean,portal,71
+['D023201'],gcat_trait_CD40_ligand_measurement,0.032,pigean,gcat,16
+['D007839'],gcat_trait_Antihypertensive_use_measurement,0.032,pigean,gcat,39
+['D060825'],gcat_trait_cognitive_decline_measurement,0.032,pigean,gcat,46
+['D008136'],ParentalExtremeLongevity_95yrs,0.032,pigean,portal,50
+['D013313'],gcat_trait_posttraumatic_stress_disorder,0.032,pigean,gcat,35
+['D008136'],ExtremeLongevity_90thPerc,0.032,pigean,portal,74
+['D008136'],ExtremeLongevity_99thPerc,0.032,pigean,portal,58
+['D008136'],MaternalLongevity_AtDeath,0.032,pigean,portal,58
+['D060825'],gcat_trait_cognitive_impairment_measurement,0.032,pigean,gcat,22
+['D001714'],BIP1,0.032,pigean,portal,41
+['D060825'],gcat_trait_verbalnumerical_reasoning_measurement,0.032,pigean,gcat,35
+['D008136'],MaternalLongevity_Attained,0.032,pigean,portal,61
+['D000243'],gcat_trait_adenosine_deaminase_measurement,0.032,pigean,gcat,11
+['D008136'],ParentalExtremeLongevity_10pct,0.032,pigean,portal,51
+['D000067877'],gcat_trait_autism_spectrum_disorder,0.032,pigean,gcat,36
+['D007839'],gcat_trait_Antimigraine_preparation_use_measurement,0.032,pigean,gcat,12
+['D008136'],PaternalLongevity_Attained,0.032,pigean,portal,87
+['D001714'],BIP,0.032,pigean,portal,60
+['D010549'],gcat_trait_wellbeing_measurement,0.032,pigean,gcat,34
+['D005919'],eGFRcrea,0.032,pigean,portal,70
+['D008423'],gcat_trait_age_at_first_birth_measurement,0.032,pigean,gcat,33
+['D000124'],gcat_trait_self_reported_educational_attainment,0.032,pigean,gcat,56
+['D000067877'],gcat_trait_autism_spectrum_disorder_symptom,0.032,pigean,gcat,18
+['D007839'],gcat_trait_Diuretic_use_measurement,0.032,pigean,gcat,24
+['D008076'],HDL2chol,0.032,pigean,portal,78
+['D001714'],Lithium_response_inBIP_binary,0.032,pigean,portal,56
+['D005723'],GGT,0.032,pigean,portal,84
+['D007839'],gcat_trait_Drugs_affecting_bone_structure_and_mineralization_use_measurement,0.032,pigean,gcat,16
+['D016277'],gcat_trait_left_ventricular_ejection_fraction_measurement,0.032,pigean,gcat,8
+['D007532'],gcat_trait_isoleucine_measurement,0.032,pigean,gcat,49
+['D007839'],gcat_trait_Vasodilators_used_in_cardiac_diseases_use_measurement,0.032,pigean,gcat,24
+['D005919'],eGFRcys,0.032,pigean,portal,100
+['D005272'],FNarea,0.032,pigean,portal,71
+['D005951'],AUCins,0.032,pigean,portal,59
+['D005541'],FEV1,0.032,pigean,portal,48
+['D008076'],HDL3chol,0.032,pigean,portal,66
+['D001714'],Lithium_response_inBIP_continuous,0.032,pigean,portal,83
+['D001714'],gcat_trait_bipolar_I_disorder,0.032,pigean,gcat,35
+['D001714'],gcat_trait_bipolar_disorder,0.032,pigean,gcat,38
+['D008076'],HDL,0.032,pigean,portal,122
+['D001714'],BIP_NoPsychosis,0.032,pigean,portal,51
+['D005272'],gcat_trait_femoral_neck_size,0.032,pigean,gcat,27
+['D007839'],gcat_trait_handedness,0.032,pigean,gcat,28
+['D007532'],Ile,0.032,pigean,portal,55
+['D005951'],AUCinsAUCgluc,0.032,pigean,portal,68
+['D053221'],gcat_trait_tumor_necrosis_factor_ligand_superfamily_member_10_measurement,0.032,pigean,gcat,40
+['D016540'],gcat_trait_smoking_cessation,0.032,pigean,gcat,40
+['D001289'],ADHD,0.032,pigean,portal,75
+['D009211'],gcat_trait_myoglobin_measurement,0.032,pigean,gcat,17
+['D016584'],gcat_trait_panic_disorder,0.032,pigean,gcat,22
+['D009497'],gcat_trait_neurotic_disorder,0.032,pigean,gcat,31
+['D009497'],gcat_trait_feeling_nervous_measurement,0.032,pigean,gcat,23
+"['D014851', 'D000094407']",EaseOfWakingUp,0.032,pigean,portal,67
+['D001289'],gcat_trait_attention_deficit_hyperactivity_disorder,0.032,pigean,gcat,34
+['D005951'],IFC,0.032,pigean,portal,58
+['D001714'],BIP_Psychosis,0.032,pigean,portal,50
+['D016277'],gcat_trait_Left_ventricular_mass_to_enddiastolic_volume_ratio,0.032,pigean,gcat,17
+['D001827'],HEIGHT,0.032,pigean,portal,52
+['D019175'],gcat_trait_DNA_methylation,0.032,pigean,gcat,37
+['D013925'],gcat_trait_tissue_factor_measurement,0.032,pigean,gcat,20
+['D008078'],LDL,0.032,pigean,portal,104
+['D004363'],gcat_trait_aspirin_use_measurement,0.032,pigean,gcat,47
+['D019175'],EAA_Grim,0.032,pigean,portal,67
+['D019175'],EAA_Hannum,0.032,pigean,portal,70
+['D019175'],EAA_Pheno,0.032,pigean,portal,93
+['D019208'],gcat_trait_brainderived_neurotrophic_factor_measurement,0.032,pigean,gcat,26
+"['D050155', 'D019301', 'D019308', 'D013229', 'D005229']",gcat_trait_fatty_acid_measurement,0.032,pigean,gcat,91
+['D007429'],Intraocular_pressure,0.032,pigean,portal,41
+['D007839'],gcat_trait_Immunosuppressant_use_measurement,0.032,pigean,gcat,6
+['D007839'],gcat_trait_HMG_CoA_reductase_inhibitor_use_measurement,0.032,pigean,gcat,83
+['D001321'],gcat_trait_autism,0.032,pigean,gcat,21
+['D007839'],gcat_trait_Glucocorticoid_use_measurement,0.032,pigean,gcat,15
+['D007839'],gcat_trait_Drugs_used_in_diabetes_use_measurement,0.032,pigean,gcat,90
+['D049629'],WHR,0.032,pigean,portal,108
+['D008136'],gcat_trait_healthspan,0.032,pigean,gcat,7
+['D002149'],gcat_trait_energy_intake,0.032,pigean,gcat,31
+['D008078'],LDL_CALCULATED,0.032,pigean,portal,75
+['D007839'],gcat_trait_Thyroid_preparation_use_measurement,0.032,pigean,gcat,45
+['D001827'],gcat_trait_body_height,0.032,pigean,gcat,59
+['D001827'],gcat_trait_body_height_at_birth,0.032,pigean,gcat,21
+['D015519'],FNBMD,0.032,pigean,portal,57
+['D007839'],gcat_trait_Peptic_ulcer_and_gastrooesophageal_reflux_disease_GORD_drug_use_measurement,0.032,pigean,gcat,21
+['D007839'],gcat_trait_Nonsteroidal_antiinflammatory_and_antirheumatic_product_use_measurement,0.032,pigean,gcat,5
+['D001827'],gcat_trait_infant_body_height,0.032,pigean,gcat,10
+['D001827'],gcat_trait_sitting_height_ratio,0.032,pigean,gcat,17
+['D007839'],gcat_trait_Inhalant_adrenergic_use_measurement,0.032,pigean,gcat,30
+['D055316'],gcat_trait_cystatin_C_measurement,0.031,pigean,gcat,61
+['D007737'],gcat_trait_kynurenine_measurement,0.031,pigean,gcat,20
+['D055107'],gcat_trait_suntan,0.031,pigean,gcat,15
+['D008132'],gcat_trait_loneliness_measurement,0.031,pigean,gcat,33
+['D055105'],WAIST,0.031,pigean,portal,49
+['D038681'],gcat_trait_follistatin_measurement,0.031,pigean,gcat,7
+['D055105'],HIPCadjBMI,0.031,pigean,portal,47
+['D000067010'],gcat_trait_reading_and_spelling_ability,0.031,pigean,gcat,30
+['D007508'],gcat_trait_irritability_measurement,0.031,pigean,gcat,25
+['D056344'],gcat_trait_executive_function_measurement,0.031,pigean,gcat,32
+['D055105'],HIPC,0.031,pigean,portal,87
+['D055316'],CystatinC,0.031,pigean,portal,85
+['D058256'],gcat_trait_theta_wave_measurement,0.031,pigean,gcat,10
+['D037502'],gcat_trait_galectin3_measurement,0.031,pigean,gcat,18
+['D020127'],gcat_trait_acoustic_startle_blink_response_measurement,0.031,pigean,gcat,6
+['D020127'],gcat_trait_response_to_vaccine,0.031,pigean,gcat,27
+['D013406'],gcat_trait_attempted_suicide,0.031,pigean,gcat,36
+['D004645'],gcat_trait_empathy_measurement,0.031,pigean,gcat,37
+['D009771'],gcat_trait_obsessivecompulsive_symptom_measurement,0.031,pigean,gcat,34
+['D001806'],BUN,0.031,pigean,portal,109
+['D002402'],gcat_trait_cathepsin_D_measurement,0.031,pigean,gcat,24
+['D019955'],gcat_trait_conduct_disorder,0.031,pigean,gcat,25
+['D012880'],gcat_trait_solar_lentigines_measurement,0.031,pigean,gcat,15
+['D012880'],gcat_trait_skin_pigmentation_measurement,0.031,pigean,gcat,17
+['D019326'],gcat_trait_17hydroxyprogesterone_measurement,0.031,pigean,gcat,6
+['D020127'],gcat_trait_antisaccade_response_measurement,0.031,pigean,gcat,27
+['D020127'],gcat_trait_response_to_risperidone,0.031,pigean,gcat,18
+['D020127'],gcat_trait_response_to_statin,0.031,pigean,gcat,23
+['D017242'],gcat_trait_complement_factor_H_measurement,0.031,pigean,gcat,19
+['D018737'],gcat_trait_grip_strength_measurement,0.031,pigean,gcat,34
+['D011699'],gcat_trait_putamen_volume,0.031,pigean,gcat,18
+['D018180'],gcat_trait_thrombomodulin_measurement,0.031,pigean,gcat,31
+['D008244'],gcat_trait_lysophosphatidylcholine_measurement,0.031,pigean,gcat,35
+['D057220'],gcat_trait_health_study_participation,0.03,pigean,gcat,35
+['D005120'],Extraversion,0.03,pigean,portal,59
+['D005127'],gcat_trait_eye_color,0.03,pigean,gcat,27
+['D005127'],gcat_trait_eye_colour_measurement,0.03,pigean,gcat,28
+['D044463'],gcat_trait_proteinaseactivated_receptor_1_measurement,0.03,pigean,gcat,22
+['D006200'],gcat_trait_hair_color,0.03,pigean,gcat,11
+['D019781'],gcat_trait_corneal_hysteresis,0.03,pigean,gcat,18
+['D017578'],gcat_trait_immunoglobulin_isotype_switching_measurement,0.03,pigean,gcat,26
+['D014429'],gcat_trait_positive_regulation_of_ovulation,0.03,pigean,gcat,30
+['D019781'],gcat_trait_corneal_resistance_factor,0.03,pigean,gcat,27
+['D002663'],gcat_trait_infant_expressive_language_ability,0.03,pigean,gcat,19
+['D047150'],gcat_trait_eosinophil_cationic_protein_measurement,0.03,pigean,gcat,15
+['D020783'],gcat_trait_matrix_metalloproteinase_7_measurement,0.03,pigean,gcat,15
+['D054369'],gcat_trait_Agoutirelated_protein_measurement,0.03,pigean,gcat,49
+['D025901'],gcat_trait_carboxypeptidase_B2_measurement,0.03,pigean,gcat,13
+['D055436'],gcat_trait_growth_differentiation_factor_15_measurement,0.03,pigean,gcat,14
+"['D050152', 'D000273']",VATtoGFAT,0.03,pigean,portal,76
+['D050152'],gcat_trait_visceralsubcutaneous_adipose_tissue_ratio,0.03,pigean,gcat,30
+['D000341'],gcat_trait_psychotic_symptoms,0.03,pigean,gcat,27
+['D050152'],VAT,0.03,pigean,portal,69
+['D064451'],gcat_trait_hepcidinferritin_ratio,0.03,pigean,gcat,12
+['D063847'],PlatVol,0.03,pigean,portal,37
+"['D050152', 'D050507']",VATtoASAT,0.03,pigean,portal,86
+['D061212'],gcat_trait_episodic_memory,0.03,pigean,gcat,26
+['D061212'],MemPerformance,0.03,pigean,portal,69
+['D054304'],gcat_trait_antiMullerian_hormone_measurement,0.03,pigean,gcat,25
+"['D016615', 'D059506']",LTL,0.03,pigean,portal,32
+['D055109'],gcat_trait_ankle_brachial_index,0.03,pigean,gcat,9
+['D042643'],gcat_trait_pentraxinrelated_protein_PTX3_measurement,0.029,pigean,gcat,9
+['D042643'],gcat_trait_spondin1_measurement,0.029,pigean,gcat,26
+['D042643'],gcat_trait_matrix_metalloproteinase_12_measurement,0.029,pigean,gcat,13
+['D042643'],gcat_trait_pappalysin1_measurement,0.029,pigean,gcat,18
+['D042643'],gcat_trait_platelet_endothelial_cell_adhesion_molecule_measurement,0.029,pigean,gcat,26
+['D042643'],gcat_trait_proheparinbinding_EGFlike_growth_factor_measurement,0.029,pigean,gcat,24
+['D042643'],gcat_trait_prointerleukin16_measurement,0.029,pigean,gcat,43
+['D042643'],gcat_trait_protein_S100A12_measurement,0.029,pigean,gcat,15
+['D042643'],gcat_trait_tumor_necrosis_factor_receptor_superfamily_member_6_measurement,0.029,pigean,gcat,20
+['D042643'],gcat_trait_urokinase_plasminogen_activator_surface_receptor_measurement,0.029,pigean,gcat,29
+['D042643'],gcat_trait_vascular_endothelial_growth_factor_D_measurement,0.029,pigean,gcat,9
+"['D000068099', 'D040701']",Stress,0.029,pigean,portal,66
+['D042643'],gcat_trait_galanin_peptides_measurement,0.029,pigean,gcat,35
+['D016279'],gcat_trait_left_atrial_function,0.029,pigean,gcat,19
+['D053326'],gcat_trait_tumor_necrosis_factor_ligand_superfamily_member_14_measurement,0.029,pigean,gcat,23
+['D042643'],gcat_trait_kallikrein6_measurement,0.029,pigean,gcat,16
+['D051521'],gcat_trait_fibroblast_growth_factor_5_measurement,0.029,pigean,gcat,9
+['D042643'],gcat_trait_dickkopfrelated_protein_1_measurement,0.029,pigean,gcat,28
+['D042643'],gcat_trait_CXC_motif_chemokine_16_measurement,0.029,pigean,gcat,27
+['D040701'],Stress_het,0.029,pigean,portal,75
+['D040701'],Stress_rec,0.029,pigean,portal,60
+['D040701'],Stress_add,0.029,pigean,portal,67
+['D042643'],gcat_trait_cystatin_B_measurement,0.029,pigean,gcat,11
+['D008658'],gcat_trait_caffeine_metabolite_measurement,0.029,pigean,gcat,12
+['D008658'],gcat_trait_nicotine_metabolite_ratio,0.029,pigean,gcat,9
+['D042643'],gcat_trait_CC_motif_chemokine_3_measurement,0.029,pigean,gcat,25
+['D008658'],gcat_trait_DDT_metabolite_measurement,0.029,pigean,gcat,30
+['D008658'],gcat_trait_clopidogrel_metabolite_measurement,0.029,pigean,gcat,16
+['D042643'],gcat_trait_ST2_protein_measurement,0.029,pigean,gcat,15
+['D042643'],gcat_trait_cathepsin_L1_measurement,0.029,pigean,gcat,28
+['D042643'],gcat_trait_angiopoietin1_receptor_measurement,0.029,pigean,gcat,23
+['D042643'],gcat_trait_advanced_glycosylation_end_productspecific_receptor_ligand_measurement,0.029,pigean,gcat,9
+['D042643'],gcat_trait_Inactive_tyrosineprotein_kinase_transmembrane_receptor_ROR1_levels,0.029,pigean,gcat,29
+['D040701'],Stress_dom,0.029,pigean,portal,77
+['D042643'],gcat_trait_Pselectin_glycoprotein_ligand_1_measurement,0.029,pigean,gcat,18
+['D055500'],gcat_trait_psychological_resilience_measurement,0.028,pigean,gcat,16
+['D050217'],gcat_trait_cotinine_glucuronidation_measurement,0.028,pigean,gcat,15
+['D000072797'],PA_UsualWalkPace,0.014,pigean,portal,60
+['D059505'],gcat_trait_telomere_length,0.014,pigean,gcat,25
+['D001481'],gcat_trait_base_metabolic_rate_measurement,0.014,pigean,gcat,22
+['D000072599'],gcat_trait_maximal_oxygen_uptake_measurement,0.014,pigean,gcat,16
+['D000072599'],gcat_trait_exercise_test,0.014,pigean,gcat,17
+['D000067073'],gcat_trait_childhood_trauma_measurement,0.014,pigean,gcat,10
+['D000072797'],gcat_trait_gait_measurement,0.014,pigean,gcat,37
+['D000071451'],gcat_trait_Chitinase3like_protein_1_levels,0.014,pigean,gcat,16
+['D000074049'],gcat_trait_tumor_necrosis_factor_ligand_superfamily_member_12_measurement,0.014,pigean,gcat,25
+['D059026'],gcat_trait_self_rated_health,0.014,pigean,gcat,17
+['D059026'],SRH,0.014,pigean,portal,47
+['D066273'],gcat_trait_diet_measurement,0.014,pigean,gcat,57
+['D059289'],gcat_trait_arterial_stiffness_measurement,0.014,pigean,gcat,35
+"['D000068016', 'D000069196']",gcat_trait_gut_microbiome_measurement,0.014,pigean,gcat,85
+['D019532'],gcat_trait_MAP_kinaseactivated_protein_kinase_3_measurement,0.012,pigean,gcat,10
+"['D000075462', 'D012709']",Alb,0.0,pigean,portal,65
+['D001663'],DirectBilirubin,0.0,pigean,portal,87
+['D017675'],Limited_cutaneous_systemic_sclerosis_Orphanet_220402,0.0,pigean,orphanet,30
+"['none', 'D000083242']",lobarSVS,0.0,pigean,portal,61
+['D015996'],gcat_trait_disease_free_survival,0.0,pigean,gcat,16
+['D001663'],BILIRUBIN,0.0,pigean,portal,109
+"['D006442', 'none']",HBA1CMMOL,0.0,pigean,portal,72
+['D003181'],gcat_trait_complement_C4_measurement,0.0,pigean,gcat,10
+['D003176'],gcat_trait_complement_C3_measurement,0.0,pigean,gcat,17
+['D011761'],gcat_trait_5oxoproline_measurement,0.0,pigean,gcat,18
+['D012171'],gcat_trait_retinal_vasculature_measurement,0.0,pigean,gcat,30
+['D016900'],gcat_trait_neurofilament_light_chain_measurement,0.0,pigean,gcat,33
+['D001254'],Pilocytic_astrocytoma_Orphanet_251612,0.0,pigean,orphanet,47
+['D010649'],Phe,0.0,pigean,portal,52
+['D053181'],gcat_trait_caspase8_measurement,0.0,pigean,gcat,22
+['D002784'],CHOL,0.0,pigean,portal,100
+['D012083'],gcat_trait_renin_measurement,0.0,pigean,gcat,10
+['D001254'],Highgrade_astrocytoma_Orphanet_251561,0.0,pigean,orphanet,60
+['D005518'],gcat_trait_tea_consumption_measurement,0.0,pigean,gcat,35
+['D005340'],Fbg,0.0,pigean,portal,58
+['D012709'],gcat_trait_serum_albumin_measurement,0.0,pigean,gcat,85
+['D000072483'],gcat_trait_placenta_growth_factor_measurement,0.0,pigean,gcat,19
+['D006442'],HBA1C,0.0,pigean,portal,91
+['D013318'],LVESV,0.0,pigean,portal,70
+['D013318'],LVEF,0.0,pigean,portal,64
+['D013318'],LVESVI,0.0,pigean,portal,74
+['D013318'],SVI,0.0,pigean,portal,81
+['D013318'],LVEDVI,0.0,pigean,portal,66
+['D013318'],SVL,0.0,pigean,portal,84
+['D013318'],LVEDV,0.0,pigean,portal,67
+['D013549'],gcat_trait_sugar_consumption_measurement,0.0,pigean,gcat,34
+['D004728'],gcat_trait_corneal_endothelial_cell_measurement,0.0,pigean,gcat,25
+['D003925'],PVDinT2D,0.0,pigean,portal,70
+['D005518'],gcat_trait_fish_consumption_measurement,0.0,pigean,gcat,24
+['D000073496'],FrailtyIndex,0.0,pigean,portal,61
+['D012886'],gcat_trait_cranial_vault_morphology_measurement,0.0,pigean,gcat,29
+['D001798'],TotalProtein,0.0,pigean,portal,44
+['D003404'],CreatinineUrinary,0.0,pigean,portal,95
+['D003404'],Creatinine,0.0,pigean,portal,77
+['D005518'],gcat_trait_bitter_alcoholic_beverage_consumption_measurement,0.0,pigean,gcat,37
+['D000073496'],FriedFrailtyScore,0.0,pigean,portal,58
+['D000073496'],gcat_trait_frailty_measurement,0.0,pigean,gcat,12
+['D005518'],gcat_trait_bitter_beverage_consumption_measurement,0.0,pigean,gcat,21
+['D005518'],gcat_trait_bitter_nonalcoholic_beverage_consumption_measurement,0.0,pigean,gcat,18
+['D020723'],gcat_trait_glucuronate_measurement,0.0,pigean,gcat,9
+['D002598'],gcat_trait_Chagas_cardiomyopathy,0.0,pigean,gcat,24
+['D007398'],gcat_trait_social_domain_measurement,0.0,pigean,gcat,12
+['D000082182'],CHIP_TET2,0.0,pigean,portal,64
+['D000083242'],EO_Stroke_ischemic,0.0,pigean,portal,79
+['C025138'],gcat_trait_dimethylglycine_measurement,0.0,pigean,gcat,22
+['D000082182'],gcat_trait_clonal_hematopoiesis,0.0,pigean,gcat,23
+['D000082182'],CHIPwithoutmCA,0.0,pigean,portal,41
+['D018901'],Peroxisomal_disease_Orphanet_68373,0.0,pigean,orphanet,50
+['D000082182'],CHIP_TP53,0.0,pigean,portal,60
+['D000082182'],CHIP_SRSF2,0.0,pigean,portal,64
+['D000083242'],Stroke_largeartery,0.0,pigean,portal,56
+['D000082182'],CHIP_SF3B1,0.0,pigean,portal,64
+['D000082182'],CHIP_PPM1D,0.0,pigean,portal,84
+['D000082182'],CHIP_JAK2,0.0,pigean,portal,63
+['D000082182'],CHIP_DNMT3A,0.0,pigean,portal,67
+['D006442'],HBA1CadjBMI,0.0,pigean,portal,109
+['D000082182'],CHIP_ASXL1,0.0,pigean,portal,58
+['D000083242'],Stroke_ischemic,0.0,pigean,portal,65
+['D000083242'],nonlobarSVS,0.0,pigean,portal,83
+['D000081207'],Primary_immunodeficiency_Orphanet_101997,0.0,pigean,orphanet,55
+['D008239'],gcat_trait_lysine_measurement,0.0,pigean,gcat,24
+['D034721'],Systemic_mastocytosis_Orphanet_2467,0.0,pigean,orphanet,21
+['D034721'],gcat_trait_systemic_mastocytosis,0.0,pigean,gcat,19
+['D036341'],gcat_trait_CXCL5_measurement,0.0,pigean,gcat,5
+['D007182'],gcat_trait_household_income,0.0,pigean,gcat,23
+['D020340'],gcat_trait_nicotine_withdrawal_symptom_count,0.0,pigean,gcat,13
+['D042461'],gcat_trait_vascular_endothelial_growth_factor_A_measurement,0.0,pigean,gcat,11
+['D000086382'],gcat_trait_COVID19,0.0,pigean,gcat,38
+['D000083262'],CCScCEmajor,0.0,pigean,portal,60
+['D000083262'],toastUNDETER,0.0,pigean,portal,62
+['D000083262'],toastDETER,0.0,pigean,portal,50
+['D000083262'],toastCE,0.0,pigean,portal,77
+['D000083262'],Stroke_cardioembolic,0.0,pigean,portal,61
+['D000083262'],CCSpCEmajincl,0.0,pigean,portal,77
+['D000083262'],CCScCRYPTCE,0.0,pigean,portal,71
+['D000082182'],CHIP,0.0,pigean,portal,50
+,,-3.0,,,204
+['none'],MeanCorpHbConc,-4.0,pigean,portal,36
+['none'],IDLpart,-4.0,pigean,portal,71
+['none'],PI,-4.0,pigean,portal,74
+['none'],PEF,-4.0,pigean,portal,42
+['none'],PEAKadjSI,-4.0,pigean,portal,57
+['none'],PEAKadjBMInSI,-4.0,pigean,portal,65
+['none'],PEAK,-4.0,pigean,portal,64
+['none'],PDAgeO,-4.0,pigean,portal,54
+['none'],PC3diet,-4.0,pigean,portal,58
+['none'],Handedness,-4.0,pigean,portal,54
+['none'],PC1diet,-4.0,pigean,portal,66
+['none'],PC,-4.0,pigean,portal,66
+['none'],PRI,-4.0,pigean,portal,70
+['none'],PAtoARsys,-4.0,pigean,portal,43
+['none'],PAtoARdia,-4.0,pigean,portal,62
+['none'],INL,-4.0,pigean,portal,38
+['none'],PAcmInd,-4.0,pigean,portal,54
+['none'],PAcm,-4.0,pigean,portal,57
+['none'],PA_ModerateToVigorous,-4.0,pigean,portal,57
+['none'],IPL,-4.0,pigean,portal,45
+['none'],ISthickness,-4.0,pigean,portal,60
+['none'],PA_FracTimeAcc425MG,-4.0,pigean,portal,63
+['none'],PIadjBMI,-4.0,pigean,portal,72
+['none'],PS,-4.0,pigean,portal,40
+['none'],MeanCorpVol,-4.0,pigean,portal,35
+['none'],Glucose_60_min_glipizide_adjusted_baseline_glucose,-4.0,pigean,portal,68
+['none'],RAFAC,-4.0,pigean,portal,51
+['none'],RA,-4.0,pigean,portal,64
+['none'],QTc,-4.0,pigean,portal,84
+['none'],QRS,-4.0,pigean,portal,59
+['none'],Pyr,-4.0,pigean,portal,47
+['none'],Pwave_duration,-4.0,pigean,portal,69
+['none'],PulsePress,-4.0,pigean,portal,69
+['none'],ProteinIntakeBMIadj,-4.0,pigean,portal,73
+['none'],Glucose_60_min_OGTT_metformin_adjusted_baseline_glucose,-4.0,pigean,portal,65
+['none'],Glucose_90_min_glipizide_adjusted_baseline_glucose,-4.0,pigean,portal,66
+['none'],PUFA,-4.0,pigean,portal,61
+['none'],ProteinIntake,-4.0,pigean,portal,71
+['none'],Glucose_trough_glipizide_adjusted_baseline_glucose,-4.0,pigean,portal,75
+['none'],GripL,-4.0,pigean,portal,53
+['none'],PerceivedAge,-4.0,pigean,portal,46
+['none'],Peak_insulin_glipizide_adjusted_baseline_insulin,-4.0,pigean,portal,68
+['none'],Pancreas_volume,-4.0,pigean,portal,60
+['none'],PUV,-4.0,pigean,portal,53
+['none'],GripR,-4.0,pigean,portal,50
+['none'],HIP_PVS,-4.0,pigean,portal,76
+['none'],PA_AvgAcc,-4.0,pigean,portal,60
+['none'],PAStraincm,-4.0,pigean,portal,75
+['none'],Insulin_120_min_OGTT_metformin,-4.0,pigean,portal,71
+['none'],MeanSleepMidPointRN,-4.0,pigean,portal,77
+['none'],Insulin_90_min_glipizide,-4.0,pigean,portal,57
+['none'],IntertrochArea,-4.0,pigean,portal,54
+['none'],Kidney_volume,-4.0,pigean,portal,51
+['none'],Men,-4.0,pigean,portal,88
+['none'],LVmass,-4.0,pigean,portal,65
+['none'],LVmass-EDVratio,-4.0,pigean,portal,60
+['none'],LVmassBSAindexed,-4.0,pigean,portal,59
+['none'],Liver_volume,-4.0,pigean,portal,76
+['none'],MeanSleepNumEpisodesRN,-4.0,pigean,portal,64
+['none'],MeanSleepM10timeRN,-4.0,pigean,portal,72
+['none'],P,-4.0,pigean,portal,52
+['none'],Lung_volume,-4.0,pigean,portal,76
+['none'],MAP,-4.0,pigean,portal,50
+['none'],MUFA,-4.0,pigean,portal,63
+['none'],MeanSleepL5timeRN,-4.0,pigean,portal,75
+['none'],Maternal_AD_history,-4.0,pigean,portal,61
+['none'],MeanSleepEfficiencyRN,-4.0,pigean,portal,71
+['none'],MeanCorpHb,-4.0,pigean,portal,33
+['none'],MeanSleepDurationRN,-4.0,pigean,portal,74
+['none'],MeanSleepDiurnalInactRN,-4.0,pigean,portal,77
+['none'],MonoCount,-4.0,pigean,portal,59
+['none'],MyocardialT1,-4.0,pigean,portal,61
+['none'],Insulin_60_min_glipizide,-4.0,pigean,portal,68
+['none'],NAFLDscore,-4.0,pigean,portal,66
+['none'],Optic_disc_area,-4.0,pigean,portal,63
+['none'],Optic_cup_area,-4.0,pigean,portal,41
+['none'],OcularVD,-4.0,pigean,portal,64
+['none'],OSthickness,-4.0,pigean,portal,55
+['none'],Insulin_120_min_glipizide,-4.0,pigean,portal,58
+['none'],OPL,-4.0,pigean,portal,38
+['none'],ONLthickness,-4.0,pigean,portal,52
+['none'],NeutCount,-4.0,pigean,portal,44
+['none'],Insulin_180_min_glipizide,-4.0,pigean,portal,63
+['none'],Insulin_240_min_glipizide,-4.0,pigean,portal,64
+['none'],Insulin_30_min_OGTT_metformin,-4.0,pigean,portal,59
+['none'],Neuroticism_Worry,-4.0,pigean,portal,58
+['none'],NeckCiradjBMI,-4.0,pigean,portal,69
+['none'],Insulin_30_min_glipizide,-4.0,pigean,portal,79
+['none'],Insulin_60_min_OGTT_metformin,-4.0,pigean,portal,76
+['none'],RAMaxAreaInd,-4.0,pigean,portal,69
+['none'],NeckCir,-4.0,pigean,portal,67
+['none'],NaExcretion,-4.0,pigean,portal,55
+['none'],NICM,-4.0,pigean,portal,67
+['none'],RAMaxArea,-4.0,pigean,portal,62
+['none'],RVESVI,-4.0,pigean,portal,53
+['none'],RAMinArea,-4.0,pigean,portal,63
+['none'],eGFRcrea_med_DeclineAdjBL,-4.0,pigean,portal,82
+['none'],eGFRcreaCKDi25,-4.0,pigean,portal,78
+['none'],cIMT,-4.0,pigean,portal,74
+['none'],aortic_velocity_vmin,-4.0,pigean,portal,62
+['none'],aortic_velocity_vmax_ao_adjusted,-4.0,pigean,portal,61
+['none'],aortic_velocity_vmax,-4.0,pigean,portal,53
+['none'],XXLVLDLpart,-4.0,pigean,portal,57
+['none'],WM_PVS,-4.0,pigean,portal,73
+['none'],WMH,-4.0,pigean,portal,64
+['none'],WHRadjBMISMK,-4.0,pigean,portal,63
+['none'],WHRadjBMI,-4.0,pigean,portal,52
+['none'],WCadjBMISMK,-4.0,pigean,portal,46
+['none'],WAISTadjBMI,-4.0,pigean,portal,43
+['none'],VitD,-4.0,pigean,portal,102
+['none'],Val,-4.0,pigean,portal,49
+['none'],VLDLchol,-4.0,pigean,portal,79
+['none'],VFD,-4.0,pigean,portal,68
+['none'],VCDR,-4.0,pigean,portal,45
+['none'],VATadjBMIHeight,-4.0,pigean,portal,61
+['none'],Urate,-4.0,pigean,portal,111
+['none'],USPR,-4.0,pigean,portal,69
+['none'],USCR,-4.0,pigean,portal,82
+['none'],eGFRcreaRapid3,-4.0,pigean,portal,71
+['none'],eGFRcrea_perc_DeclineNoDM,-4.0,pigean,portal,70
+['none'],RAMinAreaInd,-4.0,pigean,portal,60
+['none'],fLVSV,-4.0,pigean,portal,70
+['none'],vitDBP_GChapAdj,-4.0,pigean,portal,74
+['none'],vitDBP,-4.0,pigean,portal,62
+['none'],t_Tau,-4.0,pigean,portal,56
+['none'],tLVSV,-4.0,pigean,portal,68
+['none'],saltconsumption,-4.0,pigean,portal,44
+['none'],p_Tau,-4.0,pigean,portal,64
+['none'],oilyfish,-4.0,pigean,portal,58
+['none'],nonHDL,-4.0,pigean,portal,101
+['none'],netLVSV,-4.0,pigean,portal,70
+['none'],n6FA182,-4.0,pigean,portal,71
+['none'],mRSOrdinalAdjSever,-4.0,pigean,portal,66
+['none'],mRSOrdinal,-4.0,pigean,portal,67
+['none'],mRS01v23456AdjSever,-4.0,pigean,portal,67
+['none'],mRS01v23456,-4.0,pigean,portal,64
+['none'],mRS012v3456AdjSever,-4.0,pigean,portal,66
+['none'],mRS012v3456,-4.0,pigean,portal,60
+['none'],mCAY,-4.0,pigean,portal,53
+['none'],mCAX,-4.0,pigean,portal,61
+['none'],mCAA,-4.0,pigean,portal,68
+['none'],iaorta_area,-4.0,pigean,portal,49
+['none'],freshfruit,-4.0,pigean,portal,64
+['none'],UPCR,-4.0,pigean,portal,58
+['none'],UMOD_aptamer,-4.0,pigean,portal,62
+['none'],UMOD_antibody,-4.0,pigean,portal,56
+['none'],UACR_nonDM,-4.0,pigean,portal,61
+['none'],SM,-4.0,pigean,portal,62
+['none'],SFA,-4.0,pigean,portal,58
+['none'],RootcmInd,-4.0,pigean,portal,53
+['none'],Rootcm,-4.0,pigean,portal,70
+['none'],RemnantC,-4.0,pigean,portal,84
+['none'],RVSVtoLVSV,-4.0,pigean,portal,51
+['none'],RVSVI,-4.0,pigean,portal,39
+['none'],RVSV,-4.0,pigean,portal,52
+['none'],RVESVtoLVESV,-4.0,pigean,portal,55
+['none'],Glucose_30_min_OGTT_metformin_adjusted_baseline_glucose,-4.0,pigean,portal,76
+['none'],RVESV,-4.0,pigean,portal,53
+['none'],RVEFtoLVEF,-4.0,pigean,portal,60
+['none'],RVEF,-4.0,pigean,portal,62
+['none'],RVEDVtoLVEDV,-4.0,pigean,portal,50
+['none'],RVEDVI,-4.0,pigean,portal,59
+['none'],RVEDV,-4.0,pigean,portal,63
+['none'],RRinterval,-4.0,pigean,portal,81
+['none'],RPE,-4.0,pigean,portal,63
+['none'],RNFL,-4.0,pigean,portal,47
+['none'],RBCDistWidth,-4.0,pigean,portal,36
+['none'],RAQT,-4.0,pigean,portal,69
+['none'],Slope_to_glucose_recovery_glipizide_adjusted_baseline_glucose,-4.0,pigean,portal,55
+['none'],Slope_to_glucose_trough_glipizide_adjusted_baseline_glucose,-4.0,pigean,portal,61
+['none'],SmokingFGint,-4.0,pigean,portal,91
+['none'],Testosterone_bioavailable,-4.0,pigean,portal,95
+['none'],UACR,-4.0,pigean,portal,67
+['none'],UA,-4.0,pigean,portal,54
+['none'],Tyr,-4.0,pigean,portal,49
+['none'],TrochanterArea,-4.0,pigean,portal,72
+['none'],TotPG,-4.0,pigean,portal,71
+['none'],TotHipArea,-4.0,pigean,portal,56
+['none'],TotCho,-4.0,pigean,portal,64
+['none'],Time_to_peak_insulin_glipizide,-4.0,pigean,portal,67
+['none'],Time_to_glucose_trough_glipizide,-4.0,pigean,portal,65
+['none'],TL,-4.0,pigean,portal,39
+['none'],SmokingFGjoint,-4.0,pigean,portal,108
+['none'],TGnonT2D,-4.0,pigean,portal,128
+['none'],TB-LM,-4.0,pigean,portal,83
+['none'],StoolFreq,-4.0,pigean,portal,61
+['none'],StDevSleepDurationRN,-4.0,pigean,portal,68
+['none'],Spleen_volume,-4.0,pigean,portal,56
+['none'],SpO2per90,-4.0,pigean,portal,70
+['none'],SpO2min,-4.0,pigean,portal,56
+['none'],SpO2avg,-4.0,pigean,portal,65
+['none'],SmokingFGmain,-4.0,pigean,portal,115
+['none'],Glucose_30_min_glipizide_adjusted_baseline_glucose,-4.0,pigean,portal,72
+"['D050507', 'D000273']",ASATtoGFAT,-4.0,pigean,portal,66
+['none'],Glucose_240_min_glipizide_adjusted_baseline_glucose,-4.0,pigean,portal,65
+['D001054'],ApoA,-4.0,pigean,portal,111
+['D000090'],AcAce,-4.0,pigean,portal,42
+['D000069544'],Infectious_encephalitis_Orphanet_98252,-4.0,pigean,orphanet,30
+['D000085'],Ace,-4.0,pigean,portal,60
+['D043371'],FAw6,-4.0,pigean,portal,58
+['D044483'],Intestinal_polyposis_syndrome_Orphanet_104010,-4.0,pigean,orphanet,45
+['D004804'],EosinPerc,-4.0,pigean,portal,54
+['D057185'],PA_SedentaryDur,-4.0,pigean,portal,71
+['D013739'],Testosterone_total,-4.0,pigean,portal,77
+['D009959'],OCPCancer,-4.0,pigean,portal,64
+['D002113'],AAC,-4.0,pigean,portal,64
+['D002096'],CPEP_FAST,-4.0,pigean,portal,52
+['D002096'],2hrCPEP,-4.0,pigean,portal,45
+['D045022'],LDH,-4.0,pigean,portal,59
+['D000071939'],PSMR,-4.0,pigean,portal,64
+['D019644'],THR,-4.0,pigean,portal,44
+['D019588'],Premature_aging_Orphanet_79389,-4.0,pigean,orphanet,22
+['D009000'],MonoPerc,-4.0,pigean,portal,57
+['D005230'],2hrFFA,-4.0,pigean,portal,51
+['D005230'],FastFFA,-4.0,pigean,portal,59
+['D014314'],Autosomal_trisomy_Orphanet_98130,-4.0,pigean,orphanet,26
+['D019343'],Cit,-4.0,pigean,portal,46
+['D000092862'],SubjectiveWellbeing,-4.0,pigean,portal,64
+['D000093763'],BreakfastSkipping,-4.0,pigean,portal,74
+"['D019645', 'D019644']",TJR,-4.0,pigean,portal,56
+['D003847'],gcat_trait_15_anhydroglucitol_measurement,-4.0,pigean,gcat,22
+['D033942'],gcat_trait_sortilin_measurement,-4.0,pigean,gcat,23
+['D012738'],SHBGadjBMI,-4.0,pigean,portal,109
+['D012779'],Short_ribpolydactyly_syndrome_Orphanet_1505,-4.0,pigean,orphanet,13
+['D012857'],Situs_inversus_totalis_Orphanet_101063,-4.0,pigean,orphanet,2
+['D000096803'],Imprinting_disorders_Orphanet_641343,-4.0,pigean,orphanet,19
+['D000094665'],SCAD,-4.0,pigean,portal,36
+"['D003408', 'D013463']",gcat_trait_pcresol_sulfate_measurement,-4.0,pigean,gcat,13
+['D000094407'],smeq_cont,-4.0,pigean,portal,52
+['D000094407'],smeq_binary,-4.0,pigean,portal,48
+['D010245'],Periodic_paralysis_Orphanet_206976,-4.0,pigean,orphanet,26
+['D000094362'],ChildSleepDuration,-4.0,pigean,portal,80
+['D013239'],Motor_stereotypies_Orphanet_306765,-4.0,pigean,orphanet,8
+['D010245'],Genetic_periodic_paralysis_Orphanet_371433,-4.0,pigean,orphanet,25
+['D019645'],TKR,-4.0,pigean,portal,52
+['D000094407'],SleepChronotype,-4.0,pigean,portal,71
+['D000094407'],ChronotypeSingle,-4.0,pigean,portal,63
+['D004281'],DHA,-4.0,pigean,portal,74
+['D000094362'],SleepLong,-4.0,pigean,portal,67
+['D000094362'],SleepDuration,-4.0,pigean,portal,76
+['D000094362'],ChildSleepDurationAdjBMI,-4.0,pigean,portal,74
+['D046788'],KneePain,-4.0,pigean,portal,71
+['D019042'],Muscular_tumor_Orphanet_206982,-4.0,pigean,orphanet,40
+['none'],Glucose_180_min_glipizide_adjusted_baseline_glucose,-4.0,pigean,portal,64
+['D014705'],VerbNumReasoning,-4.0,pigean,portal,72
+['D000078064'],BabyEarlyGWG,-4.0,pigean,portal,61
+['D000078064'],BabyLateGWG,-4.0,pigean,portal,53
+['D000078064'],BabyTotalGWG,-4.0,pigean,portal,62
+['D000078064'],MomEarlyGWG,-4.0,pigean,portal,62
+['D000078064'],MomLateGWG,-4.0,pigean,portal,64
+['D000078064'],MomTotalGWG,-4.0,pigean,portal,61
+['D017701'],MeanReticuloVol,-4.0,pigean,portal,43
+['D017593'],KleineLevinSynd,-4.0,pigean,portal,59
+['D052242'],AdiponectinadjBMI,-4.0,pigean,portal,77
+['D052242'],Adiponectin,-4.0,pigean,portal,65
+['D017701'],ImReticuloFrac,-4.0,pigean,portal,41
+['D050417'],Change_in_HOMA_B_after_metformin,-4.0,pigean,portal,69
+['D050417'],Change_in_HOMA_IR_after_metformin,-4.0,pigean,portal,70
+['D000078790'],HOMAB,-4.0,pigean,portal,127
+['D017701'],HighScatReticuloCount,-4.0,pigean,portal,42
+['D017701'],HighScatReticuloPerc,-4.0,pigean,portal,42
+['D000078790'],IGI,-4.0,pigean,portal,48
+['D000078790'],ISR,-4.0,pigean,portal,66
+['D000078790'],ISRadjBMI,-4.0,pigean,portal,63
+['D050507'],SAT,-4.0,pigean,portal,74
+['D050507'],ASATadjBMIHeight,-4.0,pigean,portal,57
+['D017701'],ReticuloCount,-4.0,pigean,portal,39
+['D006304'],Healthspan,-4.0,pigean,portal,54
+['D017701'],ReticuloPerc,-4.0,pigean,portal,43
+['D006023'],Gp,-4.0,pigean,portal,67
+['D001055'],ApoB,-4.0,pigean,portal,102
+['D018980'],Williams_syndrome_Orphanet_904,-4.0,pigean,orphanet,4
+['D000083083'],Laminopathy_Orphanet_98301,-4.0,pigean,orphanet,58
+['D015525'],FAw3,-4.0,pigean,portal,77
+['D054988'],Idiopathic_interstitial_pneumonia_Orphanet_98300,-4.0,pigean,orphanet,9
+['D001491'],BasoPerc,-4.0,pigean,portal,41
+['D054437'],Myelodysplasticmyeloproliferative_disease_Orphanet_98275,-4.0,pigean,orphanet,36
+['D016632'],ApoA1,-4.0,pigean,portal,72
+['D005990'],Glol,-4.0,pigean,portal,55
+['D006104'],Inflammatory_myofibroblastic_tumor_Orphanet_178342,-4.0,pigean,orphanet,2
+['D017445'],Skin_vascular_disease_Orphanet_79379,-4.0,pigean,orphanet,37
+['D018888'],Primary_progressive_aphasia_Orphanet_95432,-4.0,pigean,orphanet,30
+['D053419'],IDLchol,-4.0,pigean,portal,77
+['D006453'],Hemoglobinopathy_Orphanet_68364,-4.0,pigean,orphanet,15
+['D017243'],MERRF_Orphanet_551,-4.0,pigean,orphanet,1
+['D000078790'],Ins30adjBMI,-4.0,pigean,portal,68
+['D017270'],LipoproteinA,-4.0,pigean,portal,75
+['D000078790'],Ins30,-4.0,pigean,portal,61
+['D000078790'],Incr30,-4.0,pigean,portal,68
+['D000074270'],Meconium_ileus_inCF,-4.0,pigean,portal,48
+['D020155'],bOHBut,-4.0,pigean,portal,56
+['D000273'],BFP,-4.0,pigean,portal,92
+['D012738'],SHBG,-4.0,pigean,portal,92
+['D000273'],GFAT,-4.0,pigean,portal,61
+['none'],CFH5_levels,-4.0,pigean,portal,68
+['none'],CFH4_levels,-4.0,pigean,portal,68
+['none'],CFH3_levels,-4.0,pigean,portal,61
+['none'],CFH2_levels,-4.0,pigean,portal,71
+['none'],CFH1_levels,-4.0,pigean,portal,63
+['none'],CCthickness,-4.0,pigean,portal,37
+['none'],C22_5n_3,-4.0,pigean,portal,65
+['none'],C22_4n_6,-4.0,pigean,portal,51
+['none'],C20_5n_3,-4.0,pigean,portal,69
+['none'],C20_4n_6,-4.0,pigean,portal,62
+['none'],C20_3n_6,-4.0,pigean,portal,60
+['none'],C20_0,-4.0,pigean,portal,63
+['none'],C18_3n_3,-4.0,pigean,portal,82
+['none'],C18_1trans,-4.0,pigean,portal,68
+['none'],C18_1n_9,-4.0,pigean,portal,54
+['none'],C18_1n_7,-4.0,pigean,portal,58
+['none'],C18_0,-4.0,pigean,portal,61
+['none'],C16_1n_7,-4.0,pigean,portal,57
+['none'],C16_0,-4.0,pigean,portal,72
+['none'],C14_0,-4.0,pigean,portal,51
+['none'],C12_0,-4.0,pigean,portal,70
+['none'],CFH_levels,-4.0,pigean,portal,60
+['none'],CRF,-4.0,pigean,portal,47
+['none'],CSI,-4.0,pigean,portal,67
+['none'],Fasting_glucose_metformin_adjusted_baseline_glucose,-4.0,pigean,portal,65
+['none'],Glucose_120_min_glipizide_adjusted_baseline_glucose,-4.0,pigean,portal,58
+['none'],Glucose_120_min_OGTT_metformin_adjusted_baseline_glucose,-4.0,pigean,portal,76
+['none'],GCL,-4.0,pigean,portal,53
+['none'],GCIPL,-4.0,pigean,portal,71
+['none'],GCC,-4.0,pigean,portal,45
+['none'],Ferritin,-4.0,pigean,portal,73
+['none'],FatIntakeBMIadj,-4.0,pigean,portal,117
+['none'],FatIntake,-4.0,pigean,portal,109
+['none'],Fasting_insulin_metformin,-4.0,pigean,portal,75
+['none'],Estradiol,-4.0,pigean,portal,65
+['none'],CarbIntake,-4.0,pigean,portal,66
+['none'],DiverticularDiseaseAgeO,-4.0,pigean,portal,64
+['none'],DescAortaDiam,-4.0,pigean,portal,65
+['none'],DPAcmInd,-4.0,pigean,portal,58
+['none'],DPAcm,-4.0,pigean,portal,64
+['D050507'],ASAT,-4.0,pigean,portal,80
+['none'],DHEAS,-4.0,pigean,portal,65
+['none'],Change_in_fasting_insulin_after_metformin_adjusted_baseline_insulin,-4.0,pigean,portal,73
+['none'],Change_in_fasting_glucose_after_metformin_adjusted_baseline_glucose,-4.0,pigean,portal,75
+['none'],CarbIntakeBMIadj,-4.0,pigean,portal,61
+['none'],C10_0,-4.0,pigean,portal,69
+['none'],BSandFG,-4.0,pigean,portal,116
+['none'],BSadjFastingTime,-4.0,pigean,portal,122
+['D008260'],Macroglossia_Orphanet_156207,-4.0,pigean,orphanet,19
+"['none', 'none']",HSM10,-4.0,pigean,portal,48
+"['none', 'none']",HSM1,-4.0,pigean,portal,60
+"['none', 'none']",AscAortaDiamInd,-4.0,pigean,portal,59
+"['none', 'none']",AscAortaDiam,-4.0,pigean,portal,69
+"['none', 'none']",AST_ALT_ratio,-4.0,pigean,portal,78
+['D011304'],ARHI,-4.0,pigean,portal,66
+['D000409'],Ala,-4.0,pigean,portal,52
+['D002869'],Rare_chromosomal_anomaly_Orphanet_68335,-4.0,pigean,orphanet,43
+['D008246'],gcat_trait_lysophosphatidylethanolamine_measurement,-4.0,pigean,gcat,25
+['D008293'],gcat_trait_malate_measurement,-4.0,pigean,gcat,22
+"['none', 'none']",HSM3,-4.0,pigean,portal,69
+['D010714'],gcat_trait_phosphatidylethanolamine_measurement,-4.0,pigean,gcat,40
+['D007334'],IGF1,-4.0,pigean,portal,99
+['D006639'],His,-4.0,pigean,portal,49
+['D020271'],Huntington_diseaselike_syndrome_Orphanet_158266,-4.0,pigean,orphanet,30
+['D020187'],RBD,-4.0,pigean,portal,63
+['D020182'],Congenital_central_hypoventilation_syndrome_Orphanet_661,-4.0,pigean,orphanet,16
+['D000273'],PancreasFat,-4.0,pigean,portal,66
+['D000273'],GFATadjBMIHeight,-4.0,pigean,portal,64
+['D012734'],Difference_of_sex_development_Orphanet_90771,-4.0,pigean,orphanet,67
+"['none', 'none']",HSM2,-4.0,pigean,portal,55
+"['none', 'none']",HSM4,-4.0,pigean,portal,62
+['none'],BG_PVS,-4.0,pigean,portal,74
+"['none', 'none']",LiverFat,-4.0,pigean,portal,80
+['none'],AmyloidBeta,-4.0,pigean,portal,52
+['none'],AgingGIP1AdjSocioEcon,-4.0,pigean,portal,65
+['none'],AgingGIP1,-4.0,pigean,portal,73
+['none'],AbAge,-4.0,pigean,portal,63
+['none'],AUC_insulin_OGTT_metformin,-4.0,pigean,portal,56
+"['none', 'none']",PlatCrit,-4.0,pigean,portal,52
+"['none', 'none']",MeanSpheredVol,-4.0,pigean,portal,58
+"['none', 'none']",LowGripFNIH,-4.0,pigean,portal,65
+"['none', 'none']",LowGripEWGSOP,-4.0,pigean,portal,64
+"['none', 'none']",LiverAge,-4.0,pigean,portal,62
+"['none', 'none']",HSM5,-4.0,pigean,portal,53
+"['none', 'none']",Leu,-4.0,pigean,portal,38
+"['none', 'none']",LSarea,-4.0,pigean,portal,49
+"['none', 'none']",LSBMD,-4.0,pigean,portal,56
+"['none', 'none']",LEPadjBMI,-4.0,pigean,portal,110
+"['none', 'none']",LEP,-4.0,pigean,portal,64
+"['none', 'none']",HSM9,-4.0,pigean,portal,51
+"['none', 'none']",HSM8,-4.0,pigean,portal,82
+"['none', 'none']",HSM7,-4.0,pigean,portal,71
+"['none', 'none']",HSM6,-4.0,pigean,portal,69
+['none'],DNAme_PAI1,-4.0,pigean,portal,88

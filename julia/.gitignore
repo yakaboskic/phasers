@@ -1,0 +1,6 @@
+*.tsv.gz
+
+# Sweep logs are essential analysis output (parsed by parse_ea_rs.py),
+# override the parent *.log ignore.
+!results/sweep_logs/*.log
+!archive/*.log
